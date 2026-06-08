@@ -1,0 +1,37 @@
+{
+  "report": "v5.7.1 — v5.7.0検品4件修正 デプロイ完成報告",
+  "isoTimestamp": "2026-06-08T07:23:50Z",
+  "version": "v5.7.1",
+  "deploySHA": {
+    "server.js": "d117349db1e8fe0038d0342147f43033b9c63388dc4025940fb14cd2fecf1e68",
+    "riskRegime.js": "b76c503b923d4a59549669080b513cff0a699fde061cc7a0866d6db84998b3e8",
+    "inviolable_unchanged": {
+      "activeExit.js": "7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171",
+      "fishermanTrader.js": "d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596",
+      "waxTrader.js": "e577deda85cc652b3d023c8b2b548b312a58b9011576bea847913475b29a8526"
+    }
+  },
+  "masterState": {
+    "master": "ON",
+    "wax_active": true,
+    "fisherman_autoApprove": true,
+    "fisherman_armed": 5,
+    "positions": 0,
+    "audit_master_on": "2026-06-08 07:08:24 UTC by appleus3030@gmail.com (false->true)"
+  },
+  "screenshots": {
+    "cost_today": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/8a439ac815f20d05530186d8dc432131.png",
+    "world_chart": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/0d13b0f1dc2b49f7b86078131d0e860a.png",
+    "h4_labels": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/366de0addf927edf10b345b375796c19.png"
+  },
+  "results": {
+    "a_cost_window": "PASS — 「今日」=JST日次。regime行=¥171.8/4件(API=DB一致)、最古=6/8 08:00:41、6/7行(10件)は今日集計に0混入。★旧¥299(直近6件ローリング)消滅",
+    "b_world_chart_12slots": "PASS — 12計器を常時12枠描画。SOX/日米金利差/AUDJPY等の値nullは「—／取得待ち」プレースホルダ(枠生存)。値ありは値+前日比▲▼緑赤",
+    "c_h4_labels": "PASS — S/R行「H4ダウ」(h4Bias=BEAR)/トレンド行「H4 EMA」(trend.h4=BULL)。両H4の二重表記を解消",
+    "inviolable_sha": "PASS — activeExit/fishermanTrader/waxTrader 3ファイル local=Win=指定値 完全一致(発注/決済/SL/出口ゼロタッチ)",
+    "struct_break_audit": "DEFERRED — 書込経路はcheckStructureBreakAndRegen内insertAuditLog('regime_struct_break')をコードトレースで証明済。実台帳行は実S/Rブレイク未発生のため0=次ブレイク時に継続監視"
+  },
+  "tanaka_caseB": "合格(差し戻しなし)",
+  "backlog_ledger": "BACKLOG.md台帳化済・docs専用commit SHA 6c0a34d",
+  "console_errors": 0
+}
