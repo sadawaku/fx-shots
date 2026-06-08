@@ -1,39 +1,21 @@
 {
-  "report": "v5.7.2 — WAX「一山一谷」リスクヘッジモード(shadow投入) デプロイ完成報告",
-  "isoTimestamp": "2026-06-08T17:59:11Z",
-  "version": "v5.7.2",
+  "report": "v5.8.1 — WAX入口総合修正(NY戻り売り連敗の根治) デプロイ完成報告",
+  "isoTimestamp": "2026-06-08T19:16:18Z",
+  "version": "v5.8.1",
   "deploySHA": {
-    "waxTrader.js_NEW_inviolable_baseline": "65b3b83ea4e961206ac08d709b4eb2f39a3044be913ff29ad86a0a27acb46462",
-    "server.js": "d1241909f5ed2724f506f536702345d0b56189320f8df7709568fd175533ba1d",
-    "inviolable_unchanged_漁師ゼロタッチ": {
-      "activeExit.js": "7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171",
-      "fishermanTrader.js": "d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596"
-    }
+    "wax_new_inviolable": { "waxTrader.js":"e81199e52078681eedb779d012ba4b24a11a3c682831b7df3726e0cd6a4c0648", "waxForecast.js":"f5045921eb1db68c30addb90b9b73bfd0bc282300124ed5595b3e5ec7429e585" },
+    "fisherman_trade_logic_unchanged": { "activeExit.js":"7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171", "fishermanTrader.js":"d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596", "fishermanForecast.js":"fb42b1084b8c38a43bdbbe6bee41418b0c11f01f1e6721db89d9a9d7da101305" }
   },
-  "masterState": {
-    "master": "ON",
-    "wax_hedge_mode": "shadow",
-    "wax_active": true,
-    "fisherman_autoApprove": true,
-    "fisherman_armed": 5,
-    "positions": 0,
-    "audit_master_on": "2026-06-08 08:09:51 UTC by appleus3030@gmail.com"
-  },
+  "masterState": { "master":"ON", "wax_active":true, "wax_hedge_mode":"shadow", "positions":0, "audit_master_on":"2026-06-08 19:08:23 UTC" },
   "results": {
-    "1_shadow_no_side_effect": "PASS — shadowはcomputeHedge+Map書込+条件付きログのみ。実closeは _hedgeMode==='live' && chop && wouldFire の時だけ=shadowは構造的に到達不能。命題前suppress/命題失効撤収/トリガー門/天井trailing/SL算出 全て不変(田中コードトレース+本番mode=shadow確認)",
-    "2_thesis_shadow_line_render": "PASS(継続監視付) — render経路を両端コード証明(getWaxThesisView→thesis.hedgeShadow→PositionThesis型→MT5PositionPanel 🛟行JSX)。★live raw URLは現在建玉0でWAXポジ無=次のWAX建玉時(NY窓等)に実撮影しlatest.json更新する継続監視項目",
-    "3_fisherman_zero_touch": "PASS — activeExit.js=7ac3c877/fishermanTrader.js=d5f5f81d local=Win一致(無改変)。hedge語 grep=両0(非伝播)。漁師は波乗りのまま",
-    "4_wax_new_sha": "PASS — waxTrader.js新SHA=65b3b83e…6462 を新・不可侵基準として記録。hedgeはwaxExitCheck内に閉じactiveExit共有器に未注入",
-    "design": "チョップ=命題後+severity≥警戒+M5レンジ≤min(H1ATR×0.5,10p)+世界文脈非トレンド / 一山利確=含み益≥5p&M5反転足 or 対向S/R手前(天井trailing不使用) / 損切り(M5実体S/R±8p・20%防衛・MT5ハードSL)不変・非対称保持"
+    "1_material_freshness": "実装済 — net材料(漁師news)を大口時間帯入り(東京朝8:50/15時14:45/NY21:00)+3h鮮度で漁師経路リフレッシュ→WAXが最新を見る。NYで朝の14h staleを使わない根治。WAX流用=二度課金なし・fishermanTrader非改変。※窓入りリフレッシュ実ログは次の大口時間帯(東京朝8:50)で発火=継続監視",
+    "2_regime_injection": "実装済 — judgeWaxEntryにも regimePromptBlock()注入=160.00ブレイク等の最新地合いを必ず見る",
+    "3_price_priority_flip": "★実証PASS — 本日NY価格パス(160.00上抜け継続・上昇grid)+stale売り材料をjudgeWaxEntryに食わせ、decision=reverse/flip{UP,TP160.5+,SL160.0+}=売り失効→買いで張り直し。田中くん本番自分再実行でも再現。judge決定信号=直近grid方向 vs 予想方向+建値圏逆抜けを明示注入し価格優先を確実化",
+    "4_safety_unchanged": "不変 — 損切り(M5実体S/R±8p)/20%防衛/MT5ハードSL(eff*もclamp)/命題前suppress-until/hedge shadow。flipはjudge後の発注方向/levels差替のみ。盲目flip禁止(flip欠落→見送り)",
+    "fisherman_zero_touch": "PASS — activeExit/fishermanTrader/fishermanForecast SHA local=Win=指定値一致+grep(flip/grid/refresh)=0(非伝播)。漁師は波乗りのまま",
+    "wax_new_sha": "waxTrader=e81199e5 / waxForecast=f5045921 を新・不可侵基準に記録"
   },
-  "tanaka_caseB": "合格(差し戻しなし)",
-  "screenshots_shadow_line": {
-    "status": "CAPTURED (v5.7.2継続監視 達成・WAX NY建玉955877063でlive描画)",
-    "card_closeup": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/ba96fee23d5d4fbd79c33be6cf65a5dc.png",
-    "fullscreen": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/10ad367d9f19aadfb5a139d92760f694.png",
-    "rendered": "🛟 リスクヘッジ[shadow]: チョップ=NO ・ 一山利確WOULD なし (mode=shadow/chop=false/wouldFire=false・console error 0・田中合格)"
-  },
-  "hedge_mode_control": "POST /api/wax/hedge-mode {mode:off|shadow|live} (admin・audit記録・live化は再デプロイ不要)",
-  "backlog_ledger": "BACKLOG.md台帳化済(commit 6c0a34d)・次本命便=WAX一山一谷リスクヘッジ live化(shadow検証後)",
-  "console_errors": 0
+  "tanaka_caseB": "合格(全行○・flip probe田中本番再現PASS)",
+  "continuous_monitoring": "①窓入りリフレッシュ実ログ(次の大口時間帯) ②flipの実弾逆方向約定(委任ON×大口時間帯×reverse発生時)",
+  "backlog": "WAX入口総合修正=BACKLOG設計済→デプロイ済。次=shadow検証後のhedge live化"
 }
