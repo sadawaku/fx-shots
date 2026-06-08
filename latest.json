@@ -1,6 +1,6 @@
 {
   "report": "v5.7.2 — WAX「一山一谷」リスクヘッジモード(shadow投入) デプロイ完成報告",
-  "isoTimestamp": "2026-06-08T08:16:12Z",
+  "isoTimestamp": "2026-06-08T17:59:11Z",
   "version": "v5.7.2",
   "deploySHA": {
     "waxTrader.js_NEW_inviolable_baseline": "65b3b83ea4e961206ac08d709b4eb2f39a3044be913ff29ad86a0a27acb46462",
@@ -27,7 +27,12 @@
     "design": "チョップ=命題後+severity≥警戒+M5レンジ≤min(H1ATR×0.5,10p)+世界文脈非トレンド / 一山利確=含み益≥5p&M5反転足 or 対向S/R手前(天井trailing不使用) / 損切り(M5実体S/R±8p・20%防衛・MT5ハードSL)不変・非対称保持"
   },
   "tanaka_caseB": "合格(差し戻しなし)",
-  "screenshots_shadow_line": "PENDING — 建玉0のため次のWAX建玉時に🛟リスクヘッジ[shadow]行を撮影しraw URL追記",
+  "screenshots_shadow_line": {
+    "status": "CAPTURED (v5.7.2継続監視 達成・WAX NY建玉955877063でlive描画)",
+    "card_closeup": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/ba96fee23d5d4fbd79c33be6cf65a5dc.png",
+    "fullscreen": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/10ad367d9f19aadfb5a139d92760f694.png",
+    "rendered": "🛟 リスクヘッジ[shadow]: チョップ=NO ・ 一山利確WOULD なし (mode=shadow/chop=false/wouldFire=false・console error 0・田中合格)"
+  },
   "hedge_mode_control": "POST /api/wax/hedge-mode {mode:off|shadow|live} (admin・audit記録・live化は再デプロイ不要)",
   "backlog_ledger": "BACKLOG.md台帳化済(commit 6c0a34d)・次本命便=WAX一山一谷リスクヘッジ live化(shadow検証後)",
   "console_errors": 0
