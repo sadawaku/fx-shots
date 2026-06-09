@@ -1,16 +1,15 @@
 {
-  "version": "v5.9.0",
-  "title": "メインチャートとサブ指標(MACD/RSI/STOCH)を完全同期",
-  "timestamp": "2026-06-09T20:45:49+09:00",
-  "summary": "別々のチャートインスタンスだったメイン(ローソク+EMA+BB)とサブ指標を、lightweight-charts v5のペイン機能で同一チャートの下段ペインに統合。時間軸を物理共有=右端整列・連動スクロール/ズームを原理的に保証。",
-  "scope": "frontend ScalpingChart.tsx のみ。backend/発注/master/漁師WAX/activeExitゼロタッチ。",
-  "verification": "Playwright本番フロント実機: パン→両ペイン一緒に移動 / ズーム→両ペイン一緒に拡縮 / 十字線が両ペイン貫通 / 右端整列 をスクショ実証。MACD/RSI/STOCH全タブ描画確認。",
+  "version": "v5.9.1",
+  "title": "スキャルチャート仕切り線の固定(3:1・更新で不動・手動ドラッグ保持)",
+  "timestamp": "2026-06-09T23:39:13+09:00",
+  "summary": "v5.9.0でペイン統合した際、価格更新の度にサブ系列を再生成しpane高さを再適用→仕切り線が毎更新で動いていたのを修正。①足:ツール=3:1をstretchFactorで作成時1回だけ設定 ②更新は既存系列のsetDataのみ(pane高さ非操作=不動) ③手動ドラッグ比率はrefに退避し切替/更新後も保持。",
+  "scope": "frontend ScalpingChart.tsx のみ。backend/発注/master/漁師WAX/activeExitゼロタッチ。再起動はfx-frontendのみ。",
+  "verification": "Playwright実機・ペイン高さ実測: ①初期293:98=2.99(≒3:1) ②35s更新後も293:98=2.99(仕切りy=635不動) ③ドラッグ後203:188=1.08(変化) ③ドラッグ後+35s更新も203:188=1.08(戻らない)。測定とスクショ両方で実証。",
   "screenshots": {
-    "1_aligned_macd":   "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v590-1-aligned-macd.png",
-    "2_panned_together":"https://raw.githubusercontent.com/sadawaku/fx-shots/main/v590-2-panned-together.png",
-    "3_zoomed_together":"https://raw.githubusercontent.com/sadawaku/fx-shots/main/v590-3-zoomed-together.png",
-    "4_rsi_pane":       "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v590-4-rsi-pane.png",
-    "5_stoch_pane":     "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v590-5-stoch-pane.png"
+    "1_default_3to1":            "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-1-default-3to1.png",
+    "2_after_update_unchanged":  "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-2-after-update-unchanged.png",
+    "3_after_manual_drag":       "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-3-after-manual-drag.png",
+    "4_drag_persists":           "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-4-drag-persists-after-update.png"
   },
-  "state": { "master": "ON", "hedge_mode": "live", "positions": 0, "frontend": "v5.9.0 deployed" }
+  "ratios": { "initial": "2.99 (3:1)", "after_update": "2.99 (unchanged)", "after_drag": "1.08 (changed)", "after_drag_update": "1.08 (persisted)" }
 }
