@@ -1,21 +1,26 @@
 {
-  "report": "v5.8.1 — WAX入口総合修正(NY戻り売り連敗の根治) デプロイ完成報告",
-  "isoTimestamp": "2026-06-08T19:16:18Z",
-  "version": "v5.8.1",
-  "deploySHA": {
-    "wax_new_inviolable": { "waxTrader.js":"e81199e52078681eedb779d012ba4b24a11a3c682831b7df3726e0cd6a4c0648", "waxForecast.js":"f5045921eb1db68c30addb90b9b73bfd0bc282300124ed5595b3e5ec7429e585" },
-    "fisherman_trade_logic_unchanged": { "activeExit.js":"7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171", "fishermanTrader.js":"d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596", "fishermanForecast.js":"fb42b1084b8c38a43bdbbe6bee41418b0c11f01f1e6721db89d9a9d7da101305" }
+  "report": "v5.8.3 — 漁師/WAX約定透明化(C)+同一イベント二重arm禁止(A) デプロイ完成報告",
+  "isoTimestamp": "2026-06-09T03:18:01Z",
+  "version": "v5.8.3",
+  "frozen_5files_unchanged": {
+    "waxTrader.js": "e81199e52078681eedb779d012ba4b24a11a3c682831b7df3726e0cd6a4c0648",
+    "waxForecast.js": "f5045921eb1db68c30addb90b9b73bfd0bc282300124ed5595b3e5ec7429e585",
+    "activeExit.js": "7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171",
+    "fishermanTrader.js": "d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596",
+    "fishermanForecast.js": "32530fdc5643bb5897565fb0565f4957898a67f0b08a2715b0c3e03b3a835579"
   },
-  "masterState": { "master":"ON", "wax_active":true, "wax_hedge_mode":"shadow", "positions":0, "audit_master_on":"2026-06-08 19:08:23 UTC" },
+  "new_changed": { "fishermanArmGuard.js":"2a886e20…(新規・A dedup)", "server.js":"d0de7e02…", "db.js":"11f92f19…(fill_snapshots)" },
+  "masterState": { "master":"ON", "wax_active":true, "wax_autoDelegate":true, "wax_hedge_mode":"shadow", "fisherman_enabled":true, "fisherman_autoApprove":true, "positions":0 },
   "results": {
-    "1_material_freshness": "実装済 — net材料(漁師news)を大口時間帯入り(東京朝8:50/15時14:45/NY21:00)+3h鮮度で漁師経路リフレッシュ→WAXが最新を見る。NYで朝の14h staleを使わない根治。WAX流用=二度課金なし・fishermanTrader非改変。※窓入りリフレッシュ実ログは次の大口時間帯(東京朝8:50)で発火=継続監視",
-    "2_regime_injection": "実装済 — judgeWaxEntryにも regimePromptBlock()注入=160.00ブレイク等の最新地合いを必ず見る",
-    "3_price_priority_flip": "★実証PASS — 本日NY価格パス(160.00上抜け継続・上昇grid)+stale売り材料をjudgeWaxEntryに食わせ、decision=reverse/flip{UP,TP160.5+,SL160.0+}=売り失効→買いで張り直し。田中くん本番自分再実行でも再現。judge決定信号=直近grid方向 vs 予想方向+建値圏逆抜けを明示注入し価格優先を確実化",
-    "4_safety_unchanged": "不変 — 損切り(M5実体S/R±8p)/20%防衛/MT5ハードSL(eff*もclamp)/命題前suppress-until/hedge shadow。flipはjudge後の発注方向/levels差替のみ。盲目flip禁止(flip欠落→見送り)",
-    "fisherman_zero_touch": "PASS — activeExit/fishermanTrader/fishermanForecast SHA local=Win=指定値一致+grep(flip/grid/refresh)=0(非伝播)。漁師は波乗りのまま",
-    "wax_new_sha": "waxTrader=e81199e5 / waxForecast=f5045921 を新・不可侵基準に記録"
+    "A_dup_arm_block": "PASS — 正規化キー(国フラグ+JST時刻+指標クラス)で『GDP改定値(1Q2026)』=『実質GDP2次速報(Q1)』=同一キー(JP|08:50|GDP)を本番node実機で再現。CPI等別指標は別キー。新規arm(手動/auto-approve endpoint/cron+startup)後にdedupeFishermanArmsで同一イベント最新世代残し古い方cancel=今朝のGDP二重(fc#330+fc#341)を構造的解消。fishermanArmGuard新規・fishermanTrader非改変",
+    "C_fill_snapshot": "PASS(構造) — 約定の瞬間の実態を新規fetchせずDB予想行+DB足から1度だけfill_snapshots(insert-once)に保存しMT5 cardに『📸約定時の実際』別枠表示(向けて文/約定時チャート実態=上限張り付き・ブレイク・中段/M5の形/方向根拠newsSummary該当文/番人SL/現在損益)。漁師WAX両方。本番フロントconsole error 0描画確認。★card中身pixelは次のライブ約定で確認",
+    "frozen_check": "PASS — 5凍結ファイルlocal=Win=指定値 三者一致+grep非伝播0(autotrader含む発注経路もarmGuard/fillSnapshot呼出0)。entry/exit/SL判断ロジック無改変"
   },
-  "tanaka_caseB": "合格(全行○・flip probe田中本番再現PASS)",
-  "continuous_monitoring": "①窓入りリフレッシュ実ログ(次の大口時間帯) ②flipの実弾逆方向約定(委任ON×大口時間帯×reverse発生時)",
-  "backlog": "WAX入口総合修正=BACKLOG設計済→デプロイ済。次=shadow検証後のhedge live化"
+  "tanaka_caseB": "合格(R-1〜R-14全○・headless禁止/本番フロント実機)",
+  "screenshots_panel": {
+    "panel": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/d71e169aaf95c4327098a2fa9b9d48bf.png",
+    "dashboard": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/76d6427fa1bf128842c1b3ec5f07d71d.png",
+    "note": "現在建玉0=📸約定時の実際の中身は次のライブ約定でpixel検査(raw URL追記予定)"
+  },
+  "continuous_monitoring": "①次のWAX/漁師約定で📸約定時の実際カード中身をpixel確認 ②同一指標二重arm発生時のdedup実cancel観測"
 }
