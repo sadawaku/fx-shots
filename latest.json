@@ -1,26 +1,31 @@
 {
-  "report": "v5.8.3 — 漁師/WAX約定透明化(C)+同一イベント二重arm禁止(A) デプロイ完成報告",
-  "isoTimestamp": "2026-06-09T03:18:01Z",
-  "version": "v5.8.3",
-  "frozen_5files_unchanged": {
-    "waxTrader.js": "e81199e52078681eedb779d012ba4b24a11a3c682831b7df3726e0cd6a4c0648",
-    "waxForecast.js": "f5045921eb1db68c30addb90b9b73bfd0bc282300124ed5595b3e5ec7429e585",
-    "activeExit.js": "7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171",
-    "fishermanTrader.js": "d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596",
-    "fishermanForecast.js": "32530fdc5643bb5897565fb0565f4957898a67f0b08a2715b0c3e03b3a835579"
+  "report": "v5.8.4 — 漁師の最新材料化(大口時間帯張り直し)+WAX hedge本番化(live)",
+  "isoTimestamp": "2026-06-09T04:29:50Z",
+  "version": "v5.8.4",
+  "step1_investigation": {
+    "minus6_auth": "146件(直近~300KB) = 決済検知/positions 140 + 足/candles 6・tick/account 0。全て mt5.initialize() Authorization failed(HTTP503)=MT5端末の一過性auth断をclose検知500msポーリングが踏む",
+    "resource": "枯渇/暴走なし — fx-backend mem252MB/cpu18.8%(↺89=本日デプロイ群)・mt5-server uptime2D安定(クラッシュ無)・node3本(backend/frontend/pm2daemon)。会長仮説『食い過ぎで切れる』は非該当",
+    "correlation": "-6は端末側auth断で資源急騰と相関なし・非致命(retryで回復・本日約定は正常)",
+    "arm_path_guard": "arm作成経路(手動approve/auto-approve endpoint/cron/startup)全てdedupeFishermanArmsを通る=二重arm見張り抜け道なし",
+    "verdict": "致命的異常なし→STEP2続行"
   },
-  "new_changed": { "fishermanArmGuard.js":"2a886e20…(新規・A dedup)", "server.js":"d0de7e02…", "db.js":"11f92f19…(fill_snapshots)" },
-  "masterState": { "master":"ON", "wax_active":true, "wax_autoDelegate":true, "wax_hedge_mode":"shadow", "fisherman_enabled":true, "fisherman_autoApprove":true, "positions":0 },
+  "frozen4_unchanged": {
+    "activeExit.js":"7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171",
+    "fishermanTrader.js":"d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596",
+    "waxTrader.js":"e81199e52078681eedb779d012ba4b24a11a3c682831b7df3726e0cd6a4c0648",
+    "waxForecast.js":"f5045921eb1db68c30addb90b9b73bfd0bc282300124ed5595b3e5ec7429e585"
+  },
+  "fishermanForecast_new": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
+  "masterState": { "master":"ON", "wax_active":true, "wax_hedge_mode":"live", "fisherman_autoApprove":true, "positions":0 },
   "results": {
-    "A_dup_arm_block": "PASS — 正規化キー(国フラグ+JST時刻+指標クラス)で『GDP改定値(1Q2026)』=『実質GDP2次速報(Q1)』=同一キー(JP|08:50|GDP)を本番node実機で再現。CPI等別指標は別キー。新規arm(手動/auto-approve endpoint/cron+startup)後にdedupeFishermanArmsで同一イベント最新世代残し古い方cancel=今朝のGDP二重(fc#330+fc#341)を構造的解消。fishermanArmGuard新規・fishermanTrader非改変",
-    "C_fill_snapshot": "PASS(構造) — 約定の瞬間の実態を新規fetchせずDB予想行+DB足から1度だけfill_snapshots(insert-once)に保存しMT5 cardに『📸約定時の実際』別枠表示(向けて文/約定時チャート実態=上限張り付き・ブレイク・中段/M5の形/方向根拠newsSummary該当文/番人SL/現在損益)。漁師WAX両方。本番フロントconsole error 0描画確認。★card中身pixelは次のライブ約定で確認",
-    "frozen_check": "PASS — 5凍結ファイルlocal=Win=指定値 三者一致+grep非伝播0(autotrader含む発注経路もarmGuard/fillSnapshot呼出0)。entry/exit/SL判断ロジック無改変"
+    "fisherman_material_refresh": "実装 — 大口時間帯入り(NY前20:50/14:45 JST self-reschedule)で refreshArmsAtWindow=共有材料fresh web検索1回で最新化(saveForecast window-refresh)+未約定armを repullEventForecast(eventName,freshNews override)で張り直し→新世代をresolveLatestArmForecast(frozen)が方向/ゾーン追従(制限でなく最新で撃ち続ける)。今夜の消費者信用残高22:00arm対象。材料/鮮度パスのみ(fishermanForecast新SHA)・約定/利確/損切り無改変。★張り直し実発火は次の14:45/20:50=継続監視",
+    "wax_hedge_live": "PASS — hedge-mode shadow→live(POST /api/wax/hedge-mode・再デプロイ不要)。audit_log wax_hedge_break記録(id30 shadow→live 04:19:57Z)。live時のみ chop&&wouldFire で一山利確close武装(waxTrader:290・SHA不変)。★実約定は次のチョップ約定時=継続監視",
+    "frozen_check": "PASS — activeExit/fishermanTrader/waxTrader/waxForecast 4本 local=Win=指定値 三者一致+grep非伝播0。fishermanForecastのみ新SHA(材料/鮮度パス)。田中Case B全15行○"
   },
-  "tanaka_caseB": "合格(R-1〜R-14全○・headless禁止/本番フロント実機)",
-  "screenshots_panel": {
-    "panel": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/d71e169aaf95c4327098a2fa9b9d48bf.png",
-    "dashboard": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/76d6427fa1bf128842c1b3ec5f07d71d.png",
-    "note": "現在建玉0=📸約定時の実際の中身は次のライブ約定でpixel検査(raw URL追記予定)"
+  "tanaka_caseB": "合格(全15行○・本番フロント headed実機・console error 0)",
+  "screenshots": {
+    "fullpage": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/8ee2e8dca3021be0781d7c8b5448e340.png",
+    "mt5panel": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/85dc707f24c0fa9e2d4198e1887d009b.png"
   },
-  "continuous_monitoring": "①次のWAX/漁師約定で📸約定時の実際カード中身をpixel確認 ②同一指標二重arm発生時のdedup実cancel観測"
+  "continuous_monitoring": "①次の14:45/20:50で漁師大口材料リフレッシュ実発火ログ ②hedge live初の一山利確close ③📸約定カード中身(次のライブ約定)"
 }
