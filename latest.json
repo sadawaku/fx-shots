@@ -1,31 +1,20 @@
 {
-  "report": "v5.8.4 — 漁師の最新材料化(大口時間帯張り直し)+WAX hedge本番化(live)",
-  "isoTimestamp": "2026-06-09T04:29:50Z",
-  "version": "v5.8.4",
-  "step1_investigation": {
-    "minus6_auth": "146件(直近~300KB) = 決済検知/positions 140 + 足/candles 6・tick/account 0。全て mt5.initialize() Authorization failed(HTTP503)=MT5端末の一過性auth断をclose検知500msポーリングが踏む",
-    "resource": "枯渇/暴走なし — fx-backend mem252MB/cpu18.8%(↺89=本日デプロイ群)・mt5-server uptime2D安定(クラッシュ無)・node3本(backend/frontend/pm2daemon)。会長仮説『食い過ぎで切れる』は非該当",
-    "correlation": "-6は端末側auth断で資源急騰と相関なし・非致命(retryで回復・本日約定は正常)",
-    "arm_path_guard": "arm作成経路(手動approve/auto-approve endpoint/cron/startup)全てdedupeFishermanArmsを通る=二重arm見張り抜け道なし",
-    "verdict": "致命的異常なし→STEP2続行"
+  "version": "v5.8.5",
+  "title": "WAXの入口を「端」から「良い場所」に直す",
+  "timestamp": "2026-06-09T15:57:18+09:00",
+  "summary": "WAX建値圏を現値張り付き(端=買い@天井/売り@底)から方向に有利な側(買い=現値下の押し目/売り=現値上の戻り)へ是正。届く範囲3〜18pにcap・端掴み是正・制限でなく置き場所変更のみ。",
+  "deploy": {
+    "wax_forecast_sha": "50df0a66",
+    "frozen_unchanged": {
+      "activeExit": "7ac3c877",
+      "fishermanTrader": "d5f5f81d",
+      "fishermanForecast": "2ad3dec8",
+      "waxTrader": "e81199e5"
+    },
+    "sha_match": "Mac=Win本番 全5一致"
   },
-  "frozen4_unchanged": {
-    "activeExit.js":"7ac3c877a74796497f42e40cb8ed047c95cb3bb43a2d133122370653c6fd1171",
-    "fishermanTrader.js":"d5f5f81d882e31d486ccda482fa30daa3ff315cb68374687e9ab32da4c18b596",
-    "waxTrader.js":"e81199e52078681eedb779d012ba4b24a11a3c682831b7df3726e0cd6a4c0648",
-    "waxForecast.js":"f5045921eb1db68c30addb90b9b73bfd0bc282300124ed5595b3e5ec7429e585"
-  },
-  "fishermanForecast_new": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
-  "masterState": { "master":"ON", "wax_active":true, "wax_hedge_mode":"live", "fisherman_autoApprove":true, "positions":0 },
-  "results": {
-    "fisherman_material_refresh": "実装 — 大口時間帯入り(NY前20:50/14:45 JST self-reschedule)で refreshArmsAtWindow=共有材料fresh web検索1回で最新化(saveForecast window-refresh)+未約定armを repullEventForecast(eventName,freshNews override)で張り直し→新世代をresolveLatestArmForecast(frozen)が方向/ゾーン追従(制限でなく最新で撃ち続ける)。今夜の消費者信用残高22:00arm対象。材料/鮮度パスのみ(fishermanForecast新SHA)・約定/利確/損切り無改変。★張り直し実発火は次の14:45/20:50=継続監視",
-    "wax_hedge_live": "PASS — hedge-mode shadow→live(POST /api/wax/hedge-mode・再デプロイ不要)。audit_log wax_hedge_break記録(id30 shadow→live 04:19:57Z)。live時のみ chop&&wouldFire で一山利確close武装(waxTrader:290・SHA不変)。★実約定は次のチョップ約定時=継続監視",
-    "frozen_check": "PASS — activeExit/fishermanTrader/waxTrader/waxForecast 4本 local=Win=指定値 三者一致+grep非伝播0。fishermanForecastのみ新SHA(材料/鮮度パス)。田中Case B全15行○"
-  },
-  "tanaka_caseB": "合格(全15行○・本番フロント headed実機・console error 0)",
-  "screenshots": {
-    "fullpage": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/8ee2e8dca3021be0781d7c8b5448e340.png",
-    "mt5panel": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/85dc707f24c0fa9e2d4198e1887d009b.png"
-  },
-  "continuous_monitoring": "①次の14:45/20:50で漁師大口材料リフレッシュ実発火ログ ②hedge live初の一山利確close ③📸約定カード中身(次のライブ約定)"
+  "state": { "master": "ON", "hedge_mode": "live", "positions": 0 },
+  "e2e_evidence": "実機 GET /api/wax/forecast: 方向UP・現値160.13・建値圏[160.055〜160.085]=現値より下の押し目・近端4.8p/遠端7.8p(届く範囲内)・AI根拠『M5安値直上を押し目サポートに』",
+  "tanaka": "Case B 合格(逐条R-1..R-6全○・技術検証全○・含意全○・差し戻しなし)",
+  "note": "backend(waxForecast.ts)のみのbackend便のためUIスクショ対象外。判定基準=entryZone実数(有利側=現値より下/上)。"
 }
