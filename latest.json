@@ -1,15 +1,20 @@
 {
-  "version": "v5.9.1",
-  "title": "スキャルチャート仕切り線の固定(3:1・更新で不動・手動ドラッグ保持)",
-  "timestamp": "2026-06-09T23:39:13+09:00",
-  "summary": "v5.9.0でペイン統合した際、価格更新の度にサブ系列を再生成しpane高さを再適用→仕切り線が毎更新で動いていたのを修正。①足:ツール=3:1をstretchFactorで作成時1回だけ設定 ②更新は既存系列のsetDataのみ(pane高さ非操作=不動) ③手動ドラッグ比率はrefに退避し切替/更新後も保持。",
-  "scope": "frontend ScalpingChart.tsx のみ。backend/発注/master/漁師WAX/activeExitゼロタッチ。再起動はfx-frontendのみ。",
-  "verification": "Playwright実機・ペイン高さ実測: ①初期293:98=2.99(≒3:1) ②35s更新後も293:98=2.99(仕切りy=635不動) ③ドラッグ後203:188=1.08(変化) ③ドラッグ後+35s更新も203:188=1.08(戻らない)。測定とスクショ両方で実証。",
-  "screenshots": {
-    "1_default_3to1":            "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-1-default-3to1.png",
-    "2_after_update_unchanged":  "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-2-after-update-unchanged.png",
-    "3_after_manual_drag":       "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-3-after-manual-drag.png",
-    "4_drag_persists":           "https://raw.githubusercontent.com/sadawaku/fx-shots/main/v591-4-drag-persists-after-update.png"
+  "version": "v5.10.0",
+  "title": "出口「番人」第1段（アルゴの確実利確）デプロイ完了",
+  "timestamp": "2026-06-10T02:45:04+09:00",
+  "result": "成功（無人自動デプロイ・田中Case B合格）",
+  "summary": "共有activeExitに確実利確を追加。①作戦の目標(takeProfit)タッチで取る(一律cap撤去=per-trade目標尊重) ②建値バックストップ=ピーク+8の広いマージン後だけ建値圏+0.5pで損にしない(通常の押し目では非作動・安全網)。WAX=確実利確/漁師=登山維持(天井トレイル不変)。WAXデフォルトlot 0.1→1.0。固定数字は戦略でなく最後の安全網。早利確(小幅化/反転/パターン)は第2/第3段のAIで実装。",
+  "deploy": {
+    "changed_sha": { "activeExit": "8329e652", "waxTrader": "31b7dd35", "fishermanTrader": "f7cb31d6", "autotrader": "(lot1.0)" },
+    "frozen_unchanged": { "waxForecast": "50df0a66", "fishermanForecast": "2ad3dec8" },
+    "sha_match": "Mac=Win本番 全5一致"
   },
-  "ratios": { "initial": "2.99 (3:1)", "after_update": "2.99 (unchanged)", "after_drag": "1.08 (changed)", "after_drag_update": "1.08 (persisted)" }
+  "state": { "master": "ON", "wax_lots": 1.0, "fisherman_lots": 1.0, "positions": 0 },
+  "tanaka": "Case B 合格(逐条R-1..R-6全○・技術検証全○・含意全○・差し戻しなし)",
+  "backup": {
+    "win": "C:\\Users\\wakui\\backups\\prebanninn-stage1_20260610-0015_*",
+    "mac": "~/fx-backups/prebanninn-stage1_20260610-0015/",
+    "restore_cmd": "restore-prebanninn-stage1.bat (既定=コード+設定/DB残す) / restore-prebanninn-stage1.bat full (DB込み完全復元)"
+  },
+  "note": "実ポジでの番人初回発火(目標タッチ/建値バックストップ)は次のWAX建玉時に目視observ予定(田中の限界1)。"
 }
