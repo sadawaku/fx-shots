@@ -1,20 +1,11 @@
 {
-  "version": "v5.10.0",
-  "title": "出口「番人」第1段（アルゴの確実利確）デプロイ完了",
-  "timestamp": "2026-06-10T02:45:04+09:00",
-  "result": "成功（無人自動デプロイ・田中Case B合格）",
-  "summary": "共有activeExitに確実利確を追加。①作戦の目標(takeProfit)タッチで取る(一律cap撤去=per-trade目標尊重) ②建値バックストップ=ピーク+8の広いマージン後だけ建値圏+0.5pで損にしない(通常の押し目では非作動・安全網)。WAX=確実利確/漁師=登山維持(天井トレイル不変)。WAXデフォルトlot 0.1→1.0。固定数字は戦略でなく最後の安全網。早利確(小幅化/反転/パターン)は第2/第3段のAIで実装。",
-  "deploy": {
-    "changed_sha": { "activeExit": "8329e652", "waxTrader": "31b7dd35", "fishermanTrader": "f7cb31d6", "autotrader": "(lot1.0)" },
-    "frozen_unchanged": { "waxForecast": "50df0a66", "fishermanForecast": "2ad3dec8" },
-    "sha_match": "Mac=Win本番 全5一致"
-  },
-  "state": { "master": "ON", "wax_lots": 1.0, "fisherman_lots": 1.0, "positions": 0 },
-  "tanaka": "Case B 合格(逐条R-1..R-6全○・技術検証全○・含意全○・差し戻しなし)",
-  "backup": {
-    "win": "C:\\Users\\wakui\\backups\\prebanninn-stage1_20260610-0015_*",
-    "mac": "~/fx-backups/prebanninn-stage1_20260610-0015/",
-    "restore_cmd": "restore-prebanninn-stage1.bat (既定=コード+設定/DB残す) / restore-prebanninn-stage1.bat full (DB込み完全復元)"
-  },
-  "note": "実ポジでの番人初回発火(目標タッチ/建値バックストップ)は次のWAX建玉時に目視observ予定(田中の限界1)。"
+  "version": "v5.10.1",
+  "title": "dedup恒久修正: 別指標は分ける/別名は畳み込む + 今夜CPI2本arm",
+  "timestamp": "2026-06-10T09:30:17+09:00",
+  "result": "成功(田中Case B合格)",
+  "summary": "fishermanArmGuard.normalizeEventKeyに変種キーを追加。コア/前年比(YoY)/前月比(MoM)は別指標として別キー=畳み込まず両方arm。前期比(QoQ)/改定・速報・2次/実質・名目は分けない=GDP改定値≡実質GDP2次速報は従来どおり畳み込む。今夜21:30のCPIは本命fc#373+コアfc#374を2本arm(買い2本・dedupCancelled:0)。",
+  "deploy": { "changed_sha": { "fishermanArmGuard": "ee1e47a5" }, "frozen5_unchanged": { "activeExit":"8329e652","fishermanTrader":"f7cb31d6","fishermanForecast":"2ad3dec8","waxTrader":"31b7dd35","waxForecast":"50df0a66" }, "sha_match": "Mac=Win全一致" },
+  "tonight_cpi": { "fc373": "🇺🇸 CPI(5月・前年比) buy 21:30", "fc374": "🇺🇸 CPI コア(5月・前年比) buy 21:30", "cpi_arm_count": 2, "dedupCancelled": 0 },
+  "state": { "master": "ON", "wax_lots": 1.0, "positions": 0 },
+  "tanaka": "Case B 合格(①CPI/CPIコア両方live arm ②GDP別名は同キー畳込 ・凍結5不変・差し戻しなし)"
 }
