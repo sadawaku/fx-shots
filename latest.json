@@ -1,11 +1,10 @@
 {
-  "version": "v5.10.1",
-  "title": "dedup恒久修正: 別指標は分ける/別名は畳み込む + 今夜CPI2本arm",
-  "timestamp": "2026-06-10T09:30:17+09:00",
-  "result": "成功(田中Case B合格)",
-  "summary": "fishermanArmGuard.normalizeEventKeyに変種キーを追加。コア/前年比(YoY)/前月比(MoM)は別指標として別キー=畳み込まず両方arm。前期比(QoQ)/改定・速報・2次/実質・名目は分けない=GDP改定値≡実質GDP2次速報は従来どおり畳み込む。今夜21:30のCPIは本命fc#373+コアfc#374を2本arm(買い2本・dedupCancelled:0)。",
-  "deploy": { "changed_sha": { "fishermanArmGuard": "ee1e47a5" }, "frozen5_unchanged": { "activeExit":"8329e652","fishermanTrader":"f7cb31d6","fishermanForecast":"2ad3dec8","waxTrader":"31b7dd35","waxForecast":"50df0a66" }, "sha_match": "Mac=Win全一致" },
-  "tonight_cpi": { "fc373": "🇺🇸 CPI(5月・前年比) buy 21:30", "fc374": "🇺🇸 CPI コア(5月・前年比) buy 21:30", "cpi_arm_count": 2, "dedupCancelled": 0 },
-  "state": { "master": "ON", "wax_lots": 1.0, "positions": 0 },
-  "tanaka": "Case B 合格(①CPI/CPIコア両方live arm ②GDP別名は同キー畳込 ・凍結5不変・差し戻しなし)"
+  "version": "v5.10.2",
+  "title": "C: WAX履歴の番人リセット(2026-06-10 02:37 JST)",
+  "timestamp": "2026-06-10T10:15:02+09:00",
+  "result": "成功(田中Case B合格・フロント表示専業)",
+  "summary": "WAX決済履歴/勝率/トレードマップを2026-06-10 02:37 JST(出口番人投入)でリセット。これより前のWAXは表示・集計から除外(アーカイブ=DB物理削除せず保持)。02:37以降のWAXだけ=0勝0敗スタート。漁師は全期間そのまま。フロント3定数を各APIフォーマット(createdAt空白UTC/exitAt ISO Z/filledAt空白UTC)に整合した17:37 UTC=02:37 JSTに更新。",
+  "verification": "実データ: WAX 02:37以降=0件(0勝0敗)・02:37より前=28件(アーカイブ保持)・漁師closed=21件不変。田中Case B=実ブラウザでWAX決済履歴タイル/統計0勝0敗・旧露出ゼロ・漁師全期間・凍結6 SHA一致(activeExit 8329e652/fishermanTrader f7cb31d6/fishermanForecast 2ad3dec8/waxTrader 31b7dd35/waxForecast 50df0a66/fishermanArmGuard ee1e47a5)。",
+  "scope": "frontend表示専業。backend/凍結5/発注/決済/safetyNet 非干渉。",
+  "state": { "master": "ON", "positions": 0 }
 }
