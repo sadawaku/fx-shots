@@ -1,10 +1,12 @@
 {
-  "version": "v5.10.2",
-  "title": "C: WAX履歴の番人リセット(2026-06-10 02:37 JST)",
-  "timestamp": "2026-06-10T10:15:02+09:00",
-  "result": "成功(田中Case B合格・フロント表示専業)",
-  "summary": "WAX決済履歴/勝率/トレードマップを2026-06-10 02:37 JST(出口番人投入)でリセット。これより前のWAXは表示・集計から除外(アーカイブ=DB物理削除せず保持)。02:37以降のWAXだけ=0勝0敗スタート。漁師は全期間そのまま。フロント3定数を各APIフォーマット(createdAt空白UTC/exitAt ISO Z/filledAt空白UTC)に整合した17:37 UTC=02:37 JSTに更新。",
-  "verification": "実データ: WAX 02:37以降=0件(0勝0敗)・02:37より前=28件(アーカイブ保持)・漁師closed=21件不変。田中Case B=実ブラウザでWAX決済履歴タイル/統計0勝0敗・旧露出ゼロ・漁師全期間・凍結6 SHA一致(activeExit 8329e652/fishermanTrader f7cb31d6/fishermanForecast 2ad3dec8/waxTrader 31b7dd35/waxForecast 50df0a66/fishermanArmGuard ee1e47a5)。",
-  "scope": "frontend表示専業。backend/凍結5/発注/決済/safetyNet 非干渉。",
-  "state": { "master": "ON", "positions": 0 }
+  "version": "v5.11.0",
+  "title": "E 入口の番人シャドー + A カレンダー前取り込み(同時投入・田中Case B合格)",
+  "timestamp": "2026-06-10T12:36:31+09:00",
+  "result": "成功(E・A 1デプロイ・田中Case B合格・凍結5不変)",
+  "E": "入口の番人 第1段=シャドー(entryScout・記録専業・発注非干渉)。armされた漁師/WAXを tick+M1+凍結予想の方向/レベルで見て波のターンを記録(ルールベース・AI課金なし・閾値外出し・1イベント1採用・発表逆=見送り)。closeDetectionTick(master非依存500ms)にread-onlyフック。🔭入口シャドー表示+比較API。live記録は条件依存=現市場が凪でrecorded=0(正常)・CPI 21:30が初の実教材見込み。",
+  "A": "カレンダー前取り込み(calendarImport・FF JSON軽量取得・AI課金なし)。先1週間の米日主要を📅今週の予定に表示+承認可能。毎朝08:12: 既存材料→repullEventForecast(凍結fishermanForecast非改変)→予想完成で自動承認。二重arm/二重生成なし=跨ぎ命名 名寄せ(AI日本語名≡FF英語名 y/y・core等)+normalizeEventKey拡張。run実証=skipped4(既存CPI y/yを英語名で名寄せスキップ)/generated2(m/m新規)/冪等。",
+  "deploy": { "frozen5_unchanged": { "activeExit":"8329e652","fishermanTrader":"f7cb31d6","fishermanForecast":"2ad3dec8","waxTrader":"31b7dd35","waxForecast":"50df0a66" }, "changed": "fishermanArmGuard(名寄せ拡張)/db/autotrader/server + 新規 entryScout/calendarImport / frontend v5.11.0", "sha_match": "凍結5 Mac=Win一致" },
+  "tanaka": "Case B 合格: E①発注非干渉(凍結5一致+INSERT専用+grep漏れ0) ②記録機構○(live記録は凪で0=正常) ③1イベント1採用 / A①予定一覧+承認ボタン13(スクショ) ②generate-one→approved実証 ③二重armなし+名寄せ実証 ④凍結fishermanForecast不変 ⑤取消ボタン機能。差し戻しなし",
+  "state": { "master": "ON", "cpi_arms": 2, "positions": 0 },
+  "note": "今夜CPI=fc#373/374(y/y headline+core)の2本(会長明示intent)。カレンダー由来arm(m/m)は再起動で揮発(source=calendar・既存event_batch限定の自己回復で非復元=漁師arm非永続と同類)=後日recovery追加が候補。"
 }
