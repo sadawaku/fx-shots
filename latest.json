@@ -1,12 +1,20 @@
 {
-  "version": "v5.11.1",
-  "title": "漁師バグ4件除外(リコンサイラ即発火分)・仕上げ確認完了",
-  "timestamp": "2026-06-10T17:13:50+09:00",
-  "result": "成功(凍結5不変・漁師ゼロタッチ・今夜CPI 2本維持)",
-  "summary": "2026-06-10 14:15のリコンサイラバグで即発火した4建玉(地政学/FOMC6-16/日銀6-16/国際収支・いずれも時刻なしイベント・合計-4700円)を漁師成績から除外。データは消さず excludedReason='reconciler_bug_20260610' の印で除外(WAX履歴リセットと同流儀・監査保持)。",
-  "exclusion": { "targets": "fc#376(地政学)/fc#380(FOMC)/fc#381(日銀)/fc#387(国際収支)", "tickets": "tk956553000/001/002/039", "sumPnlJpy": -4700, "flag": "reconciler_bug_20260610" },
-  "verification": "漁師トレード3源(unified/fisherman-history/agent_trades records)すべてバグ4混入0。統計画面=漁師19件/勝率73.7%/損益¥47,300(補正済・含めれば¥42,600)。監査 GET /api/fisherman/excluded=4件/-4700円で保持。フラグは冪等(excludedReason IS NULL)で再起動後も維持確認。※履歴ページで見える4イベント名はAI使用履歴(予想生成APIコスト記録)で勝敗成績でない。",
-  "deploy": { "changed": "db.ts(excludedReason列+冪等フラグmigration)/server.ts(unified/fisherman-history/agent-trades 除外+監査endpoint)", "sha_match": "db.js 7c403fd0/server.js 460cccb1 Mac=Win一致・凍結5不変(8329e652/f7cb31d6/2ad3dec8/31b7dd35/50df0a66)" },
+  "version": "v5.12.0",
+  "gitCommit": "116405f85c3963a93a0f20d3310060e055edca2b",
+  "title": "便1: armリコンサイラ完全除去（ゾンビ根絶）",
+  "timestamp": "2026-06-10T20:25:00+09:00",
+  "result": "成功(田中Case B 5項目合格・締切20:30内・凍結5不変)",
+  "summary": "監査(SYSTEM_AUDIT_20260610)で判明した「srcに残ったリコンサイラがbuild→dist scpのたびに本番復活する」を根治。server.ts配線(起動55s/定期60s)+POST /api/arm-reconcile+calendarImportのカレンダー後呼出+armReconciler.ts本体をsrcから削除しコミット(=リバートをgitに刻む)。クリーンビルド→旧dist退避(dist_backup_b1)→tar展開のクリーン入替でデプロイ。再設計は docs/RECONCILER_REDESIGN_BEN2.md（会長レビュー後に別便実装）。",
+  "restore": { "arms": "fc#390(6/12失業保険)/fc#391(6/11ミシガン)/fc#392(6/11 PPI)/fc#393(CPIコアy/y)/fc#394(CPI y/y) 全buy・lots=1", "note": "再起動後45s自己回復はarmed=0(event_repull世代は対象外=設計どおり)→手動承認で同一集合へ復元。masterも再起動でOFF→ONへ復帰。終日arm0。" },
+  "verification": "(a)本番dist grepでarmReconciler/reconcileArmsゼロ・dist/calendarにファイル無し (b)CPI arm2本=fc#393/394両買い最新世代 (c)建玉0・終日arm0・master ON (d)凍結5 SHA三者一致(基準=Mac dist=Win dist) (e)再起動後60秒超のログ監視で[reconciler]行ゼロ。ゾンビ検証=port3000 listener PID==pm2 PID(8848)。",
+  "deploy": { "changed": "server.ts(配線+endpoint削除)/calendar/calendarImport.ts(呼出削除)/calendar/armReconciler.ts(削除)/version.ts(v5.12.0)/CHANGELOG.md", "sha_match": "凍結5不変(8329e652/f7cb31d6/2ad3dec8/31b7dd35/50df0a66) Mac=Win一致" },
+  "frozen5": {
+    "activeExit": "8329e652",
+    "fishermanTrader": "f7cb31d6",
+    "fishermanForecast": "2ad3dec8",
+    "waxTrader": "31b7dd35",
+    "waxForecast": "50df0a66"
+  },
   "state": { "master": "ON", "positions": 0, "cpi_arms": 2 },
-  "screenshot_stats": "https://raw.githubusercontent.com/sadawaku/fx-shots/main/fisher-exclude-stats.png"
+  "ledger_rule": "今後のデプロイ台帳は本体リポジトリ(fx-signal-verifie/latest.json)と本ファイル(fx-shots/latest.json)の両方を毎回更新し、gitCommitを必ず記載する(2026-06-10便1から運用)"
 }
