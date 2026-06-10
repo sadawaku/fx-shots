@@ -1,6 +1,6 @@
 {
   "version": "v5.14.0",
-  "gitCommit": "282ea0ea8a7423455d4a2110e10ca4d26d324472",
+  "gitCommit": "35c6896edc7e05e695605de7d126aa717d81c173",
   "title": "便2完遂: 段1カレンダー承認安全化(v5.13.0)+段2 armLedger=arm揺れ根治(v5.14.0)",
   "timestamp": "2026-06-10T23:40:00+09:00",
   "result": "成功(両段とも田中検査合格・restart実証2回=armが揺れない・凍結5不変)",
