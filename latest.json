@@ -14,17 +14,17 @@
     "guardian": "enabled・11本park・ターン待ち",
     "wax": "復帰済(active/autoDelegate=true)"
   },
-  "frozen5": {
-    "activeExit": "8329e652",
-    "fishermanTrader": "f7cb31d6",
-    "fishermanForecast": "2ad3dec8",
-    "waxTrader": "31b7dd35",
-    "waxForecast": "50df0a66"
-  },
   "backups": {
     "pre-ben2": "C:\\Users\\wakui\\backups\\pre-ben2 (6/10 22:4x・trades.db 127.9MB integrity ok)",
     "pre-final": "C:\\Users\\wakui\\backups\\pre-final (6/11 11:44・trades.db 130.0MB integrity ok)",
     "restore": "restore-ben2.bat / restore-final.bat 両方(full|dist|test) test合格"
   },
-  "ledger_rule": "デプロイ台帳は本体リポジトリとfx-shotsの両方を毎回更新しgitCommitを必ず記載する"
+  "ledger_rule": "デプロイ台帳は本体リポジトリとfx-shotsの両方を毎回更新しgitCommitを必ず記載する",
+  "frozen": {
+    "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
+    "fishermanTrader": "f7cb31d6360af32b0d0089df7905f7ca5985db169126d999f3424bfec341b41e",
+    "fishermanForecast": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
+    "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
+    "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
+  }
 }
