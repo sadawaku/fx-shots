@@ -1,12 +1,19 @@
 {
-  "version": "v5.14.0",
-  "gitCommit": "35c6896edc7e05e695605de7d126aa717d81c173",
-  "title": "便2完遂: 段1カレンダー承認安全化(v5.13.0)+段2 armLedger=arm揺れ根治(v5.14.0)",
-  "timestamp": "2026-06-10T23:40:00+09:00",
-  "result": "成功(両段とも田中検査合格・restart実証2回=armが揺れない・凍結5不変)",
-  "summary": "段1=①未来日M/D焼き込み(押した日に誤発火させない・監査N3根治)②強い方・一方向・最大2本を承認入口で機械適用③taken注釈+承認済/取込済表示④当日外は当日朝の自動取込へ委ね⑤同一キー既存armの生成スキップ。段2=armLedger新設(logicalKey名寄せ・restoreArms復元一本化=全source/終日除外/manual取消尊重・名寄せ後本数ルール=cancelのみ・T-15窓インターロック)+cancelReason区分(generation/manual/system)+dedup取消のsuperseded化。第0段=フルバックアップ(pre-ben2タグ+restore-ben2.bat test合格+DB VACUUM INTO integrity ok)。",
-  "restart_proof": "pm2 restart×2回とも [armLedger] 復元(起動時) restored=3 skipped=14 → fc#390/391/392(全buy)が手動承認ゼロで同一集合復元=揺れない。終日arm0・建玉0・master ON。",
-  "tanaka": "段1=合格(スクショraw URL 2本・ISOスタンプ焼込)。段2=本体○・台帳2点差し戻し→本コミットで追完済。申し送り=dedupのmanualガード/手動arm後の本数ルール未配線/変種優先順位・差≥2未実装/§4 dedup窓チェック(全て設計書の残課題節に記録)。",
+  "version": "v5.16.0",
+  "gitCommit": "1d2fe264851435a587421183d9acf3cdfcf565e7",
+  "branch": "work/v5.0.0",
+  "title": "最終便完遂: 段A 入口の番人 本番化(v5.15.0)+段B 便3(v5.16.0)",
+  "timestamp": "2026-06-11T13:15:00+09:00",
+  "result": "成功(両段とも田中合格・実弾E2E実証・凍結5不変・二重バックアップ)",
+  "summary": "第0段=pre-finalフルバックアップ(pre-ben2保持・restore-final.bat/restore-ben2.bat両方test合格・DB VACUUM INTO integrity ok)。準備=fc#422/424+tk956989497/957021380をentry_bug_20260611で成績除外(正規巻込ゼロ)。段A=entryGuardian(方式a・凍結5無改変): park→Eターン確認→現在値±1.5p狭帯→凍結tick約定。実弾E2E=tk957073542で park→T-15世代交代park→[entryScout][adopted]→★band→★自動エントリーの完全連鎖がログに刻まれた。方向反転(DOWN世代・現値含む生ゾーン・窓内)も即park=旧方向不約定。kill flag OFF→12本unpark(guardOrig完全復元)→ON→re-park。段B=ECBクラスタ統合(復元後に本数ルールが会見をprune=今夜ECB2本買い)・手動3本目prune実証(countRuleCancelled:1)・23:00型OTHER衝突根治(卸売在庫⇄ミシガン両立)・日本★1表示+手動承認のみ・キー5要素化(日付トークン)。",
+  "tanaka": "段A=本体(a)-(f)全○・CHANGELOG scp漏れ差し戻し→即追完合格。段B=合格(申し送り3件=ECBクラスタが発言系を食う/JP英名声明のBOJ落ち/★1未来日バッジ文言→設計書§6.95に記録)。",
+  "state": {
+    "master": "ON",
+    "positions": 0,
+    "arms": "11本(ECB2買・PPI2買・終日0)",
+    "guardian": "enabled・11本park・ターン待ち",
+    "wax": "復帰済(active/autoDelegate=true)"
+  },
   "frozen5": {
     "activeExit": "8329e652",
     "fishermanTrader": "f7cb31d6",
@@ -14,11 +21,10 @@
     "waxTrader": "31b7dd35",
     "waxForecast": "50df0a66"
   },
-  "state": {
-    "master": "ON",
-    "positions": 0,
-    "arms": "fc#390/391/392 (6/11 PPI・6/11ミシガン・6/12失業保険) 全buy",
-    "wax": "検査後にauto-delegate復帰"
+  "backups": {
+    "pre-ben2": "C:\\Users\\wakui\\backups\\pre-ben2 (6/10 22:4x・trades.db 127.9MB integrity ok)",
+    "pre-final": "C:\\Users\\wakui\\backups\\pre-final (6/11 11:44・trades.db 130.0MB integrity ok)",
+    "restore": "restore-ben2.bat / restore-final.bat 両方(full|dist|test) test合格"
   },
   "ledger_rule": "デプロイ台帳は本体リポジトリとfx-shotsの両方を毎回更新しgitCommitを必ず記載する"
 }
