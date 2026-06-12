@@ -1,19 +1,18 @@
 {
-  "version": "v5.20.0",
-  "gitCommit": "efc2e94ae4c8acb95f9b60c27d1f84a5b13e1e0a",
+  "version": "v5.21.0",
+  "gitCommit": "6bbb5cd901ae6978ff4de5c0457cea9a6c481460",
   "branch": "work/v5.0.0",
-  "title": "波ドリブン(v5.20.0)",
-  "timestamp": "2026-06-12T16:25:00+09:00",
-  "result": "gated deploy完了(建玉0・窓外・WAX停止→復帰・master OFF→ON→flat・凍結5 SHA三者一致・pid=port一致)。仮想限定(source=wave・wave_live=off封印)。実波トリガー初回発火は観測待ち",
-  "summary": "第三の起動経路=波。(a)棚ブレイク=H1/M15棚実体抜け+三層一致 (b)反転ターン=junオーバーシュート移植。棚強度=mizushima水平線スコア。介入検知器=出口感度ブースト専用(入口非参照grep 0件)。被り調停3則。kill flag=wave_drive往復試験済(off→on)。リプレイ答え合わせ(6/12未明98p下落→売り候補6+反転買い3)合格済",
+  "title": "波ドリブン実弾化(v5.21.0)",
+  "timestamp": "2026-06-12T18:15:00+09:00",
+  "result": "gated deploy完了(建玉0・WAX停止→復帰・master OFF→ON→flat・pid=port一致6108・凍結5三者一致)。wave_live=on/lots=1.0(会長承認)。wave-drive API+audit_log実証(toggle3行記録)。初実弾波の発火は観測中",
+  "summary": "①wave-drive API化+audit_log(同形式)+OFF即殺(未約定波実弾arm取消) ②調停則1(同方向実弾→衛星仮想)/則3(通算2本上限)実弾配線 ③実弾=guardian_reversal方式(source=wave_drive行→armFishermanApproval(1.0)→凍結resolveLatest→帯内約定・即トリガー・期限30分) ④entryGuardianは波実弾armをpark対象外 ⑤exitGuardian波識別=ticket→source(介入ブースト実体化)",
   "tanaka": "段A=本体(a)-(f)全○・CHANGELOG scp漏れ差し戻し→即追完合格。段B=合格(申し送り3件=ECBクラスタが発言系を食う/JP英名声明のBOJ落ち/★1未来日バッジ文言→設計書§6.95に記録)。",
   "state": {
     "master": "ON",
     "positions": 0,
-    "arms": "9本(全lots=1.0・fc#473は本数ルール整理=効方向flip起因・485は14:50消費済み)",
-    "guardian": "enabled",
-    "wax": "復帰済(autoDelegate=true)",
-    "wave": "wave_drive=on/wave_live=off"
+    "arms": "9本(全1.0)",
+    "wax": "復帰済",
+    "wave": "wave_drive=on/wave_live=on(lots1.0)"
   },
   "backups": {
     "pre-ben2": "C:\\Users\\wakui\\backups\\pre-ben2 (6/10 22:4x・trades.db 127.9MB integrity ok)",
@@ -28,5 +27,5 @@
     "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "builtAt": "2026-06-12T03:37:35Z"
+  "builtAt": "2026-06-12T09:05:00Z"
 }
