@@ -1,11 +1,11 @@
 {
-  "version": "v5.18.0",
-  "gitCommit": "25b0f7b012ce71749d27991e8cadd9be1710043d",
+  "version": "v5.19.0",
+  "gitCommit": "2f950f2650c27cf41163b2fd2ffb63c06f6013b6",
   "branch": "work/v5.0.0",
-  "title": "eyes: 番人に目と出口の自律(v5.18.0)",
-  "timestamp": "2026-06-12T00:30:00+09:00",
-  "result": "デプロイ済・部分実証済((c)三層拒否権の実弾実証=頭直下0.4p買い拒否/(g)entry+exit両kill flag往復/(h)再起動6本復元+両guardian再構築)。(a)(b)(d)(e)(f)=朝プローブfc#469-471(09:05)で完結予定→田中追補 田中差し戻し(armLedger lots上書き)是正済・プローブ0.01再arm済",
-  "summary": "段A=exitGuardian(全建玉監視・棚到達/精密トレイル2-1.2/建値3p/波死亡二択・実況=実行・凍結activeExitバックストップ)。段B=全足三層(M5/M15トレンド+H1/H4/D1棚20%拒否権)・SL=ターン根元外1.5p・TP棚手前・反転世代・多重発火制限(1ターン1本/同方向2本/含み損中禁止→衛星仮想)。",
+  "title": "スプレッド完全吸収(v5.19.0R)",
+  "timestamp": "2026-06-12T13:25:00+09:00",
+  "result": "デプロイ済(凍結5不変・park/世代交代/veto実走確認)。実フィル系合格条件は今夜実弾で追補→田中第2ラウンド",
+  "summary": "A=exitGuardian全判断をcurrent_price(決済可能サイド)化=判定+→帳簿−の出血根治。B=band直前に実効entry→棚手前TP距離≥瞬間spread+3p(満たさぬターンは撃たずpark・衛星並走)。C=買いbandを瞬間spr分下げ(ask約定がターン±1.5p内)。D=mt5生tick{bid,ask}export+virtual/衛星を実効サイド・tick粒度記録。E=spread_logは参考/フォールバックへ格下げ。",
   "tanaka": "段A=本体(a)-(f)全○・CHANGELOG scp漏れ差し戻し→即追完合格。段B=合格(申し送り3件=ECBクラスタが発言系を食う/JP英名声明のBOJ落ち/★1未来日バッジ文言→設計書§6.95に記録)。",
   "state": {
     "master": "ON",
