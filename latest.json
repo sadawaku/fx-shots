@@ -1,20 +1,20 @@
 {
-  "version": "v5.23.0",
-  "gitCommit": "a39951b8b532c28dc090df5d785b3f7b7af1e004",
+  "version": "v5.24.1",
+  "gitCommit": "ef1aa839ab68c9d7d5e02a1eb215c3264a80b5e8",
   "branch": "work/v5.0.0",
-  "title": "改修A「撃てるところで撃つ」(統合指示書v5.23.0)",
-  "timestamp": "2026-06-12T23:45:00+09:00",
-  "result": "gated deploy完了(建玉0・WAX停止→復帰・master OFF→ON→flat・pid=port一致4408・凍結5三者一致)。リプレイ実証: 未明98pで02:29から9発射(報酬6.1-16.6p=幅のある段階で乗れた)・今夜21:30は0発射(強棚160.25実在=乗るべきでない波と正判定)",
-  "summary": "A-1初動ベクトル(3本2p+色多数・kind=vector・ターン形不要) A-2 AI入口バイアス(fishermanEntryJudge・窓毎1回) A-3 veto緩和(両足逆のみ・棚=強棚swingLevelsタッチ2+=偽棚常閉の根治) A-4報酬≥spr+3pのみ。kill=fisherman_live_entry/fisherman_entry_judge(API+audit)",
+  "title": "週末便v5.24.1 土曜午前(A'安全弁+C-1 JWT+B-4 status.json)",
+  "timestamp": "2026-06-13T00:55:00+09:00",
+  "result": "土曜午前デプロイ完了(閉場中・pid=port一致・凍結5三者一致・arm5本復元・master ON)。JWT実証=旧401/新200。status.json生成中(安全項目除外実証)。fx-shots自動pushはdeploy key登録待ち",
+  "summary": "A'-1=報酬ゲート共通化(反転含む全経路) A'-2=強棚なし固定TP8p判定 C-1=JWT強乱数+遅延読み根治+MT5鍵分離 B-4=statusExport(60s・変化+heartbeat)",
   "tanaka": "段A=本体(a)-(f)全○・CHANGELOG scp漏れ差し戻し→即追完合格。段B=合格(申し送り3件=ECBクラスタが発言系を食う/JP英名声明のBOJ落ち/★1未来日バッジ文言→設計書§6.95に記録)。",
   "state": {
     "master": "ON",
     "positions": 0,
-    "arms": "6本(472/474/475は22:00自然失効・476は再arm=00:10自然失効見込み)",
-    "wax": "復帰済(窓内cap on)",
+    "arms": "5本(414/481-484)",
+    "wax": "autoDelegate on",
     "wave": "on/on",
     "liveEntry": "on",
-    "entryJudge": "on"
+    "statusExport": "on"
   },
   "backups": {
     "pre-ben2": "C:\\Users\\wakui\\backups\\pre-ben2 (6/10 22:4x・trades.db 127.9MB integrity ok)",
@@ -29,5 +29,5 @@
     "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "builtAt": "2026-06-12T14:25:00Z"
+  "builtAt": "2026-06-12T15:40:00Z"
 }
