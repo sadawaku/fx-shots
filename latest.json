@@ -1,11 +1,11 @@
 {
-  "version": "v5.25.0",
-  "gitCommit": "e8b0dd74ef16884869758127d3f1a257347cc3f2",
+  "version": "v5.25.1",
+  "gitCommit": "3cd080094be8630a4b81f69054dbc2266a777bd6",
   "branch": "work/v5.0.0",
-  "title": "v5.25.0 波を畳み漁師集中(日曜修繕)",
-  "timestamp": "2026-06-13T17:00:00+09:00",
-  "result": "波v1-v3(入口6アプローチ)二分割BT全滅→波実弾化中止。wave_live=off本番確定(wave_drive=on=仮想継続)。status.json残高絶対額漏洩修正。C-3 DB掃除(fc#326/349残骸cancel+probe/🧪衛星除外を冪等マイグレーション恒久化)。C-2 UI5件(波off明示/承認バッジ論理キー照合/方向二重整理/WAX鮮度/APP_VERSION同期・表示のみ)。検証=漁師A'安全弁/実況AI二段/B-1日次ガード OK。凍結5無改変。",
-  "summary": "残: C-2残2件(park建値/棚出典=日曜田中検査と)・C-4チェックリスト(会長立会い・lots決定)・最後にJWT(C-1)。月曜6/16=漁師のみ実弾・波off。",
+  "title": "v5.25.1 C-1完了 MT5_ENC_SECRET鍵切替(日曜)",
+  "timestamp": "2026-06-14T11:00:00+09:00",
+  "result": "MT5資格情報の暗号鍵を旧デフォルト(sha64a4a21)→強乱数64hex(sha afc7ad0c)へ切替。既存demo2行を旧鍵復号→新鍵再暗号化(ラウンドトリップ検証OK)・.env更新・backend/mt5-server再起動。実機検証=/api/mt5/account login成功(接続生存)・/api/mt5/positions建玉0で200。凍結5 SHA5本一致(無改変)・JWT_SECRET不変。",
+  "summary": "残: C-2残2件(park建値/棚出典)・C-4チェックリスト(会長立会い・リアル口座切替+lots決定)。月曜6/16=漁師のみ実弾・波off。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "f7cb31d6360af32b0d0089df7905f7ca5985db169126d999f3424bfec341b41e",
