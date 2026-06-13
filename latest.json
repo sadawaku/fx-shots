@@ -1,33 +1,9 @@
 {
-  "version": "v5.24.2",
-  "gitCommit": "6e8c4635dfba51668ce0bf918ff7f5ed2280cc82",
+  "version": "v5.25.0",
+  "gitCommit": "e8b0dd74ef16884869758127d3f1a257347cc3f2",
   "branch": "work/v5.0.0",
-  "title": "週末便v5.24.2 土曜午後(BT探索+改修D+B-1)",
-  "timestamp": "2026-06-13T15:00:00+09:00",
-  "result": "BT探索=両半黒字0(波は月曜実弾off確定・漁師は現行A'維持+小lot)。D-1実況AI二段+D-2 wax live+B-1日次2%ガード デプロイ済(閉場中・凍結5三者一致)",
-  "summary": "§1.6二分割検証792設定。実況AI=Haiku見張り/Sonnet船長(早める方向のみ)。日次ガード=guardian park+WAX cap+波仮想化で新規全停止/決済継続",
-  "tanaka": "段A=本体(a)-(f)全○・CHANGELOG scp漏れ差し戻し→即追完合格。段B=合格(申し送り3件=ECBクラスタが発言系を食う/JP英名声明のBOJ落ち/★1未来日バッジ文言→設計書§6.95に記録)。",
-  "state": {
-    "master": "ON",
-    "positions": 0,
-    "wax": "autoDelegate on/hedge=live",
-    "wave": "drive on/live on(月曜off予定)",
-    "coach": "on",
-    "dailyGuard": "on 2%",
-    "statusExport": "on"
-  },
-  "backups": {
-    "pre-ben2": "C:\\Users\\wakui\\backups\\pre-ben2 (6/10 22:4x・trades.db 127.9MB integrity ok)",
-    "pre-final": "C:\\Users\\wakui\\backups\\pre-final (6/11 11:44・trades.db 130.0MB integrity ok)",
-    "restore": "restore-ben2.bat / restore-final.bat 両方(full|dist|test) test合格"
-  },
-  "ledger_rule": "デプロイ台帳は本体リポジトリとfx-shotsの両方を毎回更新しgitCommitを必ず記載する",
-  "frozen": {
-    "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
-    "fishermanTrader": "f7cb31d6360af32b0d0089df7905f7ca5985db169126d999f3424bfec341b41e",
-    "fishermanForecast": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
-    "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
-    "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
-  },
-  "builtAt": "2026-06-13T05:30:00Z"
+  "title": "v5.25.0 波を畳み漁師集中(日曜修繕)",
+  "timestamp": "2026-06-13T17:00:00+09:00",
+  "result": "波v1-v3(入口6アプローチ)二分割BT全滅→波実弾化中止。wave_live=off本番確定(wave_drive=on=仮想継続)。status.json残高絶対額漏洩修正。C-3 DB掃除(fc#326/349残骸cancel+probe/🧪衛星除外を冪等マイグレーション恒久化)。C-2 UI5件(波off明示/承認バッジ論理キー照合/方向二重整理/WAX鮮度/APP_VERSION同期・表示のみ)。検証=漁師A'安全弁/実況AI二段/B-1日次ガード OK。凍結5無改変。",
+  "summary": "残: C-2残2件(park建値/棚出典=日曜田中検査と)・C-4チェックリスト(会長立会い・lots決定)・最後にJWT(C-1)。月曜6/16=漁師のみ実弾・波off。"
 }

@@ -1,0 +1,133 @@
+{
+ "generatedAt": "2026-06-13T16:55:24.936+09:00",
+ "version": "v5.25.0",
+ "schema": 1,
+ "positions": [],
+ "arms": [
+  {
+   "fcId": 414,
+   "event": "6/13 🇺🇸 ミシガン大消費者信頼感（速報・6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-13T14:50:00.000Z"
+  },
+  {
+   "fcId": 481,
+   "event": "6/16 🇯🇵 日銀金融政策決定会合（初日・6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-16T00:20:00.000Z"
+  },
+  {
+   "fcId": 482,
+   "event": "6/16 🇺🇸 小売売上高（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-16T12:20:00.000Z"
+  },
+  {
+   "fcId": 483,
+   "event": "6/17 🇺🇸 FOMC 6月会合（政策金利・SEP・Warsh会見）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-16T17:50:00.000Z"
+  },
+  {
+   "fcId": 484,
+   "event": "6/17 🇯🇵 日銀金融政策決定会合（結果・植田会見）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T02:50:00.000Z"
+  },
+  {
+   "fcId": 530,
+   "event": "🇩🇪 ドイツCPI（5月・確報）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-13T05:50:00.000Z"
+  },
+  {
+   "fcId": 531,
+   "event": "🇪🇺 ユーロ圏鉱工業生産（4月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-13T07:50:00.000Z"
+  },
+  {
+   "fcId": 532,
+   "event": "🇺🇸 新規失業保険申請件数（週次）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-13T12:20:00.000Z"
+  },
+  {
+   "fcId": 533,
+   "event": "🇺🇸 PPI（5月）前月比/前年比/コアPPI",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-13T12:20:00.000Z"
+  },
+  {
+   "fcId": 535,
+   "event": "🇺🇸 ミシガン大1年インフレ期待（速報・6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-13T13:50:00.000Z"
+  }
+ ],
+ "waxForecast": {
+  "id": 213,
+  "direction": "DOWN",
+  "entryFrom": 160.228,
+  "entryTo": 160.258,
+  "opposingSR": 159.537,
+  "jst": "2026-06-13 09:51:50"
+ },
+ "entryJudges": [],
+ "exitLive": [],
+ "guardian": {
+  "enabled": true,
+  "arms": []
+ },
+ "coach": [],
+ "dailyGuard": {
+  "enabled": true,
+  "pct": 2,
+  "lossPctOfStart": null
+ },
+ "flags": {
+  "entry_guardian": "on",
+  "exit_guardian": "on",
+  "wave_drive": "on",
+  "wave_live": "off",
+  "wax_window_cap": "on(default)",
+  "fisherman_live_entry": "on(default)",
+  "fisherman_entry_judge": "on(default)",
+  "status_export": "on(default)",
+  "position_coach": "on(default)",
+  "daily_loss_guard": "on(default)",
+  "daily_loss_guard_pct": "2(default)",
+  "wax_hedge_mode": "live",
+  "fisherman_auto_approve": "1",
+  "wax_auto_delegate": "1"
+ },
+ "todayReal": {
+  "n": 0,
+  "pips": 0
+ },
+ "todayVirtual": {
+  "n": 0,
+  "pips": 0
+ },
+ "master": false
+}
