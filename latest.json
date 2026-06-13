@@ -1,19 +1,19 @@
 {
-  "version": "v5.24.1",
-  "gitCommit": "ef1aa839ab68c9d7d5e02a1eb215c3264a80b5e8",
+  "version": "v5.24.2",
+  "gitCommit": "6e8c4635dfba51668ce0bf918ff7f5ed2280cc82",
   "branch": "work/v5.0.0",
-  "title": "週末便v5.24.1 土曜午前(A'安全弁+C-1 JWT+B-4 status.json)",
-  "timestamp": "2026-06-13T00:55:00+09:00",
-  "result": "土曜午前デプロイ完了(閉場中・pid=port一致・凍結5三者一致・arm5本復元・master ON)。JWT実証=旧401/新200。status.json生成中(安全項目除外実証)。fx-shots自動pushはdeploy key登録待ち",
-  "summary": "A'-1=報酬ゲート共通化(反転含む全経路) A'-2=強棚なし固定TP8p判定 C-1=JWT強乱数+遅延読み根治+MT5鍵分離 B-4=statusExport(60s・変化+heartbeat)",
+  "title": "週末便v5.24.2 土曜午後(BT探索+改修D+B-1)",
+  "timestamp": "2026-06-13T15:00:00+09:00",
+  "result": "BT探索=両半黒字0(波は月曜実弾off確定・漁師は現行A'維持+小lot)。D-1実況AI二段+D-2 wax live+B-1日次2%ガード デプロイ済(閉場中・凍結5三者一致)",
+  "summary": "§1.6二分割検証792設定。実況AI=Haiku見張り/Sonnet船長(早める方向のみ)。日次ガード=guardian park+WAX cap+波仮想化で新規全停止/決済継続",
   "tanaka": "段A=本体(a)-(f)全○・CHANGELOG scp漏れ差し戻し→即追完合格。段B=合格(申し送り3件=ECBクラスタが発言系を食う/JP英名声明のBOJ落ち/★1未来日バッジ文言→設計書§6.95に記録)。",
   "state": {
     "master": "ON",
     "positions": 0,
-    "arms": "5本(414/481-484)",
-    "wax": "autoDelegate on",
-    "wave": "on/on",
-    "liveEntry": "on",
+    "wax": "autoDelegate on/hedge=live",
+    "wave": "drive on/live on(月曜off予定)",
+    "coach": "on",
+    "dailyGuard": "on 2%",
     "statusExport": "on"
   },
   "backups": {
@@ -29,5 +29,5 @@
     "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "builtAt": "2026-06-12T15:40:00Z"
+  "builtAt": "2026-06-13T05:30:00Z"
 }
