@@ -878,3 +878,8 @@
 02:12:39 +388s [C_test_sonnet] te20 sell step t-3(3/6) truth=cont v=続く conf=0.62
 02:12:44 +393s [C_test_sonnet] te20 sell step t-2(4/6) truth=cont v=崩れる conf=0.88
 02:12:49 +398s [C_test_sonnet] te20 sell step t-1(5/6) truth=cont v=続く conf=0.71
+02:14:46 +7s [C_test_sonnet] te20 sell t-5(1/6) 局面=初動 生剋=水→木(波が生まれたばかり、実体が育ち始める) conf=0.38 v=崩れる | 売り初動だが実体+1.1pと上髭2.9pが上方向を示し、速度+6.4・加速+5. | 変化:初回読み——基準なし、上昇勢い強く売り不利の初動と判定
+02:14:53 +14s [C_test_sonnet] te20 sell t-4(2/6) 局面=? 生剋=? conf=- v=? |  | 変化:
+02:14:59 +20s [C_test_sonnet] te20 sell t-3(3/6) 局面=成熟 生剋=木→火(実体-3.3pの強い売り実体が勢いを養う、相生が回り始める) conf=0.62 v=続く | 実体-3.3pと売り方向への大きな伸び、速度-3.4で下落火が点火、上髭0.0p | 変化:前回の崩れ判定から一転——実体が-3.3pへ拡大し上髭消滅、金剋木が後退して木→
+02:15:05 +26s [C_test_sonnet] te20 sell t-2(4/6) 局面=? 生剋=? conf=- v=? |  | 変化:
+02:15:11 +32s [C_test_sonnet] te20 sell t-1(5/6) 局面=? 生剋=? conf=- v=? |  | 変化:
