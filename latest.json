@@ -1,16 +1,15 @@
 {
-  "version": "v5.25.1",
-  "gitCommit": "3cd080094be8630a4b81f69054dbc2266a777bd6",
+  "version": "v5.26.0",
+  "gitCommit": "466797b171dd9b1b0b3c39f85d55685132891732",
   "branch": "work/v5.0.0",
-  "title": "v5.25.1 C-1完了 MT5_ENC_SECRET鍵切替(日曜)",
-  "timestamp": "2026-06-14T11:00:00+09:00",
-  "result": "MT5資格情報の暗号鍵を旧デフォルト(sha64a4a21)→強乱数64hex(sha afc7ad0c)へ切替。既存demo2行を旧鍵復号→新鍵再暗号化(ラウンドトリップ検証OK)・.env更新・backend/mt5-server再起動。実機検証=/api/mt5/account login成功(接続生存)・/api/mt5/positions建玉0で200。凍結5 SHA5本一致(無改変)・JWT_SECRET不変。",
-  "summary": "残: C-2残2件(park建値/棚出典)・C-4チェックリスト(会長立会い・リアル口座切替+lots決定)。月曜6/16=漁師のみ実弾・波off。",
+  "builtAt": "2026-06-14T03:30:00Z",
+  "note": "v5.26.0(日) 漁師(指標)出口再設計(master plan docs/system_architecture_spec.md): 能動決済2層(exitGuardian/activeExit=comms依存)+AIの遠すぎTPを fisherman から完全切断し、サーバー側固定ブラケット【TP8/SL10/20分タイムアウト】を唯一の絶対主決済に。①mt5trade.openPosition=fisherman時sl/tp固定8/10強制(ブローカー預け・MT5端末断でも自動約定) ②exitGuardian.exitTick=漁師はトレイル/180s/波死亡/棚/AI船長を全切断・20分強制タイムアウトのみ(WAX不変) ③fishermanTrader.manageActiveExits=kill flag fisherman_active_exit(既定off=能動切断/on=旧動作)・recordActiveClose維持(★凍結5解凍)。BT(純ブラケット同一M1)=TP8/SL10/20分+29.1p(勝74%)≫旧A'+14.9p・会長案2-3本は-56pで否定。月曜デモ口座で実戦並走検証→昇格。 / v5.25.1 MT5_ENC_SECRET鍵切替(強乱数64hex) / v5.25.0 波畳み漁師集中。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
-    "fishermanTrader": "f7cb31d6360af32b0d0089df7905f7ca5985db169126d999f3424bfec341b41e",
+    "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
     "fishermanForecast": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
     "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
-  }
+  },
+  "frozenNote": "fishermanTrader は v5.26.0 で master plan に基づき改変(能動決済ゲート化・新SHA)。他4本は無改変。"
 }
