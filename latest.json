@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.2",
-  "gitCommit": "b068762ef214b9d1406370e2e15ec8f8c9df4b39",
+  "version": "v5.28.3",
+  "gitCommit": "97476c1124810b13b7067cfaecb1b6c32c969e90",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T08:05:00Z",
-  "note": "v5.28.2(日) 公開status.json自動push復活(会長指摘・外部監視窓修復): 公開status.jsonが6/13停止(v5.25.0/master Falseのまま)=外からmaster/version見えず。原因=data/status.json生成は正常だがSTATUS_REPO_DIR未設定(6/13 MT5_ENC_SECRET鍵切替の.env再作成で脱落)→push分岐未到達でサイレント停止(ログにpush済/失敗皆無が証拠)。対処=①.envにSTATUS_REPO_DIR=C:\\Users\\wakui\\fx-shots復活 ②statusExport.ts push前にfetch+reset origin/main=Mac等他クローンのpushにも自動追従し非fast-forward自滅を根治(自己修復・再発防止) ③Winクローンをorigin/main同期。凍結5無改変・非凍結(statusExport)のみ。 / v5.28.1 master運用方針=ON自動復帰(起動時強制OFF廃止) / v5.28.0 pre_trend_scalper(デモ限定) / v5.27.0 WAX超攻撃型(TP35/SL15) / v5.26.0 漁師純ブラケット(TP8/SL10/20分+29.1p)。",
+  "builtAt": "2026-06-15T08:30:00Z",
+  "note": "v5.28.3(日) status.json監視窓 本修理(指示書v5.28.3): ①黙って止まらせない=statusExport push途絶検知。最後のpush成功時刻記録・生成は続くのにpushが閾値(開場10分/閉場30分・flag status_stale_secで上書可)超で途切れたらpm2 WARN+status.json本体にpushStale:true/lastPushAgoSec/lastPushOk(外から窓の死にかけが見える)。stale系は変化検知ハッシュ除外(push暴走防止)。②6/13被害監査(.env.bak_mt5key_20260613突合)=落ちたキー無し・MT5_ENC_SECRETのみ値変化(鍵切替=意図)・STATUS_REPO_DIRは元々.env非搭載(ambient/pm2 envで6/13再起動消失=第三被害無し)。③自力push=SSH一本化(remote git@github.com・~/.ssh/config→fx_shots_deploy・STATUS_REPO_DIR=.env)・wincredman/HTTPS不使用。残=デプロイ鍵fx-status-deployのGitHub write登録(会長の一手)→約60秒で自律push再開。凍結5無改変・非凍結(statusExport)のみ。 / v5.28.2 status.json自動push復活 / v5.28.1 master ON自動復帰 / v5.28.0 pre_trend_scalper(デモ限定) / v5.27.0 WAX TP35/SL15 / v5.26.0 漁師TP8/SL10(+29.1p)。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.2は非凍結のみ改変(statusExport.ts)。凍結5(activeExit/fishermanTrader=83806f44/fishermanForecast/waxTrader=ef7a3bab/waxForecast)無改変。"
+  "frozenNote": "v5.28.3は非凍結のみ改変(statusExport.ts)。凍結5(activeExit/fishermanTrader=83806f44/fishermanForecast/waxTrader=ef7a3bab/waxForecast)無改変。"
 }
