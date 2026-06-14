@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T08:56:29.936+09:00",
+ "generatedAt": "2026-06-15T08:57:29.937+09:00",
  "version": "v5.28.3",
  "schema": 1,
- "lastPushOk": "2026-06-15T08:51:37.959+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-15T08:56:37.859+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -152,7 +152,15 @@
   "opposingSR": null,
   "jst": "2026-06-15 08:50:52"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 620,
+   "state": "done",
+   "bias": "sell",
+   "reason": "AI売り予想+160円台抵抗で上値重く初動売り優位",
+   "at": 1781481431792
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
