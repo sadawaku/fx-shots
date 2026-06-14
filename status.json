@@ -1,21 +1,13 @@
 {
- "generatedAt": "2026-06-13T16:55:24.936+09:00",
- "version": "v5.25.0",
+ "generatedAt": "2026-06-15T07:56:14.571+09:00",
+ "version": "v5.28.2",
  "schema": 1,
  "positions": [],
  "arms": [
   {
-   "fcId": 414,
-   "event": "6/13 🇺🇸 ミシガン大消費者信頼感（速報・6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-13T14:50:00.000Z"
-  },
-  {
    "fcId": 481,
    "event": "6/16 🇯🇵 日銀金融政策決定会合（初日・6月）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T00:20:00.000Z"
@@ -39,71 +31,138 @@
   {
    "fcId": 484,
    "event": "6/17 🇯🇵 日銀金融政策決定会合（結果・植田会見）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T02:50:00.000Z"
   },
   {
-   "fcId": 530,
-   "event": "🇩🇪 ドイツCPI（5月・確報）",
+   "fcId": 575,
+   "event": "6/16 🇺🇸 NYエンパイアステート製造業指数（6月）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-13T05:50:00.000Z"
+   "trigger": "2026-06-16T12:20:00.000Z"
   },
   {
-   "fcId": 531,
-   "event": "🇪🇺 ユーロ圏鉱工業生産（4月）",
+   "fcId": 577,
+   "event": "6/17 🇯🇵 日銀金融政策決定会合（結果・植田総裁会見）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-13T07:50:00.000Z"
+   "trigger": "2026-06-16T23:20:00.000Z"
   },
   {
-   "fcId": 532,
-   "event": "🇺🇸 新規失業保険申請件数（週次）",
+   "fcId": 578,
+   "event": "6/17 🇺🇸 小売売上高（5月）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-13T12:20:00.000Z"
+   "trigger": "2026-06-17T12:20:00.000Z"
   },
   {
-   "fcId": 533,
-   "event": "🇺🇸 PPI（5月）前月比/前年比/コアPPI",
+   "fcId": 579,
+   "event": "6/17 🇺🇸 鉱工業生産・設備稼働率（5月）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-13T12:20:00.000Z"
+   "trigger": "2026-06-17T13:05:00.000Z"
   },
   {
-   "fcId": 535,
-   "event": "🇺🇸 ミシガン大1年インフレ期待（速報・6月）",
+   "fcId": 580,
+   "event": "6/17 🇺🇸 NAHB住宅市場指数（6月）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-13T13:50:00.000Z"
+   "trigger": "2026-06-17T13:50:00.000Z"
   }
  ],
  "waxForecast": {
-  "id": 213,
-  "direction": "DOWN",
-  "entryFrom": 160.228,
-  "entryTo": 160.258,
-  "opposingSR": 159.537,
-  "jst": "2026-06-13 09:51:50"
+  "id": 214,
+  "direction": "UP",
+  "entryFrom": 160.158,
+  "entryTo": 160.188,
+  "opposingSR": 160.59,
+  "jst": "2026-06-14 08:05:13"
  },
  "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
-  "arms": []
+  "arms": [
+   {
+    "armId": 481,
+    "gen": 600,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 482,
+    "gen": 601,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 483,
+    "gen": 602,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 484,
+    "gen": 603,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 575,
+    "gen": 610,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 577,
+    "gen": 611,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 578,
+    "gen": 612,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 579,
+    "gen": 613,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 580,
+    "gen": 614,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   }
+  ]
  },
  "coach": [],
  "dailyGuard": {
   "enabled": true,
   "pct": 2,
-  "lossPctOfStart": null
+  "day": "2026-06-15",
+  "tripped": false,
+  "realizedJpy": 0,
+  "lossPctOfStart": 0
  },
  "flags": {
   "entry_guardian": "on",
@@ -129,5 +188,5 @@
   "n": 0,
   "pips": 0
  },
- "master": false
+ "master": true
 }
