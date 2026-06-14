@@ -793,3 +793,8 @@
 02:04:51 +819s [C_train_sonnet] tr39 sell step t-2(6/8) truth=cont v=続く conf=0.65
 02:04:56 +824s [C_train_sonnet] tr39 sell step t-1(7/8) truth=cont v=崩れる conf=0.71
 02:05:01 +830s [C_train_sonnet] tr39 sell step t0(8/8) truth=cont v=崩れる conf=0.78
+02:05:07 +835s [C_train_sonnet] tr40 sell step t-5(1/6) truth=crumble v=続く conf=0.38
+02:05:13 +841s [C_train_sonnet] tr40 sell step t-4(2/6) truth=crumble v=続く conf=0.52
+02:05:18 +846s [C_train_sonnet] tr40 sell step t-3(3/6) truth=crumble v=続く conf=0.72
+02:05:23 +851s [C_train_sonnet] tr40 sell step t-2(4/6) truth=crumble v=続く conf=0.61
+02:05:28 +856s [C_train_sonnet] tr40 sell step t-1(5/6) truth=crumble v=続く conf=0.68
