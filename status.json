@@ -1,7 +1,10 @@
 {
- "generatedAt": "2026-06-15T07:56:14.571+09:00",
- "version": "v5.28.2",
+ "generatedAt": "2026-06-15T08:17:14.354+09:00",
+ "version": "v5.28.3",
  "schema": 1,
+ "lastPushOk": null,
+ "lastPushAgoSec": 180,
+ "pushStale": false,
  "positions": [],
  "arms": [
   {
@@ -35,6 +38,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T02:50:00.000Z"
+  },
+  {
+   "fcId": 621,
+   "event": "🇩🇪 独 CPI（5月・確報値）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T05:50:00.000Z"
   },
   {
    "fcId": 575,
@@ -75,15 +86,71 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
+  },
+  {
+   "fcId": 620,
+   "event": "🇯🇵 法人企業統計 設備投資（Q1）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-14T23:40:00.000Z"
+  },
+  {
+   "fcId": 622,
+   "event": "🇬🇧 英 雇用統計・賃金（4月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T08:20:00.000Z"
+  },
+  {
+   "fcId": 623,
+   "event": "🇺🇸 NAHB住宅市場指数（6月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T13:50:00.000Z"
+  },
+  {
+   "fcId": 625,
+   "event": "🇺🇸 住宅着工件数・建設許可（5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T12:20:00.000Z"
+  },
+  {
+   "fcId": 628,
+   "event": "🇺🇸 鉱工業生産・設備稼働率（5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T12:05:00.000Z"
+  },
+  {
+   "fcId": 629,
+   "event": "🇺🇸 小売売上高（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T12:20:00.000Z"
+  },
+  {
+   "fcId": 630,
+   "event": "🇪🇺 ECB President Lagarde Speaks",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T07:05:00.000Z"
   }
  ],
  "waxForecast": {
-  "id": 214,
+  "id": 215,
   "direction": "UP",
-  "entryFrom": 160.158,
-  "entryTo": 160.188,
-  "opposingSR": 160.59,
-  "jst": "2026-06-14 08:05:13"
+  "entryFrom": 159.743,
+  "entryTo": 159.773,
+  "opposingSR": 160,
+  "jst": "2026-06-15 08:05:15"
  },
  "entryJudges": [],
  "exitLive": [],
@@ -114,6 +181,13 @@
    {
     "armId": 484,
     "gen": 603,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 621,
+    "gen": 621,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
@@ -150,6 +224,55 @@
     "armId": 580,
     "gen": 614,
     "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 620,
+    "gen": 620,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 622,
+    "gen": 622,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 623,
+    "gen": 623,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 625,
+    "gen": 625,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 628,
+    "gen": 628,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 629,
+    "gen": 629,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 630,
+    "gen": 630,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    }
