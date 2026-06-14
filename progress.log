@@ -824,3 +824,9 @@
 02:07:50 +98s [C_test_sonnet] te2 buy step t-3(4/7) truth=crumble v=続く conf=0.75
 02:07:56 +104s [C_test_sonnet] te2 buy step t-2(5/7) truth=crumble v=続く conf=0.62
 02:08:01 +110s [C_test_sonnet] te2 buy step t-1(6/7) truth=crumble v=崩れる conf=0.72
+02:08:06 +115s [C_test_sonnet] te2 buy step t0(7/7) truth=crumble v=崩れる conf=0.65
+02:08:11 +120s [C_test_sonnet] te3 buy step t-5(1/6) truth=crumble v=続く conf=0.38
+02:08:17 +126s [C_test_sonnet] te3 buy step t-4(2/6) truth=crumble v=続く conf=0.48
+02:08:21 +130s [C_test_sonnet] te3 buy step t-3(3/6) truth=crumble v=続く conf=0.52
+02:08:27 +136s [C_test_sonnet] te3 buy step t-2(4/6) truth=crumble v=続く conf=0.72
+02:08:33 +142s [C_test_sonnet] te3 buy step t-1(5/6) truth=crumble v=続く conf=0.61
