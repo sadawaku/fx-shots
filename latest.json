@@ -1,15 +1,15 @@
 {
-  "version": "v5.26.0",
-  "gitCommit": "466797b171dd9b1b0b3c39f85d55685132891732",
+  "version": "v5.27.0",
+  "gitCommit": "6e8deb3bb6594edf2912c86bd641560157358749",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-14T03:30:00Z",
-  "note": "v5.26.0(日) 漁師(指標)出口再設計(master plan docs/system_architecture_spec.md): 能動決済2層(exitGuardian/activeExit=comms依存)+AIの遠すぎTPを fisherman から完全切断し、サーバー側固定ブラケット【TP8/SL10/20分タイムアウト】を唯一の絶対主決済に。①mt5trade.openPosition=fisherman時sl/tp固定8/10強制(ブローカー預け・MT5端末断でも自動約定) ②exitGuardian.exitTick=漁師はトレイル/180s/波死亡/棚/AI船長を全切断・20分強制タイムアウトのみ(WAX不変) ③fishermanTrader.manageActiveExits=kill flag fisherman_active_exit(既定off=能動切断/on=旧動作)・recordActiveClose維持(★凍結5解凍)。BT(純ブラケット同一M1)=TP8/SL10/20分+29.1p(勝74%)≫旧A'+14.9p・会長案2-3本は-56pで否定。月曜デモ口座で実戦並走検証→昇格。 / v5.25.1 MT5_ENC_SECRET鍵切替(強乱数64hex) / v5.25.0 波畳み漁師集中。",
+  "builtAt": "2026-06-14T05:10:00Z",
+  "note": "v5.27.0(土) WAX(主砲)超攻撃型ワイドブラケット化(Diff D/E/F): トレンドフォローWAXを通信遅延迷路から完全隔離しRR1:2.3で大波をTP35まで伸ばして狩る戦略意志に基づく出口再設計。①Diff D mt5trade.openPosition=agent=wax時sl/tp固定【TP35/SL15】強制(サーバー側ワイドブラケット・MT5端末断でもブローカーがTP35まで伸ばす・fisherman8/10と別値) ②Diff E exitGuardian.exitTick=wax建玉はAI船長/棚到達/精密トレイル/建値ストップ/180s収縮を全スキップ(continue)・命=波死亡(M1逆行≧agTh&peak≧1.0=トレンド終了)のみ安全弁 ③Diff F waxTrader.manageActiveExits=二層目能動決済(waxInstance=AI目標タッチ/M5実体S/R損切り/天井トレイル=comms依存)をkill flag wax_active_exit(既定off=切断/on=旧動作復帰)でゲート・recordActiveClose維持(履歴欠落なし)(★凍結5解凍)。結果=WAXは『ブローカーTP35/SL15+波死亡安全弁』のみで統治=能動2層断ち通信遅延迷路から完全隔離。WAXはAI駆動でBT不能=TP35/SL15は戦略的賭け・裏取りは月曜デモ口座の実フィル。 / v5.26.0 漁師(指標)出口再設計=純ブラケットTP8/SL10/20分(+29.1p勝74%) / v5.25.1 MT5_ENC_SECRET鍵切替 / v5.25.0 波畳み漁師集中。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
     "fishermanForecast": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
-    "waxTrader": "31b7dd35a07947189bcc4635cd362244da6673c836169599f9567c3653c26b90",
+    "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "fishermanTrader は v5.26.0 で master plan に基づき改変(能動決済ゲート化・新SHA)。他4本は無改変。"
+  "frozenNote": "waxTrader は v5.27.0(Diff F)で能動決済(waxInstance)をkill flag wax_active_exit でゲート化＝改変(新SHA ef7a3bab)。fishermanTrader は v5.26.0 で改変(83806f44)。他3本(activeExit/fishermanForecast/waxForecast)は無改変。"
 }
