@@ -841,3 +841,9 @@
 02:09:22 +191s [C_test_sonnet] te5 buy step t-6(2/8) truth=cont v=続く conf=0.65
 02:09:28 +196s [C_test_sonnet] te5 buy step t-5(3/8) truth=cont v=続く conf=0.55
 02:09:33 +202s [C_test_sonnet] te5 buy step t-4(4/8) truth=cont v=続く conf=0.58
+02:09:37 +206s [C_test_sonnet] te5 buy step t-3(5/8) truth=cont v=続く conf=0.63
+02:09:43 +212s [C_test_sonnet] te5 buy step t-2(6/8) truth=cont v=続く conf=0.55
+02:09:48 +216s [C_test_sonnet] te5 buy step t-1(7/8) truth=cont v=続く conf=0.66
+02:09:53 +222s [C_test_sonnet] te5 buy step t0(8/8) truth=cont v=続く conf=0.7
+02:09:57 +226s [C_test_sonnet] te6 buy step t-7(1/8) truth=crumble v=続く conf=0.38
+02:10:03 +232s [C_test_sonnet] te6 buy step t-6(2/8) truth=crumble v=続く conf=0.4
