@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-06-15T08:35:14.510+09:00",
+ "generatedAt": "2026-06-15T08:36:14.518+09:00",
  "version": "v5.28.3",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 1260,
- "pushStale": true,
+ "lastPushOk": "2026-06-15T08:35:22.712+09:00",
+ "lastPushAgoSec": 52,
+ "pushStale": false,
  "positions": [],
  "arms": [
   {
@@ -229,7 +229,7 @@
    },
    {
     "armId": 620,
-    "gen": 620,
+    "gen": 631,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
