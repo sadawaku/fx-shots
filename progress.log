@@ -1,0 +1,760 @@
+01:18:17 +4s [B P1 train sonnet] tr0 buy truth=crumble AI=cont (1/60)
+01:18:18 +4s [B P1 train sonnet] tr1 buy truth=cont AI=crumble (2/60)
+01:18:18 +5s [B P1 train sonnet] tr3 buy truth=crumble AI=cont (3/60)
+01:18:19 +5s [B P1 train sonnet] tr4 buy truth=crumble AI=crumble (4/60)
+01:18:21 +8s [B P1 train sonnet] tr6 buy truth=cont AI=cont (5/60)
+01:18:21 +8s [B P1 train sonnet] tr2 buy truth=crumble AI=crumble (6/60)
+01:18:22 +8s [B P1 train sonnet] tr8 buy truth=cont AI=cont (7/60)
+01:18:22 +9s [B P1 train sonnet] tr5 buy truth=crumble AI=crumble (8/60)
+01:18:22 +9s [B P1 train sonnet] tr7 buy truth=crumble AI=crumble (9/60)
+01:18:26 +12s [B P1 train sonnet] tr9 buy truth=cont AI=crumble (10/60)
+01:18:26 +13s [B P1 train sonnet] tr12 buy truth=cont AI=crumble (11/60)
+01:18:26 +13s [B P1 train sonnet] tr10 buy truth=cont AI=crumble (12/60)
+01:18:26 +13s [B P1 train sonnet] tr11 buy truth=cont AI=crumble (13/60)
+01:18:27 +13s [B P1 train sonnet] tr13 buy truth=crumble AI=crumble (14/60)
+01:18:30 +16s [B P1 train sonnet] tr14 buy truth=crumble AI=crumble (15/60)
+01:18:30 +17s [B P1 train sonnet] tr16 buy truth=crumble AI=cont (16/60)
+01:18:31 +17s [B P1 train sonnet] tr15 buy truth=cont AI=crumble (17/60)
+01:18:31 +18s [B P1 train sonnet] tr17 buy truth=cont AI=crumble (18/60)
+01:18:32 +19s [B P1 train sonnet] tr18 buy truth=cont AI=crumble (19/60)
+01:18:33 +19s [B P1 train sonnet] tr19 buy truth=crumble AI=cont (20/60)
+01:18:34 +20s [B P1 train sonnet] tr21 buy truth=crumble AI=cont (21/60)
+01:18:35 +21s [B P1 train sonnet] tr20 buy truth=crumble AI=crumble (22/60)
+01:18:36 +22s [B P1 train sonnet] tr22 buy truth=crumble AI=crumble (23/60)
+01:18:36 +23s [B P1 train sonnet] tr24 buy truth=crumble AI=crumble (24/60)
+01:18:37 +23s [B P1 train sonnet] tr23 buy truth=cont AI=crumble (25/60)
+01:18:37 +24s [B P1 train sonnet] tr25 buy truth=cont AI=cont (26/60)
+01:18:39 +26s [B P1 train sonnet] tr27 buy truth=crumble AI=crumble (27/60)
+01:18:40 +26s [B P1 train sonnet] tr26 buy truth=cont AI=crumble (28/60)
+01:18:40 +26s [B P1 train sonnet] tr28 buy truth=crumble AI=cont (29/60)
+01:18:41 +27s [B P1 train sonnet] tr30 sell truth=cont AI=cont (30/60)
+01:18:42 +28s [B P1 train sonnet] tr29 buy truth=crumble AI=crumble (31/60)
+01:18:43 +29s [B P1 train sonnet] tr31 sell truth=cont AI=cont (32/60)
+01:18:44 +31s [B P1 train sonnet] tr32 sell truth=cont AI=crumble (33/60)
+01:18:45 +31s [B P1 train sonnet] tr33 sell truth=crumble AI=cont (34/60)
+01:18:46 +33s [B P1 train sonnet] tr34 sell truth=crumble AI=crumble (35/60)
+01:18:46 +33s [B P1 train sonnet] tr35 sell truth=cont AI=crumble (36/60)
+01:18:49 +36s [B P1 train sonnet] tr37 sell truth=cont AI=crumble (37/60)
+01:18:50 +36s [B P1 train sonnet] tr38 sell truth=crumble AI=crumble (38/60)
+01:18:50 +37s [B P1 train sonnet] tr36 sell truth=cont AI=crumble (39/60)
+01:18:50 +37s [B P1 train sonnet] tr40 sell truth=crumble AI=crumble (40/60)
+01:18:51 +37s [B P1 train sonnet] tr39 sell truth=cont AI=cont (41/60)
+01:18:54 +41s [B P1 train sonnet] tr42 sell truth=cont AI=crumble (42/60)
+01:18:54 +41s [B P1 train sonnet] tr44 sell truth=crumble AI=crumble (43/60)
+01:18:55 +41s [B P1 train sonnet] tr43 sell truth=cont AI=crumble (44/60)
+01:18:55 +41s [B P1 train sonnet] tr41 sell truth=cont AI=crumble (45/60)
+01:18:55 +42s [B P1 train sonnet] tr45 sell truth=crumble AI=crumble (46/60)
+01:19:00 +47s [B P1 train sonnet] tr49 sell truth=cont AI=crumble (47/60)
+01:19:00 +47s [B P1 train sonnet] tr50 sell truth=crumble AI=crumble (48/60)
+01:19:00 +47s [B P1 train sonnet] tr48 sell truth=cont AI=crumble (49/60)
+01:19:02 +48s [B P1 train sonnet] tr46 sell truth=crumble AI=crumble (50/60)
+01:19:03 +50s [B P1 train sonnet] tr51 sell truth=cont AI=cont (51/60)
+01:19:05 +51s [B P1 train sonnet] tr52 sell truth=crumble AI=crumble (52/60)
+01:19:05 +51s [B P1 train sonnet] tr53 sell truth=cont AI=cont (53/60)
+01:19:06 +52s [B P1 train sonnet] tr47 sell truth=crumble AI=crumble (54/60)
+01:19:06 +52s [B P1 train sonnet] tr54 sell truth=crumble AI=crumble (55/60)
+01:19:09 +55s [B P1 train sonnet] tr55 sell truth=crumble AI=cont (56/60)
+01:19:09 +56s [B P1 train sonnet] tr56 sell truth=crumble AI=crumble (57/60)
+01:19:10 +56s [B P1 train sonnet] tr57 sell truth=crumble AI=crumble (58/60)
+01:19:10 +56s [B P1 train sonnet] tr58 sell truth=crumble AI=crumble (59/60)
+01:19:10 +57s [B P1 train sonnet] tr59 sell truth=crumble AI=crumble (60/60)
+01:19:15 +4s [B P2 train sonnet] tr2 buy truth=crumble AI=crumble (1/60)
+01:19:15 +4s [B P2 train sonnet] tr4 buy truth=crumble AI=cont (2/60)
+01:19:15 +4s [B P2 train sonnet] tr1 buy truth=cont AI=crumble (3/60)
+01:19:15 +5s [B P2 train sonnet] tr3 buy truth=crumble AI=cont (4/60)
+01:19:18 +8s [B P2 train sonnet] tr0 buy truth=crumble AI=cont (5/60)
+01:19:19 +8s [B P2 train sonnet] tr5 buy truth=crumble AI=crumble (6/60)
+01:19:19 +8s [B P2 train sonnet] tr6 buy truth=cont AI=cont (7/60)
+01:19:19 +8s [B P2 train sonnet] tr7 buy truth=crumble AI=crumble (8/60)
+01:19:20 +9s [B P2 train sonnet] tr8 buy truth=cont AI=cont (9/60)
+01:19:22 +11s [B P2 train sonnet] tr10 buy truth=cont AI=crumble (10/60)
+01:19:23 +12s [B P2 train sonnet] tr12 buy truth=cont AI=crumble (11/60)
+01:19:23 +12s [B P2 train sonnet] tr9 buy truth=cont AI=crumble (12/60)
+01:19:24 +13s [B P2 train sonnet] tr11 buy truth=cont AI=crumble (13/60)
+01:19:24 +13s [B P2 train sonnet] tr13 buy truth=crumble AI=cont (14/60)
+01:19:26 +15s [B P2 train sonnet] tr14 buy truth=crumble AI=cont (15/60)
+01:19:27 +16s [B P2 train sonnet] tr16 buy truth=crumble AI=cont (16/60)
+01:19:28 +17s [B P2 train sonnet] tr15 buy truth=cont AI=crumble (17/60)
+01:19:28 +17s [B P2 train sonnet] tr17 buy truth=cont AI=crumble (18/60)
+01:19:29 +18s [B P2 train sonnet] tr18 buy truth=cont AI=cont (19/60)
+01:19:30 +19s [B P2 train sonnet] tr19 buy truth=crumble AI=cont (20/60)
+01:19:32 +21s [B P2 train sonnet] tr20 buy truth=crumble AI=crumble (21/60)
+01:19:32 +21s [B P2 train sonnet] tr21 buy truth=crumble AI=cont (22/60)
+01:19:33 +22s [B P2 train sonnet] tr22 buy truth=crumble AI=crumble (23/60)
+01:19:33 +22s [B P2 train sonnet] tr23 buy truth=cont AI=crumble (24/60)
+01:19:34 +23s [B P2 train sonnet] tr24 buy truth=crumble AI=cont (25/60)
+01:19:36 +25s [B P2 train sonnet] tr25 buy truth=cont AI=cont (26/60)
+01:19:36 +25s [B P2 train sonnet] tr26 buy truth=cont AI=crumble (27/60)
+01:19:37 +26s [B P2 train sonnet] tr27 buy truth=crumble AI=crumble (28/60)
+01:19:37 +26s [B P2 train sonnet] tr28 buy truth=crumble AI=cont (29/60)
+01:19:39 +29s [B P2 train sonnet] tr30 sell truth=cont AI=cont (30/60)
+01:19:40 +29s [B P2 train sonnet] tr29 buy truth=crumble AI=crumble (31/60)
+01:19:41 +30s [B P2 train sonnet] tr33 sell truth=crumble AI=cont (32/60)
+01:19:41 +30s [B P2 train sonnet] tr32 sell truth=cont AI=crumble (33/60)
+01:19:42 +31s [B P2 train sonnet] tr31 sell truth=cont AI=cont (34/60)
+01:19:44 +33s [B P2 train sonnet] tr35 sell truth=cont AI=crumble (35/60)
+01:19:45 +34s [B P2 train sonnet] tr34 sell truth=crumble AI=crumble (36/60)
+01:19:45 +34s [B P2 train sonnet] tr37 sell truth=cont AI=cont (37/60)
+01:19:47 +36s [B P2 train sonnet] tr38 sell truth=crumble AI=crumble (38/60)
+01:19:49 +38s [B P2 train sonnet] tr36 sell truth=cont AI=crumble (39/60)
+01:19:50 +39s [B P2 train sonnet] tr39 sell truth=cont AI=cont (40/60)
+01:19:50 +39s [B P2 train sonnet] tr40 sell truth=crumble AI=crumble (41/60)
+01:19:51 +41s [B P2 train sonnet] tr42 sell truth=cont AI=crumble (42/60)
+01:19:52 +41s [B P2 train sonnet] tr41 sell truth=cont AI=crumble (43/60)
+01:19:55 +44s [B P2 train sonnet] tr43 sell truth=cont AI=crumble (44/60)
+01:19:56 +45s [B P2 train sonnet] tr44 sell truth=crumble AI=crumble (45/60)
+01:19:57 +46s [B P2 train sonnet] tr46 sell truth=crumble AI=crumble (46/60)
+01:19:57 +46s [B P2 train sonnet] tr45 sell truth=crumble AI=crumble (47/60)
+01:19:57 +46s [B P2 train sonnet] tr47 sell truth=crumble AI=crumble (48/60)
+01:20:00 +49s [B P2 train sonnet] tr49 sell truth=cont AI=crumble (49/60)
+01:20:00 +49s [B P2 train sonnet] tr51 sell truth=cont AI=cont (50/60)
+01:20:00 +50s [B P2 train sonnet] tr48 sell truth=cont AI=crumble (51/60)
+01:20:01 +50s [B P2 train sonnet] tr50 sell truth=crumble AI=crumble (52/60)
+01:20:03 +52s [B P2 train sonnet] tr52 sell truth=crumble AI=crumble (53/60)
+01:20:04 +53s [B P2 train sonnet] tr53 sell truth=cont AI=cont (54/60)
+01:20:05 +54s [B P2 train sonnet] tr54 sell truth=crumble AI=crumble (55/60)
+01:20:05 +54s [B P2 train sonnet] tr55 sell truth=crumble AI=cont (56/60)
+01:20:06 +55s [B P2 train sonnet] tr56 sell truth=crumble AI=crumble (57/60)
+01:20:06 +55s [B P2 train sonnet] tr57 sell truth=crumble AI=crumble (58/60)
+01:20:09 +58s [B P2 train sonnet] tr59 sell truth=crumble AI=cont (59/60)
+01:20:09 +58s [B P2 train sonnet] tr58 sell truth=crumble AI=crumble (60/60)
+01:20:14 +4s [B P3 train sonnet] tr2 buy truth=crumble AI=crumble (1/60)
+01:20:14 +4s [B P3 train sonnet] tr0 buy truth=crumble AI=cont (2/60)
+01:20:14 +5s [B P3 train sonnet] tr3 buy truth=crumble AI=cont (3/60)
+01:20:15 +5s [B P3 train sonnet] tr1 buy truth=cont AI=crumble (4/60)
+01:20:16 +6s [B P3 train sonnet] tr4 buy truth=crumble AI=crumble (5/60)
+01:20:17 +7s [B P3 train sonnet] tr6 buy truth=cont AI=cont (6/60)
+01:20:18 +8s [B P3 train sonnet] tr5 buy truth=crumble AI=crumble (7/60)
+01:20:18 +8s [B P3 train sonnet] tr8 buy truth=cont AI=cont (8/60)
+01:20:19 +9s [B P3 train sonnet] tr7 buy truth=crumble AI=crumble (9/60)
+01:20:20 +10s [B P3 train sonnet] tr9 buy truth=cont AI=crumble (10/60)
+01:20:21 +12s [B P3 train sonnet] tr10 buy truth=cont AI=crumble (11/60)
+01:20:21 +12s [B P3 train sonnet] tr11 buy truth=cont AI=cont (12/60)
+01:20:22 +13s [B P3 train sonnet] tr12 buy truth=cont AI=crumble (13/60)
+01:20:23 +13s [B P3 train sonnet] tr13 buy truth=crumble AI=cont (14/60)
+01:20:25 +15s [B P3 train sonnet] tr14 buy truth=crumble AI=crumble (15/60)
+01:20:25 +15s [B P3 train sonnet] tr15 buy truth=cont AI=crumble (16/60)
+01:20:26 +16s [B P3 train sonnet] tr16 buy truth=crumble AI=cont (17/60)
+01:20:27 +18s [B P3 train sonnet] tr18 buy truth=cont AI=cont (18/60)
+01:20:28 +19s [B P3 train sonnet] tr17 buy truth=cont AI=crumble (19/60)
+01:20:29 +19s [B P3 train sonnet] tr19 buy truth=crumble AI=cont (20/60)
+01:20:30 +20s [B P3 train sonnet] tr20 buy truth=crumble AI=crumble (21/60)
+01:20:31 +21s [B P3 train sonnet] tr22 buy truth=crumble AI=crumble (22/60)
+01:20:33 +23s [B P3 train sonnet] tr24 buy truth=crumble AI=crumble (23/60)
+01:20:33 +24s [B P3 train sonnet] tr21 buy truth=crumble AI=cont (24/60)
+01:20:33 +24s [B P3 train sonnet] tr25 buy truth=cont AI=cont (25/60)
+01:20:36 +26s [B P3 train sonnet] tr26 buy truth=cont AI=crumble (26/60)
+01:20:37 +28s [B P3 train sonnet] tr23 buy truth=cont AI=crumble (27/60)
+01:20:38 +28s [B P3 train sonnet] tr28 buy truth=crumble AI=cont (28/60)
+01:20:38 +28s [B P3 train sonnet] tr27 buy truth=crumble AI=crumble (29/60)
+01:20:38 +28s [B P3 train sonnet] tr29 buy truth=crumble AI=crumble (30/60)
+01:20:40 +30s [B P3 train sonnet] tr30 sell truth=cont AI=cont (31/60)
+01:20:41 +31s [B P3 train sonnet] tr31 sell truth=cont AI=cont (32/60)
+01:20:42 +33s [B P3 train sonnet] tr33 sell truth=crumble AI=crumble (33/60)
+01:20:43 +33s [B P3 train sonnet] tr34 sell truth=crumble AI=crumble (34/60)
+01:20:43 +34s [B P3 train sonnet] tr32 sell truth=cont AI=crumble (35/60)
+01:20:45 +35s [B P3 train sonnet] tr35 sell truth=cont AI=crumble (36/60)
+01:20:46 +36s [B P3 train sonnet] tr37 sell truth=cont AI=cont (37/60)
+01:20:46 +36s [B P3 train sonnet] tr36 sell truth=cont AI=crumble (38/60)
+01:20:48 +39s [B P3 train sonnet] tr38 sell truth=crumble AI=crumble (39/60)
+01:20:49 +39s [B P3 train sonnet] tr39 sell truth=cont AI=cont (40/60)
+01:20:50 +40s [B P3 train sonnet] tr40 sell truth=crumble AI=crumble (41/60)
+01:20:50 +40s [B P3 train sonnet] tr42 sell truth=cont AI=crumble (42/60)
+01:20:51 +41s [B P3 train sonnet] tr41 sell truth=cont AI=crumble (43/60)
+01:20:52 +43s [B P3 train sonnet] tr44 sell truth=crumble AI=crumble (44/60)
+01:20:54 +44s [B P3 train sonnet] tr43 sell truth=cont AI=crumble (45/60)
+01:20:55 +45s [B P3 train sonnet] tr45 sell truth=crumble AI=crumble (46/60)
+01:20:57 +47s [B P3 train sonnet] tr47 sell truth=crumble AI=crumble (47/60)
+01:20:57 +47s [B P3 train sonnet] tr48 sell truth=cont AI=crumble (48/60)
+01:20:59 +49s [B P3 train sonnet] tr49 sell truth=cont AI=crumble (49/60)
+01:20:59 +49s [B P3 train sonnet] tr50 sell truth=crumble AI=cont (50/60)
+01:20:59 +50s [B P3 train sonnet] tr46 sell truth=crumble AI=crumble (51/60)
+01:21:00 +51s [B P3 train sonnet] tr51 sell truth=cont AI=cont (52/60)
+01:21:02 +52s [B P3 train sonnet] tr52 sell truth=crumble AI=crumble (53/60)
+01:21:03 +53s [B P3 train sonnet] tr54 sell truth=crumble AI=crumble (54/60)
+01:21:03 +53s [B P3 train sonnet] tr53 sell truth=cont AI=cont (55/60)
+01:21:03 +54s [B P3 train sonnet] tr55 sell truth=crumble AI=cont (56/60)
+01:21:05 +56s [B P3 train sonnet] tr56 sell truth=crumble AI=crumble (57/60)
+01:21:06 +56s [B P3 train sonnet] tr58 sell truth=crumble AI=cont (58/60)
+01:21:07 +57s [B P3 train sonnet] tr59 sell truth=crumble AI=cont (59/60)
+01:21:08 +59s [B P3 train sonnet] tr57 sell truth=crumble AI=crumble (60/60)
+01:21:13 +4s [B P4 train sonnet] tr1 buy truth=cont AI=crumble (1/60)
+01:21:13 +4s [B P4 train sonnet] tr3 buy truth=crumble AI=cont (2/60)
+01:21:13 +4s [B P4 train sonnet] tr2 buy truth=crumble AI=crumble (3/60)
+01:21:14 +5s [B P4 train sonnet] tr4 buy truth=crumble AI=crumble (4/60)
+01:21:17 +8s [B P4 train sonnet] tr6 buy truth=cont AI=cont (5/60)
+01:21:17 +8s [B P4 train sonnet] tr7 buy truth=crumble AI=crumble (6/60)
+01:21:18 +9s [B P4 train sonnet] tr5 buy truth=crumble AI=crumble (7/60)
+01:21:19 +10s [B P4 train sonnet] tr8 buy truth=cont AI=cont (8/60)
+01:21:21 +12s [B P4 train sonnet] tr0 buy truth=crumble AI=cont (9/60)
+01:21:21 +13s [B P4 train sonnet] tr9 buy truth=cont AI=crumble (10/60)
+01:21:22 +14s [B P4 train sonnet] tr10 buy truth=cont AI=crumble (11/60)
+01:21:23 +14s [B P4 train sonnet] tr11 buy truth=cont AI=crumble (12/60)
+01:21:23 +14s [B P4 train sonnet] tr12 buy truth=cont AI=crumble (13/60)
+01:21:24 +15s [B P4 train sonnet] tr13 buy truth=crumble AI=cont (14/60)
+01:21:26 +17s [B P4 train sonnet] tr14 buy truth=crumble AI=crumble (15/60)
+01:21:27 +18s [B P4 train sonnet] tr17 buy truth=cont AI=crumble (16/60)
+01:21:27 +19s [B P4 train sonnet] tr16 buy truth=crumble AI=cont (17/60)
+01:21:28 +19s [B P4 train sonnet] tr15 buy truth=cont AI=crumble (18/60)
+01:21:30 +21s [B P4 train sonnet] tr18 buy truth=cont AI=crumble (19/60)
+01:21:30 +21s [B P4 train sonnet] tr19 buy truth=crumble AI=cont (20/60)
+01:21:31 +22s [B P4 train sonnet] tr21 buy truth=crumble AI=cont (21/60)
+01:21:32 +23s [B P4 train sonnet] tr22 buy truth=crumble AI=crumble (22/60)
+01:21:34 +25s [B P4 train sonnet] tr20 buy truth=crumble AI=crumble (23/60)
+01:21:35 +26s [B P4 train sonnet] tr23 buy truth=cont AI=crumble (24/60)
+01:21:36 +27s [B P4 train sonnet] tr25 buy truth=cont AI=cont (25/60)
+01:21:36 +27s [B P4 train sonnet] tr24 buy truth=crumble AI=cont (26/60)
+01:21:37 +28s [B P4 train sonnet] tr26 buy truth=cont AI=crumble (27/60)
+01:21:38 +29s [B P4 train sonnet] tr27 buy truth=crumble AI=crumble (28/60)
+01:21:38 +30s [B P4 train sonnet] tr28 buy truth=crumble AI=cont (29/60)
+01:21:39 +30s [B P4 train sonnet] tr30 sell truth=cont AI=cont (30/60)
+01:21:41 +32s [B P4 train sonnet] tr29 buy truth=crumble AI=crumble (31/60)
+01:21:41 +32s [B P4 train sonnet] tr31 sell truth=cont AI=cont (32/60)
+01:21:42 +34s [B P4 train sonnet] tr33 sell truth=crumble AI=cont (33/60)
+01:21:43 +34s [B P4 train sonnet] tr32 sell truth=cont AI=crumble (34/60)
+01:21:45 +36s [B P4 train sonnet] tr36 sell truth=cont AI=cont (35/60)
+01:21:45 +36s [B P4 train sonnet] tr34 sell truth=crumble AI=crumble (36/60)
+01:21:46 +37s [B P4 train sonnet] tr35 sell truth=cont AI=crumble (37/60)
+01:21:46 +37s [B P4 train sonnet] tr37 sell truth=cont AI=cont (38/60)
+01:21:47 +38s [B P4 train sonnet] tr38 sell truth=crumble AI=cont (39/60)
+01:21:50 +41s [B P4 train sonnet] tr40 sell truth=crumble AI=crumble (40/60)
+01:21:51 +42s [B P4 train sonnet] tr39 sell truth=cont AI=cont (41/60)
+01:21:51 +42s [B P4 train sonnet] tr43 sell truth=cont AI=crumble (42/60)
+01:21:51 +42s [B P4 train sonnet] tr41 sell truth=cont AI=crumble (43/60)
+01:21:51 +42s [B P4 train sonnet] tr42 sell truth=cont AI=crumble (44/60)
+01:21:55 +46s [B P4 train sonnet] tr47 sell truth=crumble AI=crumble (45/60)
+01:21:55 +46s [B P4 train sonnet] tr46 sell truth=crumble AI=crumble (46/60)
+01:21:56 +47s [B P4 train sonnet] tr45 sell truth=crumble AI=crumble (47/60)
+01:21:57 +48s [B P4 train sonnet] tr48 sell truth=cont AI=crumble (48/60)
+01:21:58 +50s [B P4 train sonnet] tr44 sell truth=crumble AI=crumble (49/60)
+01:21:59 +50s [B P4 train sonnet] tr51 sell truth=cont AI=cont (50/60)
+01:22:00 +51s [B P4 train sonnet] tr49 sell truth=cont AI=crumble (51/60)
+01:22:01 +53s [B P4 train sonnet] tr52 sell truth=crumble AI=crumble (52/60)
+01:22:03 +54s [B P4 train sonnet] tr53 sell truth=cont AI=cont (53/60)
+01:22:04 +55s [B P4 train sonnet] tr54 sell truth=crumble AI=crumble (54/60)
+01:22:04 +55s [B P4 train sonnet] tr55 sell truth=crumble AI=cont (55/60)
+01:22:06 +57s [B P4 train sonnet] tr50 sell truth=crumble AI=cont (56/60)
+01:22:07 +58s [B P4 train sonnet] tr56 sell truth=crumble AI=crumble (57/60)
+01:22:08 +60s [B P4 train sonnet] tr59 sell truth=crumble AI=cont (58/60)
+01:22:09 +60s [B P4 train sonnet] tr58 sell truth=crumble AI=crumble (59/60)
+01:22:11 +62s [B P4 train sonnet] tr57 sell truth=crumble AI=crumble (60/60)
+01:22:54 +4s [B P1 test sonnet] te2 buy truth=crumble AI=crumble (1/40)
+01:22:55 +5s [B P1 test sonnet] te3 buy truth=crumble AI=crumble (2/40)
+01:22:55 +5s [B P1 test sonnet] te1 buy truth=crumble AI=crumble (3/40)
+01:22:55 +6s [B P1 test sonnet] te0 buy truth=crumble AI=crumble (4/40)
+01:22:57 +7s [B P1 test sonnet] te4 buy truth=cont AI=crumble (5/40)
+01:22:58 +9s [B P1 test sonnet] te5 buy truth=cont AI=cont (6/40)
+01:22:59 +9s [B P1 test sonnet] te6 buy truth=crumble AI=crumble (7/40)
+01:22:59 +10s [B P1 test sonnet] te7 buy truth=crumble AI=crumble (8/40)
+01:23:01 +11s [B P1 test sonnet] te9 buy truth=crumble AI=cont (9/40)
+01:23:02 +12s [B P1 test sonnet] te11 buy truth=cont AI=cont (10/40)
+01:23:02 +12s [B P1 test sonnet] te10 buy truth=crumble AI=cont (11/40)
+01:23:03 +13s [B P1 test sonnet] te8 buy truth=crumble AI=crumble (12/40)
+01:23:04 +14s [B P1 test sonnet] te12 buy truth=cont AI=crumble (13/40)
+01:23:06 +16s [B P1 test sonnet] te13 buy truth=crumble AI=crumble (14/40)
+01:23:07 +17s [B P1 test sonnet] te16 buy truth=cont AI=cont (15/40)
+01:23:07 +17s [B P1 test sonnet] te14 buy truth=crumble AI=crumble (16/40)
+01:23:08 +18s [B P1 test sonnet] te17 buy truth=cont AI=cont (17/40)
+01:23:10 +20s [B P1 test sonnet] te15 buy truth=crumble AI=crumble (18/40)
+01:23:10 +21s [B P1 test sonnet] te18 buy truth=crumble AI=crumble (19/40)
+01:23:12 +22s [B P1 test sonnet] te19 buy truth=crumble AI=crumble (20/40)
+01:23:13 +23s [B P1 test sonnet] te20 sell truth=cont AI=crumble (21/40)
+01:23:14 +24s [B P1 test sonnet] te21 sell truth=crumble AI=crumble (22/40)
+01:23:15 +26s [B P1 test sonnet] te22 sell truth=cont AI=cont (23/40)
+01:23:16 +26s [B P1 test sonnet] te24 sell truth=crumble AI=crumble (24/40)
+01:23:17 +27s [B P1 test sonnet] te23 sell truth=crumble AI=crumble (25/40)
+01:23:18 +29s [B P1 test sonnet] te25 sell truth=crumble AI=crumble (26/40)
+01:23:19 +30s [B P1 test sonnet] te26 sell truth=crumble AI=crumble (27/40)
+01:23:20 +31s [B P1 test sonnet] te27 sell truth=crumble AI=crumble (28/40)
+01:23:21 +32s [B P1 test sonnet] te29 sell truth=crumble AI=crumble (29/40)
+01:23:24 +34s [B P1 test sonnet] te28 sell truth=crumble AI=crumble (30/40)
+01:23:24 +34s [B P1 test sonnet] te30 sell truth=cont AI=crumble (31/40)
+01:23:25 +35s [B P1 test sonnet] te31 sell truth=cont AI=crumble (32/40)
+01:23:25 +35s [B P1 test sonnet] te32 sell truth=crumble AI=crumble (33/40)
+01:23:26 +37s [B P1 test sonnet] te33 sell truth=crumble AI=crumble (34/40)
+01:23:28 +38s [B P1 test sonnet] te35 sell truth=cont AI=crumble (35/40)
+01:23:29 +39s [B P1 test sonnet] te34 sell truth=cont AI=crumble (36/40)
+01:23:30 +40s [B P1 test sonnet] te37 sell truth=crumble AI=crumble (37/40)
+01:23:30 +40s [B P1 test sonnet] te36 sell truth=crumble AI=crumble (38/40)
+01:23:31 +41s [B P1 test sonnet] te38 sell truth=crumble AI=crumble (39/40)
+01:23:34 +44s [B P1 test sonnet] te39 sell truth=crumble AI=crumble (40/40)
+01:23:38 +4s [B P3 test sonnet] te0 buy truth=crumble AI=crumble (1/40)
+01:23:39 +5s [B P3 test sonnet] te2 buy truth=crumble AI=crumble (2/40)
+01:23:39 +5s [B P3 test sonnet] te1 buy truth=crumble AI=crumble (3/40)
+01:23:40 +5s [B P3 test sonnet] te3 buy truth=crumble AI=crumble (4/40)
+01:23:41 +7s [B P3 test sonnet] te4 buy truth=cont AI=crumble (5/40)
+01:23:42 +8s [B P3 test sonnet] te5 buy truth=cont AI=cont (6/40)
+01:23:43 +9s [B P3 test sonnet] te6 buy truth=crumble AI=crumble (7/40)
+01:23:45 +10s [B P3 test sonnet] te8 buy truth=crumble AI=crumble (8/40)
+01:23:45 +11s [B P3 test sonnet] te7 buy truth=crumble AI=crumble (9/40)
+01:23:45 +11s [B P3 test sonnet] te9 buy truth=crumble AI=cont (10/40)
+01:23:46 +12s [B P3 test sonnet] te10 buy truth=crumble AI=cont (11/40)
+01:23:47 +13s [B P3 test sonnet] te11 buy truth=cont AI=cont (12/40)
+01:23:49 +15s [B P3 test sonnet] te12 buy truth=cont AI=crumble (13/40)
+01:23:49 +15s [B P3 test sonnet] te13 buy truth=crumble AI=crumble (14/40)
+01:23:50 +16s [B P3 test sonnet] te15 buy truth=crumble AI=crumble (15/40)
+01:23:51 +16s [B P3 test sonnet] te14 buy truth=crumble AI=crumble (16/40)
+01:23:51 +17s [B P3 test sonnet] te16 buy truth=cont AI=cont (17/40)
+01:23:53 +19s [B P3 test sonnet] te17 buy truth=cont AI=cont (18/40)
+01:23:54 +20s [B P3 test sonnet] te18 buy truth=crumble AI=crumble (19/40)
+01:23:55 +20s [B P3 test sonnet] te19 buy truth=crumble AI=crumble (20/40)
+01:23:56 +22s [B P3 test sonnet] te21 sell truth=crumble AI=crumble (21/40)
+01:23:56 +22s [B P3 test sonnet] te20 sell truth=cont AI=crumble (22/40)
+01:23:57 +23s [B P3 test sonnet] te22 sell truth=cont AI=cont (23/40)
+01:23:59 +25s [B P3 test sonnet] te24 sell truth=crumble AI=crumble (24/40)
+01:24:00 +26s [B P3 test sonnet] te23 sell truth=crumble AI=crumble (25/40)
+01:24:01 +27s [B P3 test sonnet] te26 sell truth=crumble AI=crumble (26/40)
+01:24:02 +28s [B P3 test sonnet] te25 sell truth=crumble AI=crumble (27/40)
+01:24:02 +28s [B P3 test sonnet] te27 sell truth=crumble AI=crumble (28/40)
+01:24:04 +29s [B P3 test sonnet] te28 sell truth=crumble AI=crumble (29/40)
+01:24:04 +30s [B P3 test sonnet] te29 sell truth=crumble AI=crumble (30/40)
+01:24:06 +32s [B P3 test sonnet] te31 sell truth=cont AI=crumble (31/40)
+01:24:06 +32s [B P3 test sonnet] te30 sell truth=cont AI=crumble (32/40)
+01:24:07 +32s [B P3 test sonnet] te32 sell truth=crumble AI=cont (33/40)
+01:24:09 +35s [B P3 test sonnet] te33 sell truth=crumble AI=crumble (34/40)
+01:24:09 +35s [B P3 test sonnet] te34 sell truth=cont AI=crumble (35/40)
+01:24:10 +36s [B P3 test sonnet] te35 sell truth=cont AI=crumble (36/40)
+01:24:11 +36s [B P3 test sonnet] te36 sell truth=crumble AI=crumble (37/40)
+01:24:12 +38s [B P3 test sonnet] te37 sell truth=crumble AI=crumble (38/40)
+01:24:13 +38s [B P3 test sonnet] te38 sell truth=crumble AI=cont (39/40)
+01:24:18 +43s [B P3 test sonnet] te39 sell truth=crumble AI=crumble (40/40)
+01:24:23 +4s [B P1 heldout sonnet] ho3 buy truth=crumble AI=cont (1/40)
+01:24:23 +5s [B P1 heldout sonnet] ho4 buy truth=crumble AI=crumble (2/40)
+01:24:23 +5s [B P1 heldout sonnet] ho2 buy truth=cont AI=crumble (3/40)
+01:24:23 +5s [B P1 heldout sonnet] ho1 buy truth=cont AI=cont (4/40)
+01:24:24 +6s [B P1 heldout sonnet] ho0 buy truth=crumble AI=cont (5/40)
+01:24:26 +8s [B P1 heldout sonnet] ho6 buy truth=crumble AI=cont (6/40)
+01:24:27 +8s [B P1 heldout sonnet] ho7 buy truth=crumble AI=cont (7/40)
+01:24:28 +9s [B P1 heldout sonnet] ho8 buy truth=crumble AI=crumble (8/40)
+01:24:28 +10s [B P1 heldout sonnet] ho9 buy truth=crumble AI=crumble (9/40)
+01:24:31 +13s [B P1 heldout sonnet] ho5 buy truth=crumble AI=crumble (10/40)
+01:24:31 +13s [B P1 heldout sonnet] ho10 buy truth=crumble AI=crumble (11/40)
+01:24:32 +14s [B P1 heldout sonnet] ho11 buy truth=cont AI=crumble (12/40)
+01:24:32 +14s [B P1 heldout sonnet] ho13 buy truth=crumble AI=crumble (13/40)
+01:24:33 +15s [B P1 heldout sonnet] ho12 buy truth=cont AI=crumble (14/40)
+01:24:35 +17s [B P1 heldout sonnet] ho16 buy truth=crumble AI=cont (15/40)
+01:24:36 +17s [B P1 heldout sonnet] ho14 buy truth=crumble AI=crumble (16/40)
+01:24:36 +17s [B P1 heldout sonnet] ho15 buy truth=crumble AI=crumble (17/40)
+01:24:36 +18s [B P1 heldout sonnet] ho17 buy truth=crumble AI=cont (18/40)
+01:24:37 +19s [B P1 heldout sonnet] ho18 buy truth=crumble AI=crumble (19/40)
+01:24:39 +21s [B P1 heldout sonnet] ho21 sell truth=crumble AI=crumble (20/40)
+01:24:40 +22s [B P1 heldout sonnet] ho20 sell truth=cont AI=cont (21/40)
+01:24:40 +22s [B P1 heldout sonnet] ho19 buy truth=crumble AI=crumble (22/40)
+01:24:42 +23s [B P1 heldout sonnet] ho23 sell truth=cont AI=crumble (23/40)
+01:24:44 +26s [B P1 heldout sonnet] ho22 sell truth=crumble AI=crumble (24/40)
+01:24:44 +26s [B P1 heldout sonnet] ho26 sell truth=crumble AI=crumble (25/40)
+01:24:44 +26s [B P1 heldout sonnet] ho25 sell truth=crumble AI=crumble (26/40)
+01:24:46 +27s [B P1 heldout sonnet] ho24 sell truth=crumble AI=cont (27/40)
+01:24:46 +28s [B P1 heldout sonnet] ho27 sell truth=crumble AI=crumble (28/40)
+01:24:49 +31s [B P1 heldout sonnet] ho28 sell truth=crumble AI=crumble (29/40)
+01:24:49 +31s [B P1 heldout sonnet] ho29 sell truth=crumble AI=crumble (30/40)
+01:24:50 +32s [B P1 heldout sonnet] ho31 sell truth=crumble AI=crumble (31/40)
+01:24:50 +32s [B P1 heldout sonnet] ho32 sell truth=crumble AI=crumble (32/40)
+01:24:52 +34s [B P1 heldout sonnet] ho30 sell truth=cont AI=crumble (33/40)
+01:24:53 +35s [B P1 heldout sonnet] ho33 sell truth=crumble AI=crumble (34/40)
+01:24:54 +36s [B P1 heldout sonnet] ho35 sell truth=crumble AI=crumble (35/40)
+01:24:55 +37s [B P1 heldout sonnet] ho34 sell truth=cont AI=crumble (36/40)
+01:24:55 +37s [B P1 heldout sonnet] ho36 sell truth=crumble AI=crumble (37/40)
+01:24:56 +38s [B P1 heldout sonnet] ho37 sell truth=cont AI=cont (38/40)
+01:24:57 +39s [B P1 heldout sonnet] ho38 sell truth=crumble AI=crumble (39/40)
+01:24:59 +41s [B P1 heldout sonnet] ho39 sell truth=crumble AI=crumble (40/40)
+01:25:04 +4s [B P3 heldout sonnet] ho1 buy truth=cont AI=cont (1/40)
+01:25:04 +4s [B P3 heldout sonnet] ho3 buy truth=crumble AI=cont (2/40)
+01:25:05 +5s [B P3 heldout sonnet] ho2 buy truth=cont AI=crumble (3/40)
+01:25:05 +5s [B P3 heldout sonnet] ho4 buy truth=crumble AI=crumble (4/40)
+01:25:05 +5s [B P3 heldout sonnet] ho0 buy truth=crumble AI=crumble (5/40)
+01:25:08 +8s [B P3 heldout sonnet] ho6 buy truth=crumble AI=cont (6/40)
+01:25:08 +8s [B P3 heldout sonnet] ho5 buy truth=crumble AI=crumble (7/40)
+01:25:09 +9s [B P3 heldout sonnet] ho9 buy truth=crumble AI=crumble (8/40)
+01:25:09 +9s [B P3 heldout sonnet] ho7 buy truth=crumble AI=cont (9/40)
+01:25:09 +9s [B P3 heldout sonnet] ho8 buy truth=crumble AI=crumble (10/40)
+01:25:12 +12s [B P3 heldout sonnet] ho11 buy truth=cont AI=crumble (11/40)
+01:25:13 +13s [B P3 heldout sonnet] ho10 buy truth=crumble AI=crumble (12/40)
+01:25:13 +13s [B P3 heldout sonnet] ho12 buy truth=cont AI=crumble (13/40)
+01:25:14 +14s [B P3 heldout sonnet] ho14 buy truth=crumble AI=crumble (14/40)
+01:25:14 +14s [B P3 heldout sonnet] ho13 buy truth=crumble AI=crumble (15/40)
+01:25:16 +16s [B P3 heldout sonnet] ho17 buy truth=crumble AI=cont (16/40)
+01:25:17 +17s [B P3 heldout sonnet] ho18 buy truth=crumble AI=crumble (17/40)
+01:25:17 +17s [B P3 heldout sonnet] ho15 buy truth=crumble AI=crumble (18/40)
+01:25:18 +18s [B P3 heldout sonnet] ho16 buy truth=crumble AI=cont (19/40)
+01:25:20 +20s [B P3 heldout sonnet] ho19 buy truth=crumble AI=crumble (20/40)
+01:25:21 +21s [B P3 heldout sonnet] ho20 sell truth=cont AI=cont (21/40)
+01:25:22 +22s [B P3 heldout sonnet] ho21 sell truth=crumble AI=crumble (22/40)
+01:25:23 +23s [B P3 heldout sonnet] ho22 sell truth=crumble AI=crumble (23/40)
+01:25:23 +23s [B P3 heldout sonnet] ho23 sell truth=cont AI=crumble (24/40)
+01:25:24 +24s [B P3 heldout sonnet] ho24 sell truth=crumble AI=cont (25/40)
+01:25:26 +26s [B P3 heldout sonnet] ho25 sell truth=crumble AI=crumble (26/40)
+01:25:27 +27s [B P3 heldout sonnet] ho26 sell truth=crumble AI=crumble (27/40)
+01:25:28 +28s [B P3 heldout sonnet] ho28 sell truth=crumble AI=crumble (28/40)
+01:25:28 +28s [B P3 heldout sonnet] ho27 sell truth=crumble AI=crumble (29/40)
+01:25:29 +29s [B P3 heldout sonnet] ho29 sell truth=crumble AI=crumble (30/40)
+01:25:31 +31s [B P3 heldout sonnet] ho30 sell truth=cont AI=crumble (31/40)
+01:25:31 +31s [B P3 heldout sonnet] ho31 sell truth=crumble AI=crumble (32/40)
+01:25:32 +32s [B P3 heldout sonnet] ho33 sell truth=crumble AI=crumble (33/40)
+01:25:33 +33s [B P3 heldout sonnet] ho32 sell truth=crumble AI=crumble (34/40)
+01:25:34 +34s [B P3 heldout sonnet] ho34 sell truth=cont AI=crumble (35/40)
+01:25:35 +35s [B P3 heldout sonnet] ho36 sell truth=crumble AI=crumble (36/40)
+01:25:36 +36s [B P3 heldout sonnet] ho35 sell truth=crumble AI=crumble (37/40)
+01:25:37 +37s [B P3 heldout sonnet] ho37 sell truth=cont AI=cont (38/40)
+01:25:37 +37s [B P3 heldout sonnet] ho38 sell truth=crumble AI=crumble (39/40)
+01:25:38 +38s [B P3 heldout sonnet] ho39 sell truth=crumble AI=crumble (40/40)
+01:30:46 +3s [C_train_opus] tr0 buy step t-5(1/6) truth=crumble v=続く conf=0.5
+01:30:49 +7s [C_train_opus] tr0 buy step t-4(2/6) truth=crumble v=続く conf=0.55
+01:30:52 +9s [C_train_opus] tr0 buy step t-3(3/6) truth=crumble v=続く conf=0.5
+01:30:57 +15s [C_train_opus] tr0 buy step t-2(4/6) truth=crumble v=続く conf=0.65
+01:31:01 +18s [C_train_opus] tr0 buy step t-1(5/6) truth=crumble v=続く conf=0.7
+01:31:09 +27s [C_train_opus] tr0 buy step t0(6/6) truth=crumble v=続く conf=0.62
+01:31:15 +32s [C_train_opus] tr1 buy step t-7(1/8) truth=cont v=崩れる conf=0.4
+01:31:18 +36s [C_train_opus] tr1 buy step t-6(2/8) truth=cont v=続く conf=0.45
+01:31:22 +39s [C_train_opus] tr1 buy step t-5(3/8) truth=cont v=続く conf=0.6
+01:31:26 +44s [C_train_opus] tr1 buy step t-4(4/8) truth=cont v=続く conf=0.5
+01:31:30 +48s [C_train_opus] tr1 buy step t-3(5/8) truth=cont v=続く conf=0.5
+01:31:34 +51s [C_train_opus] tr1 buy step t-2(6/8) truth=cont v=続く conf=0.55
+01:31:37 +55s [C_train_opus] tr1 buy step t-1(7/8) truth=cont v=続く conf=0.6
+01:31:43 +61s [C_train_opus] tr1 buy step t0(8/8) truth=cont v=崩れる conf=0.55
+01:31:48 +65s [C_train_opus] tr2 buy step t-7(1/8) truth=crumble v=続く conf=0.5
+01:31:51 +68s [C_train_opus] tr2 buy step t-6(2/8) truth=crumble v=続く conf=0.4
+01:31:55 +72s [C_train_opus] tr2 buy step t-5(3/8) truth=crumble v=続く conf=0.7
+01:31:58 +75s [C_train_opus] tr2 buy step t-4(4/8) truth=crumble v=続く conf=0.6
+01:32:02 +79s [C_train_opus] tr2 buy step t-3(5/8) truth=crumble v=続く conf=0.6
+01:32:06 +83s [C_train_opus] tr2 buy step t-2(6/8) truth=crumble v=崩れる conf=0.6
+01:32:09 +86s [C_train_opus] tr2 buy step t-1(7/8) truth=crumble v=崩れる conf=0.6
+01:32:11 +89s [C_train_opus] tr2 buy step t0(8/8) truth=crumble v=崩れる conf=0.7
+01:32:16 +93s [C_train_opus] tr3 buy step t-6(1/7) truth=crumble v=崩れる conf=0.4
+01:32:19 +96s [C_train_opus] tr3 buy step t-5(2/7) truth=crumble v=続く conf=0.55
+01:32:23 +100s [C_train_opus] tr3 buy step t-4(3/7) truth=crumble v=続く conf=0.6
+01:32:27 +104s [C_train_opus] tr3 buy step t-3(4/7) truth=crumble v=続く conf=0.7
+01:32:31 +108s [C_train_opus] tr3 buy step t-2(5/7) truth=crumble v=続く conf=0.6
+01:32:34 +111s [C_train_opus] tr3 buy step t-1(6/7) truth=crumble v=崩れる conf=0.6
+01:32:42 +119s [C_train_opus] tr3 buy step t0(7/7) truth=crumble v=崩れる conf=0.62
+01:32:45 +123s [C_train_opus] tr4 buy step t-5(1/6) truth=crumble v=続く conf=0.5
+01:32:49 +126s [C_train_opus] tr4 buy step t-4(2/6) truth=crumble v=続く conf=0.55
+01:32:52 +129s [C_train_opus] tr4 buy step t-3(3/6) truth=crumble v=続く conf=0.65
+01:32:55 +132s [C_train_opus] tr4 buy step t-2(4/6) truth=crumble v=続く conf=0.7
+01:32:59 +136s [C_train_opus] tr4 buy step t-1(5/6) truth=crumble v=続く conf=0.55
+01:33:06 +143s [C_train_opus] tr4 buy step t0(6/6) truth=crumble v=続く conf=0.55
+01:33:13 +150s [C_train_opus] tr5 buy step t-5(1/6) truth=crumble v=崩れる conf=0.72
+01:33:16 +153s [C_train_opus] tr5 buy step t-4(2/6) truth=crumble v=続く conf=0.55
+01:33:20 +157s [C_train_opus] tr5 buy step t-3(3/6) truth=crumble v=続く conf=0.5
+01:33:24 +161s [C_train_opus] tr5 buy step t-2(4/6) truth=crumble v=続く conf=0.62
+01:33:28 +165s [C_train_opus] tr5 buy step t-1(5/6) truth=crumble v=続く conf=0.55
+01:33:34 +171s [C_train_opus] tr5 buy step t0(6/6) truth=crumble v=続く conf=0.52
+01:33:38 +175s [C_train_opus] tr6 buy step t-5(1/6) truth=cont v=続く conf=0.5
+01:33:45 +182s [C_train_opus] tr6 buy step t-4(2/6) truth=cont v=続く conf=0.45
+01:33:49 +187s [C_train_opus] tr6 buy step t-3(3/6) truth=cont v=続く conf=0.6
+01:33:55 +192s [C_train_opus] tr6 buy step t-2(4/6) truth=cont v=続く conf=0.7
+01:33:59 +197s [C_train_opus] tr6 buy step t-1(5/6) truth=cont v=続く conf=0.6
+01:34:06 +203s [C_train_opus] tr6 buy step t0(6/6) truth=cont v=続く conf=0.55
+01:34:10 +207s [C_train_opus] tr7 buy step t-5(1/6) truth=crumble v=崩れる conf=0.4
+01:34:13 +211s [C_train_opus] tr7 buy step t-4(2/6) truth=crumble v=崩れる conf=0.45
+01:34:18 +215s [C_train_opus] tr7 buy step t-3(3/6) truth=crumble v=続く conf=0.55
+01:34:21 +219s [C_train_opus] tr7 buy step t-2(4/6) truth=crumble v=続く conf=0.6
+01:34:25 +222s [C_train_opus] tr7 buy step t-1(5/6) truth=crumble v=続く conf=0.55
+01:34:35 +233s [C_train_opus] tr7 buy step t0(6/6) truth=crumble v=崩れる conf=0.5
+01:34:39 +236s [C_train_opus] tr8 buy step t-7(1/8) truth=cont v=続く conf=0.4
+01:34:43 +240s [C_train_opus] tr8 buy step t-6(2/8) truth=cont v=続く conf=0.55
+01:34:46 +243s [C_train_opus] tr8 buy step t-5(3/8) truth=cont v=続く conf=0.6
+01:34:50 +248s [C_train_opus] tr8 buy step t-4(4/8) truth=cont v=続く conf=0.55
+01:34:54 +252s [C_train_opus] tr8 buy step t-3(5/8) truth=cont v=続く conf=0.5
+01:35:03 +260s [C_train_opus] tr8 buy step t-2(6/8) truth=cont v=崩れる conf=0.55
+01:35:08 +265s [C_train_opus] tr8 buy step t-1(7/8) truth=cont v=続く conf=0.65
+01:35:15 +272s [C_train_opus] tr8 buy step t0(8/8) truth=cont v=続く conf=0.55
+01:35:20 +277s [C_train_opus] tr9 buy step t-6(1/7) truth=cont v=崩れる conf=0.4
+01:35:23 +280s [C_train_opus] tr9 buy step t-5(2/7) truth=cont v=崩れる conf=0.4
+01:35:27 +285s [C_train_opus] tr9 buy step t-4(3/7) truth=cont v=続く conf=0.7
+01:35:31 +289s [C_train_opus] tr9 buy step t-3(4/7) truth=cont v=続く conf=0.6
+01:35:36 +293s [C_train_opus] tr9 buy step t-2(5/7) truth=cont v=続く conf=0.65
+01:35:41 +298s [C_train_opus] tr9 buy step t-1(6/7) truth=cont v=崩れる conf=0.6
+01:35:51 +309s [C_train_opus] tr9 buy step t0(7/7) truth=cont v=崩れる conf=0.55
+01:35:56 +313s [C_train_opus] tr10 buy step t-5(1/6) truth=cont v=崩れる conf=0.35
+01:35:59 +316s [C_train_opus] tr10 buy step t-4(2/6) truth=cont v=続く conf=0.4
+01:36:06 +323s [C_train_opus] tr10 buy step t-3(3/6) truth=cont v=続く conf=0.5
+01:36:09 +327s [C_train_opus] tr10 buy step t-2(4/6) truth=cont v=続く conf=0.65
+01:36:13 +331s [C_train_opus] tr10 buy step t-1(5/6) truth=cont v=続く conf=0.6
+01:36:20 +337s [C_train_opus] tr10 buy step t0(6/6) truth=cont v=続く conf=0.55
+01:36:23 +341s [C_train_opus] tr11 buy step t-7(1/8) truth=cont v=崩れる conf=0.4
+01:36:27 +344s [C_train_opus] tr11 buy step t-6(2/8) truth=cont v=崩れる conf=0.38
+01:36:31 +348s [C_train_opus] tr11 buy step t-5(3/8) truth=cont v=崩れる conf=0.42
+01:36:34 +351s [C_train_opus] tr11 buy step t-4(4/8) truth=cont v=続く conf=0.6
+01:36:37 +355s [C_train_opus] tr11 buy step t-3(5/8) truth=cont v=崩れる conf=0.45
+01:36:41 +358s [C_train_opus] tr11 buy step t-2(6/8) truth=cont v=崩れる conf=0.5
+01:36:45 +362s [C_train_opus] tr11 buy step t-1(7/8) truth=cont v=崩れる conf=0.58
+01:36:53 +371s [C_train_opus] tr11 buy step t0(8/8) truth=cont v=続く conf=0.55
+01:36:59 +376s [C_train_opus] tr30 sell step t-5(1/6) truth=cont v=続く conf=0.5
+01:37:03 +380s [C_train_opus] tr30 sell step t-4(2/6) truth=cont v=続く conf=0.7
+01:37:07 +384s [C_train_opus] tr30 sell step t-3(3/6) truth=cont v=続く conf=0.6
+01:37:11 +388s [C_train_opus] tr30 sell step t-2(4/6) truth=cont v=続く conf=0.75
+01:37:15 +392s [C_train_opus] tr30 sell step t-1(5/6) truth=cont v=続く conf=0.6
+01:37:17 +394s [C_train_opus] tr30 sell step t0(6/6) truth=cont v=続く conf=0.72
+01:37:22 +400s [C_train_opus] tr31 sell step t-5(1/6) truth=cont v=崩れる conf=0.55
+01:37:26 +403s [C_train_opus] tr31 sell step t-4(2/6) truth=cont v=続く conf=0.5
+01:37:30 +407s [C_train_opus] tr31 sell step t-3(3/6) truth=cont v=続く conf=0.6
+01:37:32 +410s [C_train_opus] tr31 sell step t-2(4/6) truth=cont v=続く conf=0.68
+01:37:36 +413s [C_train_opus] tr31 sell step t-1(5/6) truth=cont v=続く conf=0.55
+01:37:39 +416s [C_train_opus] tr31 sell step t0(6/6) truth=cont v=続く conf=0.6
+01:37:42 +419s [C_train_opus] tr32 sell step t-7(1/8) truth=cont v=続く conf=0.78
+01:37:46 +423s [C_train_opus] tr32 sell step t-6(2/8) truth=cont v=続く conf=0.7
+01:37:50 +427s [C_train_opus] tr32 sell step t-5(3/8) truth=cont v=続く conf=0.6
+01:37:56 +434s [C_train_opus] tr32 sell step t-4(4/8) truth=cont v=続く conf=0.62
+01:37:59 +436s [C_train_opus] tr32 sell step t-3(5/8) truth=cont v=続く conf=0.8
+01:38:05 +442s [C_train_opus] tr32 sell step t-2(6/8) truth=cont v=続く conf=0.7
+01:38:08 +446s [C_train_opus] tr32 sell step t-1(7/8) truth=cont v=崩れる conf=0.62
+01:38:15 +452s [C_train_opus] tr32 sell step t0(8/8) truth=cont v=崩れる conf=0.6
+01:38:20 +458s [C_train_opus] tr33 sell step t-5(1/6) truth=crumble v=崩れる conf=0.62
+01:38:25 +463s [C_train_opus] tr33 sell step t-4(2/6) truth=crumble v=続く conf=0.7
+01:38:29 +467s [C_train_opus] tr33 sell step t-3(3/6) truth=crumble v=続く conf=0.6
+01:38:36 +474s [C_train_opus] tr33 sell step t-2(4/6) truth=crumble v=続く conf=0.52
+01:38:42 +479s [C_train_opus] tr33 sell step t-1(5/6) truth=crumble v=崩れる conf=0.55
+01:38:46 +483s [C_train_opus] tr33 sell step t0(6/6) truth=crumble v=続く conf=0.6
+01:38:50 +487s [C_train_opus] tr34 sell step t-6(1/7) truth=crumble v=続く conf=0.55
+01:38:57 +494s [C_train_opus] tr34 sell step t-5(2/7) truth=crumble v=続く conf=0.62
+01:39:00 +497s [C_train_opus] tr34 sell step t-4(3/7) truth=crumble v=続く conf=0.68
+01:39:06 +503s [C_train_opus] tr34 sell step t-3(4/7) truth=crumble v=続く conf=0.7
+01:39:14 +512s [C_train_opus] tr34 sell step t-2(5/7) truth=crumble v=崩れる conf=0.6
+01:39:18 +516s [C_train_opus] tr34 sell step t-1(6/7) truth=crumble v=崩れる conf=0.72
+01:39:25 +522s [C_train_opus] tr34 sell step t0(7/7) truth=crumble v=続く conf=0.6
+01:39:31 +528s [C_train_opus] tr35 sell step t-7(1/8) truth=cont v=続く conf=0.62
+01:39:35 +532s [C_train_opus] tr35 sell step t-6(2/8) truth=cont v=続く conf=0.78
+01:39:40 +537s [C_train_opus] tr35 sell step t-5(3/8) truth=cont v=続く conf=0.6
+01:39:47 +544s [C_train_opus] tr35 sell step t-4(4/8) truth=cont v=崩れる conf=0.66
+01:39:57 +554s [C_train_opus] tr35 sell step t-3(5/8) truth=cont v=崩れる conf=0.62
+01:40:01 +558s [C_train_opus] tr35 sell step t-2(6/8) truth=cont v=崩れる conf=0.68
+01:40:05 +562s [C_train_opus] tr35 sell step t-1(7/8) truth=cont v=崩れる conf=0.74
+01:40:08 +565s [C_train_opus] tr35 sell step t0(8/8) truth=cont v=崩れる conf=0.82
+01:40:13 +570s [C_train_opus] tr36 sell step t-6(1/7) truth=cont v=続く conf=0.55
+01:40:17 +575s [C_train_opus] tr36 sell step t-5(2/7) truth=cont v=続く conf=0.5
+01:40:21 +578s [C_train_opus] tr36 sell step t-4(3/7) truth=cont v=続く conf=0.55
+01:40:25 +582s [C_train_opus] tr36 sell step t-3(4/7) truth=cont v=崩れる conf=0.55
+01:40:31 +588s [C_train_opus] tr36 sell step t-2(5/7) truth=cont v=続く conf=0.6
+01:40:34 +591s [C_train_opus] tr36 sell step t-1(6/7) truth=cont v=続く conf=0.65
+01:40:44 +602s [C_train_opus] tr36 sell step t0(7/7) truth=cont v=続く conf=0.55
+01:40:51 +608s [C_train_opus] tr37 sell step t-6(1/7) truth=cont v=崩れる conf=0.6
+01:40:54 +611s [C_train_opus] tr37 sell step t-5(2/7) truth=cont v=続く conf=0.55
+01:40:59 +616s [C_train_opus] tr37 sell step t-4(3/7) truth=cont v=続く conf=0.7
+01:41:03 +621s [C_train_opus] tr37 sell step t-3(4/7) truth=cont v=続く conf=0.65
+01:41:06 +624s [C_train_opus] tr37 sell step t-2(5/7) truth=cont v=続く conf=0.7
+01:41:11 +628s [C_train_opus] tr37 sell step t-1(6/7) truth=cont v=続く conf=0.68
+01:41:20 +638s [C_train_opus] tr37 sell step t0(7/7) truth=cont v=崩れる conf=0.6
+01:41:25 +642s [C_train_opus] tr38 sell step t-5(1/6) truth=crumble v=崩れる conf=0.7
+01:41:28 +645s [C_train_opus] tr38 sell step t-4(2/6) truth=crumble v=崩れる conf=0.55
+01:41:32 +649s [C_train_opus] tr38 sell step t-3(3/6) truth=crumble v=続く conf=0.6
+01:41:35 +653s [C_train_opus] tr38 sell step t-2(4/6) truth=crumble v=続く conf=0.85
+01:41:38 +655s [C_train_opus] tr38 sell step t-1(5/6) truth=crumble v=続く conf=0.8
+01:41:45 +663s [C_train_opus] tr38 sell step t0(6/6) truth=crumble v=崩れる conf=0.6
+01:41:51 +669s [C_train_opus] tr39 sell step t-7(1/8) truth=cont v=崩れる conf=0.62
+01:41:56 +673s [C_train_opus] tr39 sell step t-6(2/8) truth=cont v=続く conf=0.7
+01:42:00 +677s [C_train_opus] tr39 sell step t-5(3/8) truth=cont v=続く conf=0.72
+01:42:04 +682s [C_train_opus] tr39 sell step t-4(4/8) truth=cont v=続く conf=0.6
+01:42:09 +686s [C_train_opus] tr39 sell step t-3(5/8) truth=cont v=崩れる conf=0.66
+01:42:16 +694s [C_train_opus] tr39 sell step t-2(6/8) truth=cont v=続く conf=0.55
+01:42:21 +698s [C_train_opus] tr39 sell step t-1(7/8) truth=cont v=崩れる conf=0.62
+01:42:25 +702s [C_train_opus] tr39 sell step t0(8/8) truth=cont v=崩れる conf=0.7
+01:42:30 +707s [C_train_opus] tr40 sell step t-5(1/6) truth=crumble v=崩れる conf=0.6
+01:42:36 +713s [C_train_opus] tr40 sell step t-4(2/6) truth=crumble v=崩れる conf=0.5
+01:42:40 +717s [C_train_opus] tr40 sell step t-3(3/6) truth=crumble v=続く conf=0.7
+01:42:44 +721s [C_train_opus] tr40 sell step t-2(4/6) truth=crumble v=続く conf=0.65
+01:42:48 +725s [C_train_opus] tr40 sell step t-1(5/6) truth=crumble v=続く conf=0.6
+01:42:54 +731s [C_train_opus] tr40 sell step t0(6/6) truth=crumble v=崩れる conf=0.7
+01:42:58 +736s [C_train_opus] tr41 sell step t-5(1/6) truth=cont v=崩れる conf=0.35
+01:43:02 +739s [C_train_opus] tr41 sell step t-4(2/6) truth=cont v=続く conf=0.45
+01:43:07 +744s [C_train_opus] tr41 sell step t-3(3/6) truth=cont v=続く conf=0.4
+01:43:11 +748s [C_train_opus] tr41 sell step t-2(4/6) truth=cont v=続く conf=0.7
+01:43:14 +752s [C_train_opus] tr41 sell step t-1(5/6) truth=cont v=続く conf=0.6
+01:43:18 +755s [C_train_opus] tr41 sell step t0(6/6) truth=cont v=崩れる conf=0.65
+01:43:23 +4s [C_test_opus] te0 buy step t-5(1/6) truth=crumble v=崩れる conf=0.4
+01:43:26 +8s [C_test_opus] te0 buy step t-4(2/6) truth=crumble v=続く conf=0.7
+01:43:30 +11s [C_test_opus] te0 buy step t-3(3/6) truth=crumble v=続く conf=0.65
+01:43:34 +15s [C_test_opus] te0 buy step t-2(4/6) truth=crumble v=続く conf=0.6
+01:43:41 +22s [C_test_opus] te0 buy step t-1(5/6) truth=crumble v=続く conf=0.55
+01:43:47 +28s [C_test_opus] te0 buy step t0(6/6) truth=crumble v=崩れる conf=0.6
+01:43:50 +31s [C_test_opus] te1 buy step t-6(1/7) truth=crumble v=崩れる conf=0.5
+01:43:53 +35s [C_test_opus] te1 buy step t-5(2/7) truth=crumble v=続く conf=0.5
+01:43:56 +38s [C_test_opus] te1 buy step t-4(3/7) truth=crumble v=続く conf=0.55
+01:44:00 +41s [C_test_opus] te1 buy step t-3(4/7) truth=crumble v=続く conf=0.7
+01:44:04 +45s [C_test_opus] te1 buy step t-2(5/7) truth=crumble v=続く conf=0.7
+01:44:09 +51s [C_test_opus] te1 buy step t-1(6/7) truth=crumble v=崩れる conf=0.65
+01:44:18 +59s [C_test_opus] te1 buy step t0(7/7) truth=crumble v=続く conf=0.55
+01:44:22 +64s [C_test_opus] te2 buy step t-6(1/7) truth=crumble v=崩れる conf=0.5
+01:44:25 +66s [C_test_opus] te2 buy step t-5(2/7) truth=crumble v=続く conf=0.55
+01:44:28 +70s [C_test_opus] te2 buy step t-4(3/7) truth=crumble v=続く conf=0.68
+01:44:31 +72s [C_test_opus] te2 buy step t-3(4/7) truth=crumble v=続く conf=0.72
+01:44:34 +76s [C_test_opus] te2 buy step t-2(5/7) truth=crumble v=続く conf=0.62
+01:44:38 +79s [C_test_opus] te2 buy step t-1(6/7) truth=crumble v=崩れる conf=0.6
+01:44:43 +84s [C_test_opus] te2 buy step t0(7/7) truth=crumble v=崩れる conf=0.62
+01:44:48 +89s [C_test_opus] te3 buy step t-5(1/6) truth=crumble v=崩れる conf=0.55
+01:44:52 +93s [C_test_opus] te3 buy step t-4(2/6) truth=crumble v=続く conf=0.55
+01:44:56 +97s [C_test_opus] te3 buy step t-3(3/6) truth=crumble v=続く conf=0.6
+01:45:00 +101s [C_test_opus] te3 buy step t-2(4/6) truth=crumble v=続く conf=0.7
+01:45:04 +105s [C_test_opus] te3 buy step t-1(5/6) truth=crumble v=続く conf=0.6
+01:45:08 +110s [C_test_opus] te3 buy step t0(6/6) truth=crumble v=続く conf=0.6
+01:45:13 +114s [C_test_opus] te4 buy step t-5(1/6) truth=cont v=崩れる conf=0.5
+01:45:18 +120s [C_test_opus] te4 buy step t-4(2/6) truth=cont v=続く conf=0.45
+01:45:22 +124s [C_test_opus] te4 buy step t-3(3/6) truth=cont v=崩れる conf=0.4
+01:45:56 +158s [C_test_opus] te4 buy step t-2(4/6) truth=cont v=続く conf=0.4
+01:46:00 +161s [C_test_opus] te4 buy step t-1(5/6) truth=cont v=続く conf=0.5
+01:46:06 +167s [C_test_opus] te4 buy step t0(6/6) truth=cont v=続く conf=0.7
+01:46:11 +173s [C_test_opus] te5 buy step t-7(1/8) truth=cont v=続く conf=0.7
+01:46:15 +176s [C_test_opus] te5 buy step t-6(2/8) truth=cont v=続く conf=0.72
+01:46:18 +180s [C_test_opus] te5 buy step t-5(3/8) truth=cont v=続く conf=0.6
+01:46:22 +183s [C_test_opus] te5 buy step t-4(4/8) truth=cont v=崩れる conf=0.55
+01:46:26 +187s [C_test_opus] te5 buy step t-3(5/8) truth=cont v=続く conf=0.5
+01:46:32 +193s [C_test_opus] te5 buy step t-2(6/8) truth=cont v=崩れる conf=0.5
+01:46:39 +200s [C_test_opus] te5 buy step t-1(7/8) truth=cont v=続く conf=0.52
+01:46:46 +207s [C_test_opus] te5 buy step t0(8/8) truth=cont v=続く conf=0.5
+01:46:51 +212s [C_test_opus] te6 buy step t-7(1/8) truth=crumble v=続く conf=0.4
+01:46:54 +216s [C_test_opus] te6 buy step t-6(2/8) truth=crumble v=続く conf=0.42
+01:46:57 +219s [C_test_opus] te6 buy step t-5(3/8) truth=crumble v=続く conf=0.55
+01:47:01 +222s [C_test_opus] te6 buy step t-4(4/8) truth=crumble v=続く conf=0.5
+01:47:04 +226s [C_test_opus] te6 buy step t-3(5/8) truth=crumble v=続く conf=0.6
+01:47:07 +229s [C_test_opus] te6 buy step t-2(6/8) truth=crumble v=続く conf=0.55
+01:47:11 +232s [C_test_opus] te6 buy step t-1(7/8) truth=crumble v=続く conf=0.55
+01:47:19 +240s [C_test_opus] te6 buy step t0(8/8) truth=crumble v=崩れる conf=0.6
+01:47:24 +245s [C_test_opus] te7 buy step t-5(1/6) truth=crumble v=崩れる conf=0.45
+01:47:27 +248s [C_test_opus] te7 buy step t-4(2/6) truth=crumble v=続く conf=0.5
+01:47:30 +252s [C_test_opus] te7 buy step t-3(3/6) truth=crumble v=続く conf=0.45
+01:47:33 +255s [C_test_opus] te7 buy step t-2(4/6) truth=crumble v=続く conf=0.5
+01:47:38 +259s [C_test_opus] te7 buy step t-1(5/6) truth=crumble v=続く conf=0.6
+01:47:42 +263s [C_test_opus] te7 buy step t0(6/6) truth=crumble v=続く conf=0.5
+01:47:46 +268s [C_test_opus] te8 buy step t-5(1/6) truth=crumble v=崩れる conf=0.7
+01:48:20 +301s [C_test_opus] te8 buy step t-4(2/6) truth=crumble v=崩れる conf=0.55
+01:48:23 +304s [C_test_opus] te8 buy step t-3(3/6) truth=crumble v=続く conf=0.5
+01:48:27 +308s [C_test_opus] te8 buy step t-2(4/6) truth=crumble v=続く conf=0.45
+01:48:30 +311s [C_test_opus] te8 buy step t-1(5/6) truth=crumble v=続く conf=0.55
+01:48:35 +316s [C_test_opus] te8 buy step t0(6/6) truth=crumble v=続く conf=0.6
+01:48:38 +319s [C_test_opus] te9 buy step t-7(1/8) truth=crumble v=続く conf=0.5
+01:48:42 +323s [C_test_opus] te9 buy step t-6(2/8) truth=crumble v=続く conf=0.45
+01:49:16 +357s [C_test_opus] te9 buy step t-5(3/8) truth=crumble v=続く conf=0.55
+01:49:18 +360s [C_test_opus] te9 buy step t-4(4/8) truth=crumble v=続く conf=0.6
+01:49:23 +364s [C_test_opus] te9 buy step t-3(5/8) truth=crumble v=崩れる conf=0.55
+01:49:27 +368s [C_test_opus] te9 buy step t-2(6/8) truth=crumble v=続く conf=0.6
+01:49:30 +371s [C_test_opus] te9 buy step t-1(7/8) truth=crumble v=続く conf=0.65
+01:49:36 +377s [C_test_opus] te9 buy step t0(8/8) truth=crumble v=続く conf=0.6
+01:49:41 +383s [C_test_opus] te20 sell step t-5(1/6) truth=cont v=崩れる conf=0.55
+01:49:46 +388s [C_test_opus] te20 sell step t-4(2/6) truth=cont v=続く conf=0.55
+01:49:50 +391s [C_test_opus] te20 sell step t-3(3/6) truth=cont v=続く conf=0.7
+01:49:56 +397s [C_test_opus] te20 sell step t-2(4/6) truth=cont v=崩れる conf=0.55
+01:49:59 +401s [C_test_opus] te20 sell step t-1(5/6) truth=cont v=続く conf=0.7
+01:50:03 +404s [C_test_opus] te20 sell step t0(6/6) truth=cont v=崩れる conf=0.6
+01:50:07 +408s [C_test_opus] te21 sell step t-5(1/6) truth=crumble v=崩れる conf=0.6
+01:50:11 +412s [C_test_opus] te21 sell step t-4(2/6) truth=crumble v=崩れる conf=0.5
+01:50:14 +415s [C_test_opus] te21 sell step t-3(3/6) truth=crumble v=続く conf=0.6
+01:50:18 +419s [C_test_opus] te21 sell step t-2(4/6) truth=crumble v=続く conf=0.75
+01:50:22 +423s [C_test_opus] te21 sell step t-1(5/6) truth=crumble v=続く conf=0.65
+01:50:30 +431s [C_test_opus] te21 sell step t0(6/6) truth=crumble v=崩れる conf=0.6
+01:50:35 +436s [C_test_opus] te22 sell step t-5(1/6) truth=cont v=崩れる conf=0.75
+01:51:16 +4s [C_train_sonnet] tr0 buy step t-5(1/6) truth=crumble v=続く conf=0.38
+01:51:19 +8s [C_train_sonnet] tr0 buy step t-4(2/6) truth=crumble v=続く conf=0.42
+01:51:24 +12s [C_train_sonnet] tr0 buy step t-3(3/6) truth=crumble v=続く conf=0.4
+01:51:29 +17s [C_train_sonnet] tr0 buy step t-2(4/6) truth=crumble v=続く conf=0.68
+01:51:34 +22s [C_train_sonnet] tr0 buy step t-1(5/6) truth=crumble v=続く conf=0.72
+01:51:39 +27s [C_train_sonnet] tr0 buy step t0(6/6) truth=crumble v=続く conf=0.61
+01:51:43 +31s [C_train_sonnet] tr1 buy step t-7(1/8) truth=cont v=続く conf=0.38
+01:51:47 +35s [C_train_sonnet] tr1 buy step t-6(2/8) truth=cont v=続く conf=0.35
+01:51:51 +40s [C_train_sonnet] tr1 buy step t-5(3/8) truth=cont v=続く conf=0.68
+01:51:56 +44s [C_train_sonnet] tr1 buy step t-4(4/8) truth=cont v=続く conf=0.48
+01:52:01 +50s [C_train_sonnet] tr1 buy step t-3(5/8) truth=cont v=続く conf=0.42
+01:52:06 +54s [C_train_sonnet] tr1 buy step t-2(6/8) truth=cont v=続く conf=0.63
+01:52:10 +59s [C_train_sonnet] tr1 buy step t-1(7/8) truth=cont v=続く conf=0.61
+01:52:15 +63s [C_train_sonnet] tr1 buy step t0(8/8) truth=cont v=崩れる conf=0.67
+01:52:19 +67s [C_train_sonnet] tr2 buy step t-7(1/8) truth=crumble v=続く conf=0.45
+01:52:23 +72s [C_train_sonnet] tr2 buy step t-6(2/8) truth=crumble v=続く conf=0.38
+01:52:28 +77s [C_train_sonnet] tr2 buy step t-5(3/8) truth=crumble v=続く conf=0.78
+01:52:36 +84s [C_train_sonnet] tr2 buy step t-4(4/8) truth=crumble v=続く conf=0.55
+01:52:42 +90s [C_train_sonnet] tr2 buy step t-3(5/8) truth=crumble v=続く conf=0.62
+01:52:47 +95s [C_train_sonnet] tr2 buy step t-2(6/8) truth=crumble v=崩れる conf=0.72
+01:52:53 +101s [C_train_sonnet] tr2 buy step t-1(7/8) truth=crumble v=崩れる conf=0.68
+01:52:58 +107s [C_train_sonnet] tr2 buy step t0(8/8) truth=crumble v=崩れる conf=0.82
+01:53:03 +111s [C_train_sonnet] tr3 buy step t-6(1/7) truth=crumble v=続く conf=0.38
+01:53:07 +116s [C_train_sonnet] tr3 buy step t-5(2/7) truth=crumble v=続く conf=0.52
+01:53:13 +121s [C_train_sonnet] tr3 buy step t-4(3/7) truth=crumble v=続く conf=0.51
+01:53:22 +130s [C_train_sonnet] tr3 buy step t-3(4/7) truth=crumble v=続く conf=0.72
+01:53:27 +135s [C_train_sonnet] tr3 buy step t-2(5/7) truth=crumble v=続く conf=0.61
+01:53:32 +140s [C_train_sonnet] tr3 buy step t-1(6/7) truth=crumble v=崩れる conf=0.71
+01:53:38 +146s [C_train_sonnet] tr3 buy step t0(7/7) truth=crumble v=続く conf=0.58
+01:53:42 +151s [C_train_sonnet] tr4 buy step t-5(1/6) truth=crumble v=続く conf=0.45
+01:53:48 +156s [C_train_sonnet] tr4 buy step t-4(2/6) truth=crumble v=続く conf=0.38
+01:53:52 +161s [C_train_sonnet] tr4 buy step t-3(3/6) truth=crumble v=続く conf=0.52
+01:53:58 +166s [C_train_sonnet] tr4 buy step t-2(4/6) truth=crumble v=続く conf=0.71
+01:54:03 +172s [C_train_sonnet] tr4 buy step t-1(5/6) truth=crumble v=続く conf=0.58
+01:54:10 +178s [C_train_sonnet] tr4 buy step t0(6/6) truth=crumble v=続く conf=0.61
+01:54:14 +182s [C_train_sonnet] tr5 buy step t-5(1/6) truth=crumble v=崩れる conf=0.32
+01:54:20 +188s [C_train_sonnet] tr5 buy step t-4(2/6) truth=crumble v=崩れる conf=0.41
+01:54:25 +193s [C_train_sonnet] tr5 buy step t-3(3/6) truth=crumble v=崩れる conf=0.58
+01:54:30 +199s [C_train_sonnet] tr5 buy step t-2(4/6) truth=crumble v=続く conf=0.48
+01:54:35 +203s [C_train_sonnet] tr5 buy step t-1(5/6) truth=crumble v=崩れる conf=0.61
+01:54:40 +208s [C_train_sonnet] tr5 buy step t0(6/6) truth=crumble v=崩れる conf=0.72
+01:54:44 +212s [C_train_sonnet] tr6 buy step t-5(1/6) truth=cont v=続く conf=0.38
+01:54:50 +218s [C_train_sonnet] tr6 buy step t-4(2/6) truth=cont v=続く conf=0.32
+01:54:56 +224s [C_train_sonnet] tr6 buy step t-3(3/6) truth=cont v=続く conf=0.63
+01:55:01 +230s [C_train_sonnet] tr6 buy step t-2(4/6) truth=cont v=続く conf=0.75
+01:55:08 +236s [C_train_sonnet] tr6 buy step t-1(5/6) truth=cont v=続く conf=0.58
+01:55:15 +243s [C_train_sonnet] tr6 buy step t0(6/6) truth=cont v=続く conf=0.58
+01:55:19 +247s [C_train_sonnet] tr7 buy step t-5(1/6) truth=crumble v=続く conf=0.38
+01:55:23 +251s [C_train_sonnet] tr7 buy step t-4(2/6) truth=crumble v=続く conf=0.32
+01:55:28 +256s [C_train_sonnet] tr7 buy step t-3(3/6) truth=crumble v=続く conf=0.58
+01:55:33 +261s [C_train_sonnet] tr7 buy step t-2(4/6) truth=crumble v=続く conf=0.63
+01:55:39 +267s [C_train_sonnet] tr7 buy step t-1(5/6) truth=crumble v=続く conf=0.55
+01:55:44 +273s [C_train_sonnet] tr7 buy step t0(6/6) truth=crumble v=続く conf=0.52
+01:55:49 +277s [C_train_sonnet] tr8 buy step t-7(1/8) truth=cont v=続く conf=0.38
+01:55:54 +282s [C_train_sonnet] tr8 buy step t-6(2/8) truth=cont v=続く conf=0.52
+01:55:59 +288s [C_train_sonnet] tr8 buy step t-5(3/8) truth=cont v=続く conf=0.58
+01:56:06 +294s [C_train_sonnet] tr8 buy step t-4(4/8) truth=cont v=続く conf=0.55
+01:56:12 +300s [C_train_sonnet] tr8 buy step t-3(5/8) truth=cont v=続く conf=0.62
+01:56:23 +311s [C_train_sonnet] tr8 buy step t-2(6/8) truth=cont v=続く conf=0.55
+01:56:29 +318s [C_train_sonnet] tr8 buy step t-1(7/8) truth=cont v=続く conf=0.72
+01:56:36 +325s [C_train_sonnet] tr8 buy step t0(8/8) truth=cont v=続く conf=0.72
+01:56:47 +335s [C_train_sonnet] tr9 buy step t-6(1/7) truth=cont v=続く conf=0.45
+01:56:52 +340s [C_train_sonnet] tr9 buy step t-5(2/7) truth=cont v=続く conf=0.38
+01:56:57 +345s [C_train_sonnet] tr9 buy step t-4(3/7) truth=cont v=続く conf=0.72
+01:57:08 +357s [C_train_sonnet] tr9 buy step t-3(4/7) truth=cont v=続く conf=0.68
+01:57:14 +362s [C_train_sonnet] tr9 buy step t-2(5/7) truth=cont v=続く conf=0.58
+01:57:19 +367s [C_train_sonnet] tr9 buy step t-1(6/7) truth=cont v=崩れる conf=0.71
+01:57:24 +373s [C_train_sonnet] tr9 buy step t0(7/7) truth=cont v=崩れる conf=0.51
+01:57:29 +378s [C_train_sonnet] tr10 buy step t-5(1/6) truth=cont v=崩れる conf=0.38
+01:57:35 +383s [C_train_sonnet] tr10 buy step t-4(2/6) truth=cont v=崩れる conf=0.35
+01:57:41 +389s [C_train_sonnet] tr10 buy step t-3(3/6) truth=cont v=崩れる conf=0.45
+01:57:47 +395s [C_train_sonnet] tr10 buy step t-2(4/6) truth=cont v=続く conf=0.72
+01:57:51 +400s [C_train_sonnet] tr10 buy step t-1(5/6) truth=cont v=続く conf=0.78
+01:57:58 +406s [C_train_sonnet] tr10 buy step t0(6/6) truth=cont v=続く conf=0.52
+01:58:02 +411s [C_train_sonnet] tr11 buy step t-7(1/8) truth=cont v=崩れる conf=0.35
+01:58:08 +416s [C_train_sonnet] tr11 buy step t-6(2/8) truth=cont v=崩れる conf=0.32
+01:58:13 +421s [C_train_sonnet] tr11 buy step t-5(3/8) truth=cont v=崩れる conf=0.38
+01:58:18 +427s [C_train_sonnet] tr11 buy step t-4(4/8) truth=cont v=続く conf=0.68
+01:58:23 +431s [C_train_sonnet] tr11 buy step t-3(5/8) truth=cont v=崩れる conf=0.45
+01:58:28 +437s [C_train_sonnet] tr11 buy step t-2(6/8) truth=cont v=崩れる conf=0.42
+01:58:33 +441s [C_train_sonnet] tr11 buy step t-1(7/8) truth=cont v=崩れる conf=0.55
+01:58:37 +446s [C_train_sonnet] tr11 buy step t0(8/8) truth=cont v=続く conf=0.52
+01:58:41 +450s [C_train_sonnet] tr30 sell step t-5(1/6) truth=cont v=続く conf=0.35
+01:58:46 +454s [C_train_sonnet] tr30 sell step t-4(2/6) truth=cont v=続く conf=0.55
+01:58:50 +459s [C_train_sonnet] tr30 sell step t-3(3/6) truth=cont v=続く conf=0.48
+01:58:54 +463s [C_train_sonnet] tr30 sell step t-2(4/6) truth=cont v=続く conf=0.68
+01:58:59 +467s [C_train_sonnet] tr30 sell step t-1(5/6) truth=cont v=続く conf=0.52
+01:59:03 +471s [C_train_sonnet] tr30 sell step t0(6/6) truth=cont v=続く conf=0.68
+01:59:08 +476s [C_train_sonnet] tr31 sell step t-5(1/6) truth=cont v=続く conf=0.38
+01:59:13 +481s [C_train_sonnet] tr31 sell step t-4(2/6) truth=cont v=続く conf=0.52
+01:59:18 +487s [C_train_sonnet] tr31 sell step t-3(3/6) truth=cont v=続く conf=0.63
+01:59:24 +493s [C_train_sonnet] tr31 sell step t-2(4/6) truth=cont v=続く conf=0.58
+01:59:35 +503s [C_train_sonnet] tr31 sell step t-1(5/6) truth=cont v=続く conf=0.61
+01:59:40 +509s [C_train_sonnet] tr31 sell step t0(6/6) truth=cont v=続く conf=0.66
+01:59:46 +514s [C_train_sonnet] tr32 sell step t-7(1/8) truth=cont v=続く conf=0.72
+01:59:51 +520s [C_train_sonnet] tr32 sell step t-6(2/8) truth=cont v=続く conf=0.65
+01:59:57 +525s [C_train_sonnet] tr32 sell step t-5(3/8) truth=cont v=続く conf=0.58
+02:00:03 +531s [C_train_sonnet] tr32 sell step t-4(4/8) truth=cont v=続く conf=0.58
+02:00:09 +538s [C_train_sonnet] tr32 sell step t-3(5/8) truth=cont v=続く conf=0.74
+02:00:16 +544s [C_train_sonnet] tr32 sell step t-2(6/8) truth=cont v=続く conf=0.68
+02:00:22 +550s [C_train_sonnet] tr32 sell step t-1(7/8) truth=cont v=続く conf=0.61
+02:00:29 +557s [C_train_sonnet] tr32 sell step t0(8/8) truth=cont v=続く conf=0.61
+02:00:33 +562s [C_train_sonnet] tr33 sell step t-5(1/6) truth=crumble v=続く conf=0.45
+02:00:38 +566s [C_train_sonnet] tr33 sell step t-4(2/6) truth=crumble v=続く conf=0.62
+02:00:43 +571s [C_train_sonnet] tr33 sell step t-3(3/6) truth=crumble v=続く conf=0.52
+02:00:48 +577s [C_train_sonnet] tr33 sell step t-2(4/6) truth=crumble v=続く conf=0.58
+02:00:53 +582s [C_train_sonnet] tr33 sell step t-1(5/6) truth=crumble v=続く conf=0.55
+02:00:58 +587s [C_train_sonnet] tr33 sell step t0(6/6) truth=crumble v=続く conf=0.63
+02:01:04 +592s [C_train_sonnet] tr34 sell step t-6(1/7) truth=crumble v=続く conf=0.35
+02:01:09 +598s [C_train_sonnet] tr34 sell step t-5(2/7) truth=crumble v=続く conf=0.52
+02:01:14 +603s [C_train_sonnet] tr34 sell step t-4(3/7) truth=crumble v=続く conf=0.63
+02:01:20 +608s [C_train_sonnet] tr34 sell step t-3(4/7) truth=crumble v=続く conf=0.61
+02:01:26 +615s [C_train_sonnet] tr34 sell step t-2(5/7) truth=crumble v=続く conf=0.71
+02:01:33 +621s [C_train_sonnet] tr34 sell step t-1(6/7) truth=crumble v=崩れる conf=0.78
+02:01:39 +627s [C_train_sonnet] tr34 sell step t0(7/7) truth=crumble v=続く conf=0.62
+02:01:44 +632s [C_train_sonnet] tr35 sell step t-7(1/8) truth=cont v=続く conf=0.55
