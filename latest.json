@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.1",
-  "gitCommit": "ec0a23d4aab9d8cff77b3d23ffad817f026b8194",
+  "version": "v5.28.2",
+  "gitCommit": "b068762ef214b9d1406370e2e15ec8f8c9df4b39",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T07:45:00Z",
-  "note": "v5.28.1(日) master運用方針変更(会長指示): 起動時の強制OFFを廃止しON自動復帰へ。autotrader.ts loadPersistedConfig=merged.master=false→parsed.master===true=永続値(autotrader_config.json)尊重。会長が明示OFFにしない限り再起動後もmasterはON自動復帰・OFFは会長操作(web/emergency_stop/account_switch)時のみ。※リアル口座昇格時は自動復帰の是非再検討(現状デモ)。画面master=GET /api/mt5/autotrading(稼働getConfig実値・設定ファイル/localStorage非経由)検証済=稼働master=true+[autotrader]TICK marker連続(ループ実走)=画面ON/中身ON/実走で一致(食い違いなし)。frontend storage.ts も v5.28.1 同期。凍結5無改変・非凍結(autotrader/server)のみ。 / v5.28.0 pre_trend_scalper(ロジックB波乗り)デモ限定新設 / v5.27.0 WAX超攻撃型ワイドブラケット(TP35/SL15) / v5.26.0 漁師純ブラケット(TP8/SL10/20分・+29.1p)。",
+  "builtAt": "2026-06-15T08:05:00Z",
+  "note": "v5.28.2(日) 公開status.json自動push復活(会長指摘・外部監視窓修復): 公開status.jsonが6/13停止(v5.25.0/master Falseのまま)=外からmaster/version見えず。原因=data/status.json生成は正常だがSTATUS_REPO_DIR未設定(6/13 MT5_ENC_SECRET鍵切替の.env再作成で脱落)→push分岐未到達でサイレント停止(ログにpush済/失敗皆無が証拠)。対処=①.envにSTATUS_REPO_DIR=C:\\Users\\wakui\\fx-shots復活 ②statusExport.ts push前にfetch+reset origin/main=Mac等他クローンのpushにも自動追従し非fast-forward自滅を根治(自己修復・再発防止) ③Winクローンをorigin/main同期。凍結5無改変・非凍結(statusExport)のみ。 / v5.28.1 master運用方針=ON自動復帰(起動時強制OFF廃止) / v5.28.0 pre_trend_scalper(デモ限定) / v5.27.0 WAX超攻撃型(TP35/SL15) / v5.26.0 漁師純ブラケット(TP8/SL10/20分+29.1p)。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.1は非凍結のみ改変(autotrader.ts/server.ts)。凍結5(activeExit/fishermanTrader=83806f44/fishermanForecast/waxTrader=ef7a3bab/waxForecast)無改変。"
+  "frozenNote": "v5.28.2は非凍結のみ改変(statusExport.ts)。凍結5(activeExit/fishermanTrader=83806f44/fishermanForecast/waxTrader=ef7a3bab/waxForecast)無改変。"
 }
