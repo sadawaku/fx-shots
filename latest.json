@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.13",
-  "gitCommit": "513c720de116a5b2d2cbb640e950feed82a0c6eb",
+  "version": "v5.28.14",
+  "gitCommit": "230122423d326e8b0f8e5d09418b751692530793",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T16:30:00Z",
-  "note": "v5.28.13(日) pullback_scalper v0.1.2 追補: TP解除安全ゲートを server側(mt5_server.py /modify)にも強制(backendのcanReleaseTpだけに依存しない二重の安全). 会長指摘『共有ブリッジ直叩きで素通り』対応=TP解除事故を構造的に防ぐ. 対象=tpAction=remove / tpAction=setでcurrentTPより遠方(BUY:newTP>curTP・SELL:newTP<curTP) / currentTP=0でのTP set(遠近判定不能→保護SL要求). 近づけるTP setはゲート対象外. protectiveSL=set→new_sl/keep→現在SL(remove上流禁止). 判定BUY protectiveSL>=建値/SELL<=建値. 未保護はtp_modify_rejected_without_profit_protection(403)+全項目ログ. 純関数_tp_release_blocked抽出で単体テスト12/12合格(a-i 9+エッジ3). 実発注なし(市場クローズ10017のため往復スモークは市場オープン後別実施). pullback flag off維持・建玉0・凍結5無改変・漁師/WAX非接触. / v5.28.12 /modify実装(append-only・server側comment再確認ガード・broker制約・建値プロテクト・利益ロックラダー・backend canReleaseTp).",
+  "builtAt": "2026-06-16T00:30:00Z",
+  "note": "v5.28.14(月) symbol改修 USDJPY disabled→tradable USDJPY#対応(共有ブリッジ非破壊). 根因=mt5_server.py SYMBOL='USDJPY'(標準trade_mode0 DISABLED)固定で発注10017 Trade disabled. config/symbol.ts設計通りUSDJPY#(KIWAMI極raw trade_mode4 FULL)をpullback_scalperが明示使用できる形に. グローバルSYMBOL無改変(漁師/WAX既定不変). mt5_server.py: /order body.symbol優先・/candles /tick query.symbol優先(明示時フレッシュ=globalキャッシュ非汚染)・/positions symbol=ALL横断/指定/未指定は従来. /modify /close はticket+p.symbolで既にsymbol非依存=不変. resolver _resolve_tradable_usdjpy + GET /symbols/usdjpy(調査専用発注なし). 全append-only未指定時は既存挙動完全同一. backend: openPosition/getPositions optional symbol(ALL)・fetchMt5RawTickFor/fetchMt5CandlesFor. pullback: tick/M1/M5/order/SL TP/modify/close後検証をUSDJPY#一貫(混在禁止)・getPositions('ALL'). TP解除ゲート単体回帰12/12. pullback flag off維持・凍結5無改変・漁師/WAX非接触. / v5.28.13 TP解除安全ゲートをserver側強制. / v5.28.12 /modify実装.",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.13はmt5_server.py(/modify TP解除ゲート追加・append-only)+version(backend/frontend同期)のみ。凍結5(ai/5本)は全本 正典のまま無改変。"
+  "frozenNote": "v5.28.14はmt5_server.py(symbol per-request・append-only)+backend(mt5trade/providers/mt5/pullbackScalper symbol対応)+version。凍結5(ai/5本)は全本 正典のまま無改変。"
 }
