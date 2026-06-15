@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-06-15T20:49:18.469+09:00",
+ "generatedAt": "2026-06-15T20:51:18.488+09:00",
  "version": "v5.28.11",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 60,
+ "lastPushOk": "2026-06-15T20:49:26.861+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
   {
    "fcId": 575,
    "event": "6/16 🇺🇸 NYエンパイアステート製造業指数（6月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T12:20:00.000Z"
@@ -103,8 +103,8 @@
   "arms": [
    {
     "armId": 575,
-    "gen": 653,
-    "dir": "sell",
+    "gen": 666,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
