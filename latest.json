@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.8",
-  "gitCommit": "fbf6e7032d1cb85b79439543aac11c08f200824d",
+  "version": "v5.28.9",
+  "gitCommit": "507f852c34cee6e82286fd40516df8c1f40358ab",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T13:00:00Z",
-  "note": "v5.28.8(日) pullback_scalper v0.1.1(判断B'方式・デモ実発注 live_on_demo で運用開始): 建値プロテクトは/modify未追加でunavailable(v0.1.2へ・正直ログ)。実装=①真の手取り統一(getMt5LatestRawTick bid/ask・BUY入Ask出Bid/SELL入Bid出Ask)②最小失速利確(net MFE≥+4後≤+3で成行)③固定TP5/SL8影比較(実決済後も仮想を固定到達まで追跡・改善pips記録)④no_trade三分類(fail_close/filter/strategy・母数はstrategyのみ)+取り逃し+5検証(M1足クローズ・検証専用)⑤event_mode read-only導出(WAX大口窓+漁師armトリガー窓・判定不能fail-close)⑥日銀standdown(6/16声明11:30/会見14:30前後)⑦非干渉(comment tag識別・自タグ建玉のみ・由来不明fail-close・spread>2.5/cooldown60s/max1)。入口=spec A不変(M5 EMA9/21・M1押し目1.5p/再起0.3p)。account_mode=demo/is_demo=true/execution_mode=live_on_demo。漁師/WAX/凍結5 非接触(read-onlyのbigPlayerWindow/getFishermanArmsView参照のみ)。version backend+frontend同期。 / v5.28.7 pullback_scalper v0.1新設+arm入値圏—修正 / v5.28.5 v5.28.4誤診是正(park sentinel)。",
+  "builtAt": "2026-06-15T13:20:00Z",
+  "note": "v5.28.9(日) pullback_scalper v0.1.1 hotfix(ENTRY失敗=MT5 comment上限超を修正・実走開始): v5.28.8でENTRYが'Invalid comment argument'で全失敗→原因=openPositionにagent+comment両方TAGを渡しserver側で'pullback_scalper pullback_scalper'(33字)がMT5コメント上限超。修正=comment引数を外しagentのみ(comment'pullback_scalper'16字)。デモ実発注live_on_demo実走開始。凍結5無改変。 / v5.28.8(日) pullback_scalper v0.1.1(判断B'方式・デモ実発注 live_on_demo で運用開始): 建値プロテクトは/modify未追加でunavailable(v0.1.2へ・正直ログ)。実装=①真の手取り統一(getMt5LatestRawTick bid/ask・BUY入Ask出Bid/SELL入Bid出Ask)②最小失速利確(net MFE≥+4後≤+3で成行)③固定TP5/SL8影比較(実決済後も仮想を固定到達まで追跡・改善pips記録)④no_trade三分類(fail_close/filter/strategy・母数はstrategyのみ)+取り逃し+5検証(M1足クローズ・検証専用)⑤event_mode read-only導出(WAX大口窓+漁師armトリガー窓・判定不能fail-close)⑥日銀standdown(6/16声明11:30/会見14:30前後)⑦非干渉(comment tag識別・自タグ建玉のみ・由来不明fail-close・spread>2.5/cooldown60s/max1)。入口=spec A不変(M5 EMA9/21・M1押し目1.5p/再起0.3p)。account_mode=demo/is_demo=true/execution_mode=live_on_demo。漁師/WAX/凍結5 非接触(read-onlyのbigPlayerWindow/getFishermanArmsView参照のみ)。version backend+frontend同期。 / v5.28.7 pullback_scalper v0.1新設+arm入値圏—修正 / v5.28.5 v5.28.4誤診是正(park sentinel)。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.8は新規独立agent(pullbackScalper v0.1.1)+version/CHANGELOGのみ。凍結5は全5本 正典のまま無改変(read-onlyのbigPlayerWindow/getFishermanArmsViewは参照のみ)。"
+  "frozenNote": "v5.28.9はpullbackScalper hotfix+version/CHANGELOGのみ。凍結5は全5本 正典のまま無改変。"
 }
