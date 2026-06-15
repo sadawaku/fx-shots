@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.11",
-  "gitCommit": "c304bb85a83be4d68ce8758232be56416c6202c6",
+  "version": "v5.28.12",
+  "gitCommit": "8d42be692ca712492708a7a75b05abec009937d8",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T14:30:00Z",
-  "note": "v5.28.11(日) pullback_scalper v0.1.1.1 完了前確認(再稼働でない・flag off維持): ①closeReason実効=単体テスト(a)time_exit hint+pnl<0→time_exit(SLでない)(b)stall_take_profit(c)hint無+pnl<0→SL維持(d)TP→TP 全✓ ②tk958147494の既存agent_trades行 closeReason SL→time_exit データ整合訂正(他列=損益-2.4p/価格160.099→160.123/時刻/side/lot/agent 完全不変・前後JSON証跡) ③30分オーバールール明文化(コード化): 30分=最大保有・30:00-31:00=実行猶予(正常)・31:00超=time_exit_overrun=true(異常監視・ageMin/overrunSec/closeAttempted/closeSuccess/error出力・closeReasonはtime_exit・自タグのみ他非接触)・v0.2まで波乗り継続判断は不実装。pullback flag offのまま停止維持・実発注なし・建玉0。凍結5無改変。 / v5.28.10 v0.1.1.1 hotfix(入口ガード+closeReason) / v5.28.5 v5.28.4誤診是正。",
+  "builtAt": "2026-06-15T15:00:00Z",
+  "note": "v5.28.12(日) pullback_scalper v0.1.2: broker側SL/TP変更 /modify実装(v0.2波乗りの前提工事・波乗り判定は不実装・flag offのまま停止維持). ①mt5_server.py POST /modify append-only(既存order/close/positions不変・TRADE_ACTION_SLTP・slAction/tpAction keep/set/remove・null省略で解除しない・slAction=remove禁止) ②server側ガード=ticketから実ポジ再取得しcomment再確認(pullback_scalper含む時のみ・漁師/WAX/由来不明はmodify_rejected_not_pullback_position) ③broker制約(stops_level/freeze_level/digits/spread/距離) ④backend modifyPosition ⑤建値プロテクト(net+3超→SL建値+0.5・1回) ⑥利益ロックラダー(only-up +5→+3/+8→+5) ⑦TP解除安全ゲート(canReleaseTp: SL利益保護成功後のみ). 全net手取り基準. pullback flag off維持・実発注なし(小lot疎通のみ・実績除外). 凍結5無改変・漁師/WAX非接触. / v5.28.11 v0.1.1.1完了前確認 / v5.28.10 v0.1.1.1 hotfix.",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.11はpullbackScalper(30分オーバー明文化)+version/CHANGELOGのみ。凍結5は全5本 正典のまま無改変。"
+  "frozenNote": "v5.28.12はpullbackScalper(利益保護)+mt5trade(modify client・既存非破壊)+mt5_server.py(/modify append-only)+version。凍結5(ai/5本)は全本 正典のまま無改変。"
 }
