@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T09:36:27.049+09:00",
+ "generatedAt": "2026-06-15T09:37:27.056+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:33:34.910+09:00",
- "lastPushAgoSec": 172,
+ "lastPushOk": "2026-06-15T09:36:34.816+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -86,6 +86,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:20:00.000Z"
+  },
+  {
+   "fcId": 644,
+   "event": "6/18 🇺🇸 Federal Funds Rate",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T17:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -177,6 +185,13 @@
    {
     "armId": 643,
     "gen": 643,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 644,
+    "gen": 644,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
