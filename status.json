@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T21:35:18.940+09:00",
- "version": "v5.28.11",
+ "generatedAt": "2026-06-15T21:37:45.877+09:00",
+ "version": "v5.28.12",
  "schema": 1,
- "lastPushOk": "2026-06-15T21:34:26.996+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -89,25 +89,15 @@
   }
  ],
  "waxForecast": {
-  "id": 228,
+  "id": 229,
   "direction": "UP",
-  "entryFrom": 160.095,
-  "entryTo": 160.13,
-  "opposingSR": 160.59,
-  "jst": "2026-06-15 21:31:25"
+  "entryFrom": 160.079,
+  "entryTo": 160.109,
+  "opposingSR": 160.584,
+  "jst": "2026-06-15 21:37:01"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 958184105,
-   "peak": 0.899999999998613,
-   "openedMs": 1781526686071,
-   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
-   "basis": "broker bracket primary (WAX超攻撃型)",
-   "action": "ブローカーTP35/SL15 or トレンド終了",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -183,21 +173,7 @@
    }
   ]
  },
- "coach": [
-  {
-   "ticket": 958184105,
-   "haiku": {
-    "state": "続行",
-    "text": "買い160.139→160.148。+0.9pでピーク。レンジ内で棚まで0.9p",
-    "at": 1781526844151
-   },
-   "captain": {
-    "decision": "警戒",
-    "reason": "ピーク後退＋棚0.2p接近で上値詰まり感",
-    "at": 1781526815004
-   }
-  }
- ],
+ "coach": [],
  "dailyGuard": {
   "enabled": false,
   "pct": 2,
