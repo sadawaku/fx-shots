@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-15T09:09:30.045+09:00",
+ "generatedAt": "2026-06-15T09:10:30.040+09:00",
  "version": "v5.28.3",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:08:37.941+09:00",
+ "lastPushOk": "2026-06-15T09:09:37.820+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,14 +11,14 @@
    "agent": "fisherman fisher",
    "dir": "sell",
    "entry": 159.914,
-   "pips": -4
+   "pips": -3.5
   }
  ],
  "arms": [
   {
    "fcId": 481,
    "event": "6/16 🇯🇵 日銀金融政策決定会合（初日・6月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T00:20:00.000Z"
@@ -158,7 +158,7 @@
    "ticket": 957970447,
    "peak": 0,
    "openedMs": 1781481722416,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過7分",
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過8分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
    "action": "ブローカーTP/SL待ち",
    "target": null
@@ -169,28 +169,28 @@
   "arms": [
    {
     "armId": 481,
-    "gen": 600,
-    "dir": "sell",
+    "gen": 584,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 482,
-    "gen": 601,
+    "gen": 585,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 483,
-    "gen": 602,
+    "gen": 586,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 484,
-    "gen": 603,
+    "gen": 587,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
@@ -204,35 +204,35 @@
    },
    {
     "armId": 575,
-    "gen": 610,
+    "gen": 594,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 577,
-    "gen": 611,
+    "gen": 595,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 578,
-    "gen": 612,
+    "gen": 596,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 579,
-    "gen": 613,
+    "gen": 597,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 580,
-    "gen": 614,
+    "gen": 598,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
