@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-15T09:29:26.996+09:00",
+ "generatedAt": "2026-06-15T09:30:26.998+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:28:34.687+09:00",
+ "lastPushOk": "2026-06-15T09:29:34.789+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,14 +11,14 @@
    "agent": "fisherman fisher",
    "dir": "sell",
    "entry": 159.914,
-   "pips": -3.9
+   "pips": -4.4
   }
  ],
  "arms": [
   {
    "fcId": 575,
    "event": "6/16 🇺🇸 NYエンパイアステート製造業指数（6月）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T12:20:00.000Z"
@@ -26,7 +26,7 @@
   {
    "fcId": 577,
    "event": "6/17 🇯🇵 日銀金融政策決定会合（結果・植田総裁会見）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T23:20:00.000Z"
@@ -42,7 +42,7 @@
   {
    "fcId": 579,
    "event": "6/17 🇺🇸 鉱工業生産・設備稼働率（5月）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:05:00.000Z"
@@ -50,7 +50,7 @@
   {
    "fcId": 580,
    "event": "6/17 🇺🇸 NAHB住宅市場指数（6月）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
@@ -70,7 +70,7 @@
    "ticket": 957970447,
    "peak": 0,
    "openedMs": 1781482360408,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過17分",
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過18分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
    "action": "ブローカーTP/SL待ち",
    "target": null
@@ -81,36 +81,36 @@
   "arms": [
    {
     "armId": 575,
-    "gen": 594,
-    "dir": "buy",
+    "gen": 575,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 577,
-    "gen": 595,
-    "dir": "buy",
+    "gen": 577,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 578,
-    "gen": 596,
+    "gen": 578,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 579,
-    "gen": 597,
-    "dir": "buy",
+    "gen": 579,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 580,
-    "gen": 598,
-    "dir": "buy",
+    "gen": 580,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    }
