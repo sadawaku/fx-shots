@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-15T08:57:29.937+09:00",
+ "generatedAt": "2026-06-15T09:02:29.983+09:00",
  "version": "v5.28.3",
  "schema": 1,
- "lastPushOk": "2026-06-15T08:56:37.859+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-15T08:57:37.859+09:00",
+ "lastPushAgoSec": 292,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 957970447,
+   "agent": "fisherman fisher",
+   "dir": "sell",
+   "entry": 159.914,
+   "pips": -2.2
+  }
+ ],
  "arms": [
   {
    "fcId": 481,
@@ -88,14 +96,6 @@
    "trigger": "2026-06-17T13:50:00.000Z"
   },
   {
-   "fcId": 620,
-   "event": "🇯🇵 法人企業統計 設備投資（Q1）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-14T23:40:00.000Z"
-  },
-  {
    "fcId": 622,
    "event": "🇬🇧 英 雇用統計・賃金（4月）",
    "dir": "sell",
@@ -152,16 +152,18 @@
   "opposingSR": null,
   "jst": "2026-06-15 08:50:52"
  },
- "entryJudges": [
+ "entryJudges": [],
+ "exitLive": [
   {
-   "armId": 620,
-   "state": "done",
-   "bias": "sell",
-   "reason": "AI売り予想+160円台抵抗で上値重く初動売り優位",
-   "at": 1781481431792
+   "ticket": 957970447,
+   "peak": 0,
+   "openedMs": 1781481722416,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過0分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
   }
  ],
- "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -232,13 +234,6 @@
     "armId": 580,
     "gen": 614,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 620,
-    "gen": 632,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
