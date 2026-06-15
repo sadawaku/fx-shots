@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T21:32:18.916+09:00",
+ "generatedAt": "2026-06-15T21:33:18.929+09:00",
  "version": "v5.28.11",
  "schema": 1,
- "lastPushOk": "2026-06-15T21:31:27.619+09:00",
- "lastPushAgoSec": 51,
+ "lastPushOk": "2026-06-15T21:32:26.907+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,7 @@
    "agent": "wax wax ny",
    "dir": "buy",
    "entry": 160.139,
-   "pips": -0.4
+   "pips": -0.1
   }
  ],
  "arms": [
@@ -108,7 +108,7 @@
  "exitLive": [
   {
    "ticket": 958184105,
-   "peak": 0,
+   "peak": 0.2999999999985903,
    "openedMs": 1781526686071,
    "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
    "basis": "broker bracket primary (WAX超攻撃型)",
@@ -196,8 +196,8 @@
    "ticket": 958184105,
    "haiku": {
     "state": "異変",
-    "text": "買いが失速。ピークから下落、棚まで0.4pと近い。損切り準備が必要な局面です。",
-    "at": 1781526722045
+    "text": "ピークから下げ戻し。棚も近い。損切り検討の局面です。",
+    "at": 1781526785101
    },
    "captain": {
     "decision": "警戒",
