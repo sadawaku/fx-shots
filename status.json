@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T09:33:27.032+09:00",
+ "generatedAt": "2026-06-15T09:36:27.049+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:32:34.928+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-15T09:33:34.910+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -78,6 +78,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T05:50:00.000Z"
+  },
+  {
+   "fcId": 643,
+   "event": "6/17 🇺🇸 President Trump Speaks",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -162,6 +170,13 @@
    {
     "armId": 640,
     "gen": 640,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 643,
+    "gen": 643,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
