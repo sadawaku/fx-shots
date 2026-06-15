@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T08:05:14.729+09:00",
+ "generatedAt": "2026-06-16T08:10:14.763+09:00",
  "version": "v5.28.15",
  "schema": 1,
- "lastPushOk": "2026-06-16T08:03:22.757+09:00",
- "lastPushAgoSec": 112,
+ "lastPushOk": "2026-06-16T08:05:22.894+09:00",
+ "lastPushAgoSec": 292,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -22,22 +22,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T23:20:00.000Z"
-  },
-  {
-   "fcId": 578,
-   "event": "6/17 🇺🇸 小売売上高（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T12:20:00.000Z"
-  },
-  {
-   "fcId": 579,
-   "event": "6/17 🇺🇸 鉱工業生産・設備稼働率（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:05:00.000Z"
   },
   {
    "fcId": 580,
@@ -86,6 +70,62 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T17:50:00.000Z"
+  },
+  {
+   "fcId": 690,
+   "event": "6/18 🇺🇸 米住宅着工・建設許可件数（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T13:50:00.000Z"
+  },
+  {
+   "fcId": 689,
+   "event": "6/18 🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 688,
+   "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 687,
+   "event": "6/17 🇺🇸 米鉱工業生産（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:05:00.000Z"
+  },
+  {
+   "fcId": 686,
+   "event": "6/17 🇺🇸 米輸入物価指数（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T12:20:00.000Z"
+  },
+  {
+   "fcId": 685,
+   "event": "6/17 🇺🇸 米小売売上高（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T12:20:00.000Z"
+  },
+  {
+   "fcId": 683,
+   "event": "🇺🇸 ニューヨーク連銀製造業景況指数（6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-16T13:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -112,20 +152,6 @@
     "armId": 577,
     "gen": 667,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 578,
-    "gen": 668,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 579,
-    "gen": 669,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
@@ -167,6 +193,55 @@
    {
     "armId": 646,
     "gen": 675,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 690,
+    "gen": 690,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 689,
+    "gen": 689,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 688,
+    "gen": 688,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 687,
+    "gen": 687,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 686,
+    "gen": 686,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 685,
+    "gen": 685,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 683,
+    "gen": 683,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
