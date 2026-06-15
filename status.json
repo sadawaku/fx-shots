@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-16T02:33:11.507+09:00",
+ "generatedAt": "2026-06-16T02:34:11.510+09:00",
  "version": "v5.28.15",
  "schema": 1,
- "lastPushOk": "2026-06-16T02:32:19.488+09:00",
+ "lastPushOk": "2026-06-16T02:33:19.417+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wax wax ny",
    "dir": "sell",
    "entry": 160.188,
-   "pips": -7.2
+   "pips": -7.5
   }
  ],
  "arms": [
@@ -196,8 +196,8 @@
    "ticket": 958278069,
    "haiku": {
     "state": "異変",
-    "text": "損失拡大中。棚が近く逃げ場なし。損切り推奨。",
-    "at": 1781544782097
+    "text": "売り優位も損失拡大。棚が近く逆行リスク高い。損切り推奨。",
+    "at": 1781544842541
    },
    "captain": {
     "decision": "今すぐ利確",
