@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-15T21:31:18.903+09:00",
+ "generatedAt": "2026-06-15T21:32:18.916+09:00",
  "version": "v5.28.11",
  "schema": 1,
- "lastPushOk": "2026-06-15T21:26:28.275+09:00",
- "lastPushAgoSec": 291,
+ "lastPushOk": "2026-06-15T21:31:27.619+09:00",
+ "lastPushAgoSec": 51,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 958184105,
+   "agent": "wax wax ny",
+   "dir": "buy",
+   "entry": 160.139,
+   "pips": -0.4
+  }
+ ],
  "arms": [
   {
    "fcId": 575,
@@ -89,15 +97,25 @@
   }
  ],
  "waxForecast": {
-  "id": 227,
+  "id": 228,
   "direction": "UP",
   "entryFrom": 160.095,
   "entryTo": 160.13,
   "opposingSR": 160.59,
-  "jst": "2026-06-15 21:21:11"
+  "jst": "2026-06-15 21:31:25"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 958184105,
+   "peak": 0,
+   "openedMs": 1781526686071,
+   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
+   "basis": "broker bracket primary (WAX超攻撃型)",
+   "action": "ブローカーTP35/SL15 or トレンド終了",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -173,7 +191,21 @@
    }
   ]
  },
- "coach": [],
+ "coach": [
+  {
+   "ticket": 958184105,
+   "haiku": {
+    "state": "異変",
+    "text": "買いが失速。ピークから下落、棚まで0.4pと近い。損切り準備が必要な局面です。",
+    "at": 1781526722045
+   },
+   "captain": {
+    "decision": "警戒",
+    "reason": "建値割れ継続、棚接近で即タイト化",
+    "at": 1781526692832
+   }
+  }
+ ],
  "dailyGuard": {
   "enabled": false,
   "pct": 2,
