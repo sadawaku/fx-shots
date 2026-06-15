@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-15T14:47:53.329+09:00",
+ "generatedAt": "2026-06-15T14:48:53.348+09:00",
  "version": "v5.28.6",
  "schema": 1,
- "lastPushOk": "2026-06-15T14:47:01.113+09:00",
+ "lastPushOk": "2026-06-15T14:48:01.094+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
@@ -50,7 +50,7 @@
   {
    "fcId": 638,
    "event": "6/16 🇯🇵 Monetary Policy Statement",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T02:20:00.000Z"
@@ -58,7 +58,7 @@
   {
    "fcId": 639,
    "event": "6/16 🇯🇵 BOJ Press Conference",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T05:20:00.000Z"
@@ -156,15 +156,15 @@
    },
    {
     "armId": 638,
-    "gen": 638,
-    "dir": "buy",
+    "gen": 658,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 639,
-    "gen": 639,
-    "dir": "buy",
+    "gen": 659,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
