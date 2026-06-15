@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T18:41:44.868+09:00",
- "version": "v5.28.7",
+ "generatedAt": "2026-06-15T18:45:42.805+09:00",
+ "version": "v5.28.8",
  "schema": 1,
- "lastPushOk": "2026-06-15T18:36:52.833+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -97,17 +97,7 @@
   "jst": "2026-06-15 15:14:47"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 958090191,
-   "peak": 0,
-   "openedMs": 1781507197692,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過20分",
-   "basis": "broker bracket primary (能動決済は漁師から切断)",
-   "action": "20分タイムアウト→成行撤収",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
