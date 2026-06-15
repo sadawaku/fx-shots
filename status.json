@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-15T13:43:52.553+09:00",
+ "generatedAt": "2026-06-15T13:44:52.568+09:00",
  "version": "v5.28.6",
  "schema": 1,
- "lastPushOk": "2026-06-15T13:43:00.379+09:00",
+ "lastPushOk": "2026-06-15T13:44:00.186+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 958054922,
+   "agent": "fisherman fisher",
+   "dir": "sell",
+   "entry": 160.042,
+   "pips": -0.9
+  }
+ ],
  "arms": [
   {
    "fcId": 575,
@@ -88,14 +96,6 @@
    "trigger": "2026-06-17T17:50:00.000Z"
   },
   {
-   "fcId": 648,
-   "event": "🇯🇵 Tertiary Industry Activity m/m",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T04:20:00.000Z"
-  },
-  {
    "fcId": 649,
    "event": "🇪🇺 ECB President Lagarde Speaks",
    "dir": "buy",
@@ -113,7 +113,17 @@
   "jst": "2026-06-15 09:56:28"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 958054922,
+   "peak": 0,
+   "openedMs": 1781498656078,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過1分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -186,13 +196,6 @@
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
-   },
-   {
-    "armId": 648,
-    "gen": 650,
-    "dir": "sell",
-    "banded": true,
-    "bandAgeSec": 102
    },
    {
     "armId": 649,
