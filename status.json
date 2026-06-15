@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-15T13:37:52.506+09:00",
+ "generatedAt": "2026-06-15T13:38:52.515+09:00",
  "version": "v5.28.6",
  "schema": 1,
- "lastPushOk": "2026-06-15T13:37:00.570+09:00",
+ "lastPushOk": "2026-06-15T13:38:00.231+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
@@ -192,7 +192,7 @@
     "gen": 650,
     "dir": "sell",
     "banded": true,
-    "bandAgeSec": 113
+    "bandAgeSec": 51
    },
    {
     "armId": 649,
