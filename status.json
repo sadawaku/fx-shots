@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T14:50:53.375+09:00",
- "version": "v5.28.6",
+ "generatedAt": "2026-06-15T14:56:42.522+09:00",
+ "version": "v5.28.7",
  "schema": 1,
- "lastPushOk": "2026-06-15T14:50:01.386+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -97,25 +97,15 @@
   }
  ],
  "waxForecast": {
-  "id": 223,
-  "direction": "UP",
-  "entryFrom": 159.96499999999997,
-  "entryTo": 159.99499999999998,
-  "opposingSR": 160.59,
-  "jst": "2026-06-15 14:45:58"
+  "id": 224,
+  "direction": "DOWN",
+  "entryFrom": 160.08,
+  "entryTo": 160.14,
+  "opposingSR": 159.537,
+  "jst": "2026-06-15 14:56:04"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 958054922,
-   "peak": 0,
-   "openedMs": 1781498656078,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過20分",
-   "basis": "broker bracket primary (能動決済は漁師から切断)",
-   "action": "20分タイムアウト→成行撤収",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
