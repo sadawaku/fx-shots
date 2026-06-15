@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T09:11:30.070+09:00",
- "version": "v5.28.3",
+ "generatedAt": "2026-06-15T09:13:26.807+09:00",
+ "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:10:37.823+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [
   {
@@ -11,50 +11,10 @@
    "agent": "fisherman fisher",
    "dir": "sell",
    "entry": 159.914,
-   "pips": -3.9
+   "pips": -2.2
   }
  ],
  "arms": [
-  {
-   "fcId": 481,
-   "event": "6/16 🇯🇵 日銀金融政策決定会合（初日・6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T00:20:00.000Z"
-  },
-  {
-   "fcId": 482,
-   "event": "6/16 🇺🇸 小売売上高（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T12:20:00.000Z"
-  },
-  {
-   "fcId": 483,
-   "event": "6/17 🇺🇸 FOMC 6月会合（政策金利・SEP・Warsh会見）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T17:50:00.000Z"
-  },
-  {
-   "fcId": 484,
-   "event": "6/17 🇯🇵 日銀金融政策決定会合（結果・植田会見）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T02:50:00.000Z"
-  },
-  {
-   "fcId": 621,
-   "event": "🇩🇪 独 CPI（5月・確報値）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T05:50:00.000Z"
-  },
   {
    "fcId": 575,
    "event": "6/16 🇺🇸 NYエンパイアステート製造業指数（6月）",
@@ -94,71 +54,23 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
-  },
-  {
-   "fcId": 622,
-   "event": "🇬🇧 英 雇用統計・賃金（4月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T08:20:00.000Z"
-  },
-  {
-   "fcId": 623,
-   "event": "🇺🇸 NAHB住宅市場指数（6月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T13:50:00.000Z"
-  },
-  {
-   "fcId": 625,
-   "event": "🇺🇸 住宅着工件数・建設許可（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T12:20:00.000Z"
-  },
-  {
-   "fcId": 628,
-   "event": "🇺🇸 鉱工業生産・設備稼働率（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T12:05:00.000Z"
-  },
-  {
-   "fcId": 629,
-   "event": "🇺🇸 小売売上高（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T12:20:00.000Z"
-  },
-  {
-   "fcId": 630,
-   "event": "🇪🇺 ECB President Lagarde Speaks",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-15T07:05:00.000Z"
   }
  ],
  "waxForecast": {
-  "id": 217,
+  "id": 218,
   "direction": "UP",
-  "entryFrom": 159.761,
-  "entryTo": 159.791,
-  "opposingSR": 160.2,
-  "jst": "2026-06-15 09:11:05"
+  "entryFrom": 159.76,
+  "entryTo": 159.79,
+  "opposingSR": 160,
+  "jst": "2026-06-15 09:12:40"
  },
  "entryJudges": [],
  "exitLive": [
   {
    "ticket": 957970447,
    "peak": 0,
-   "openedMs": 1781481722416,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過9分",
+   "openedMs": 1781482360408,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過1分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
    "action": "ブローカーTP/SL待ち",
    "target": null
@@ -167,41 +79,6 @@
  "guardian": {
   "enabled": true,
   "arms": [
-   {
-    "armId": 481,
-    "gen": 584,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 482,
-    "gen": 585,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 483,
-    "gen": 586,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 484,
-    "gen": 587,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 621,
-    "gen": 621,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
    {
     "armId": 575,
     "gen": 594,
@@ -234,48 +111,6 @@
     "armId": 580,
     "gen": 598,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 622,
-    "gen": 622,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 623,
-    "gen": 623,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 625,
-    "gen": 625,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 628,
-    "gen": 628,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 629,
-    "gen": 629,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 630,
-    "gen": 630,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    }
