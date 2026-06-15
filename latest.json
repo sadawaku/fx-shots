@@ -1,15 +1,15 @@
 {
-  "version": "v5.28.3",
-  "gitCommit": "97476c1124810b13b7067cfaecb1b6c32c969e90",
+  "version": "v5.28.4",
+  "gitCommit": "4c788829ed28856d91f1f29d9cc6433357c5b9a6",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T08:30:00Z",
-  "note": "v5.28.3(日) status.json監視窓 本修理(指示書v5.28.3): ①黙って止まらせない=statusExport push途絶検知。最後のpush成功時刻記録・生成は続くのにpushが閾値(開場10分/閉場30分・flag status_stale_secで上書可)超で途切れたらpm2 WARN+status.json本体にpushStale:true/lastPushAgoSec/lastPushOk(外から窓の死にかけが見える)。stale系は変化検知ハッシュ除外(push暴走防止)。②6/13被害監査(.env.bak_mt5key_20260613突合)=落ちたキー無し・MT5_ENC_SECRETのみ値変化(鍵切替=意図)・STATUS_REPO_DIRは元々.env非搭載(ambient/pm2 envで6/13再起動消失=第三被害無し)。③自力push=SSH一本化(remote git@github.com・~/.ssh/config→fx_shots_deploy・STATUS_REPO_DIR=.env)・wincredman/HTTPS不使用。残=デプロイ鍵fx-status-deployのGitHub write登録(会長の一手)→約60秒で自律push再開。凍結5無改変・非凍結(statusExport)のみ。 / v5.28.2 status.json自動push復活 / v5.28.1 master ON自動復帰 / v5.28.0 pre_trend_scalper(デモ限定) / v5.27.0 WAX TP35/SL15 / v5.26.0 漁師TP8/SL10(+29.1p)。",
+  "builtAt": "2026-06-15T09:10:00Z",
+  "note": "v5.28.4(日) 漁師&WAX入値ゴミ(0.1〜0.101)修正(会長承認・凍結5変更): AIが稀にentryZoneに現在値とかけ離れたゴミ(例0.1〜0.101)を返し現在値照合せず保存→liveがその帯に入らず永久不発の死にアーム(status=approvedでも撃たない)。診断で6/13〜6/15に蓄積した死にアーム63件(6/16日銀/小売/FOMC等approved含む=ほぼ全滅)を確認。①プラウシビリティ・ガード=fishermanForecast(本生成+T-15)とwaxForecastで保存前にentryZoneが現在値から1.0(=100pips)超乖離ならWARN出力(黙って捨てない)→破棄→価格アンカーfallback(price±0.06)。②既存死にアーム63件をcancel(cancelReason=system・月曜朝バッチで再生成)。③表示ガード=USDJPY実価格でない入値は『予想待ち(再生成)』表示(FishermanForecastPanel/WaxForecastPanel・嘘を出さない)。バグ直し(correctness)で戦略数値不変・edge悪化なし。凍結5: fishermanForecast改変(新SHA af1383b4)・waxForecast改変(新SHA 3d067f27)・他3本不変。デモ・建玉0・kill flag維持・火曜朝バッチ前に稼働。 / v5.28.3 status.json監視窓本修理(push途絶検知) / v5.28.2 status.json自動push復活 / v5.28.1 master ON自動復帰 / v5.28.0 pre_trend_scalper(デモ限定)。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
-    "fishermanForecast": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
+    "fishermanForecast": "af1383b47c0877436534c692661812f6f1cf6458cb0533b2528cd734cc803550",
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
-    "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
+    "waxForecast": "3d067f27f02d905eac194066baf2fd8989bc2be40655d5852d86b82ea5b12b39"
   },
-  "frozenNote": "v5.28.3は非凍結のみ改変(statusExport.ts)。凍結5(activeExit/fishermanTrader=83806f44/fishermanForecast/waxTrader=ef7a3bab/waxForecast)無改変。"
+  "frozenNote": "v5.28.4は会長承認の下 fishermanForecast(新SHA af1383b4)・waxForecast(新SHA 3d067f27)を改変(入値プラウシビリティ・ガード追加)。activeExit/fishermanTrader/waxTrader 3本は不変。"
 }
