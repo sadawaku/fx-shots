@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-15T19:44:39.369+09:00",
+ "generatedAt": "2026-06-15T19:45:39.364+09:00",
  "version": "v5.28.9",
  "schema": 1,
- "lastPushOk": "2026-06-15T19:43:47.313+09:00",
+ "lastPushOk": "2026-06-15T19:44:47.318+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "pullback_scalper",
    "dir": "sell",
    "entry": 160.099,
-   "pips": -0.4
+   "pips": -0.6
   }
  ],
  "arms": [
