@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T10:17:27.547+09:00",
- "version": "v5.28.4",
+ "generatedAt": "2026-06-15T10:22:19.029+09:00",
+ "version": "v5.28.5",
  "schema": 1,
- "lastPushOk": "2026-06-15T10:12:35.421+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -105,17 +105,7 @@
   "jst": "2026-06-15 09:56:28"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 957987766,
-   "peak": 0,
-   "openedMs": 1781484988439,
-   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
-   "basis": "broker bracket primary (WAX超攻撃型)",
-   "action": "ブローカーTP35/SL15 or トレンド終了",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -198,21 +188,7 @@
    }
   ]
  },
- "coach": [
-  {
-   "ticket": 957987766,
-   "haiku": {
-    "state": "異変",
-    "text": "売りが効かず。レンジ内で上値抵抗。損失じり増。反転兆し。ポジション整理推奨。",
-    "at": 1781484990584
-   },
-   "captain": {
-    "decision": "今すぐ利確",
-    "reason": "売り不発、損失拡大中、早期撤退が最善",
-    "at": 1781484993698
-   }
-  }
- ],
+ "coach": [],
  "dailyGuard": {
   "enabled": true,
   "pct": 2,
