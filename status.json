@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-16T03:05:11.892+09:00",
+ "generatedAt": "2026-06-16T03:07:11.924+09:00",
  "version": "v5.28.15",
  "schema": 1,
- "lastPushOk": "2026-06-16T03:00:19.713+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-16T03:05:20.051+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 958299118,
+   "agent": "pullback_scalper",
+   "dir": "buy",
+   "entry": 160.268,
+   "pips": -1.1
+  }
+ ],
  "arms": [
   {
    "fcId": 575,
@@ -97,17 +105,7 @@
   "jst": "2026-06-16 01:19:28"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 958278069,
-   "peak": 0,
-   "openedMs": 1781540368312,
-   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
-   "basis": "broker bracket primary (WAX超攻撃型)",
-   "action": "ブローカーTP35/SL15 or トレンド終了",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -183,21 +181,7 @@
    }
   ]
  },
- "coach": [
-  {
-   "ticket": 958278069,
-   "haiku": {
-    "state": "異変",
-    "text": "売りが逆行中。棚も近く、反発の気配。損切り検討時。",
-    "at": 1781545746722
-   },
-   "captain": {
-    "decision": "今すぐ利確",
-    "reason": "損中・棚0.7pで伸び代なし、即撤退",
-    "at": 1781540372296
-   }
-  }
- ],
+ "coach": [],
  "dailyGuard": {
   "enabled": false,
   "pct": 2,
