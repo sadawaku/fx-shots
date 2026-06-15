@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-15T20:52:18.501+09:00",
+ "generatedAt": "2026-06-15T20:53:18.500+09:00",
  "version": "v5.28.11",
  "schema": 1,
- "lastPushOk": "2026-06-15T20:51:26.540+09:00",
+ "lastPushOk": "2026-06-15T20:52:26.565+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
@@ -42,7 +42,7 @@
   {
    "fcId": 580,
    "event": "6/17 🇺🇸 NAHB住宅市場指数（6月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
@@ -50,7 +50,7 @@
   {
    "fcId": 638,
    "event": "6/16 🇯🇵 Monetary Policy Statement",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T02:20:00.000Z"
@@ -131,15 +131,15 @@
    },
    {
     "armId": 580,
-    "gen": 657,
-    "dir": "sell",
+    "gen": 670,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 638,
-    "gen": 658,
-    "dir": "sell",
+    "gen": 671,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
