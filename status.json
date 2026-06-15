@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T08:10:14.763+09:00",
+ "generatedAt": "2026-06-16T08:13:14.784+09:00",
  "version": "v5.28.15",
  "schema": 1,
- "lastPushOk": "2026-06-16T08:05:22.894+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-16T08:10:22.756+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -126,6 +126,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T13:20:00.000Z"
+  },
+  {
+   "fcId": 692,
+   "event": "🇯🇵 BOJ Policy Rate",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-16T02:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -242,6 +250,13 @@
    {
     "armId": 683,
     "gen": 683,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 692,
+    "gen": 692,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
