@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T09:37:27.056+09:00",
+ "generatedAt": "2026-06-15T09:38:27.062+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:36:34.816+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-15T09:37:36.157+09:00",
+ "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -88,9 +88,9 @@
    "trigger": "2026-06-17T13:20:00.000Z"
   },
   {
-   "fcId": 644,
-   "event": "6/18 🇺🇸 Federal Funds Rate",
-   "dir": "sell",
+   "fcId": 646,
+   "event": "6/18 🇺🇸 FOMC Statement",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T17:50:00.000Z"
@@ -190,9 +190,9 @@
     "bandAgeSec": null
    },
    {
-    "armId": 644,
-    "gen": 644,
-    "dir": "sell",
+    "armId": 646,
+    "gen": 646,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    }
