@@ -1,15 +1,15 @@
 {
-  "version": "v5.28.4",
-  "gitCommit": "4c788829ed28856d91f1f29d9cc6433357c5b9a6",
+  "version": "v5.28.5",
+  "gitCommit": "eff8db028eecc23aa89c034828a6d023dae78c98",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T09:10:00Z",
-  "note": "v5.28.4(日) 漁師&WAX入値ゴミ(0.1〜0.101)修正(会長承認・凍結5変更): AIが稀にentryZoneに現在値とかけ離れたゴミ(例0.1〜0.101)を返し現在値照合せず保存→liveがその帯に入らず永久不発の死にアーム(status=approvedでも撃たない)。診断で6/13〜6/15に蓄積した死にアーム63件(6/16日銀/小売/FOMC等approved含む=ほぼ全滅)を確認。①プラウシビリティ・ガード=fishermanForecast(本生成+T-15)とwaxForecastで保存前にentryZoneが現在値から1.0(=100pips)超乖離ならWARN出力(黙って捨てない)→破棄→価格アンカーfallback(price±0.06)。②既存死にアーム63件をcancel(cancelReason=system・月曜朝バッチで再生成)。③表示ガード=USDJPY実価格でない入値は『予想待ち(再生成)』表示(FishermanForecastPanel/WaxForecastPanel・嘘を出さない)。バグ直し(correctness)で戦略数値不変・edge悪化なし。凍結5: fishermanForecast改変(新SHA af1383b4)・waxForecast改変(新SHA 3d067f27)・他3本不変。デモ・建玉0・kill flag維持・火曜朝バッチ前に稼働。 / v5.28.3 status.json監視窓本修理(push途絶検知) / v5.28.2 status.json自動push復活 / v5.28.1 master ON自動復帰 / v5.28.0 pre_trend_scalper(デモ限定)。",
+  "builtAt": "2026-06-15T10:00:00Z",
+  "note": "v5.28.5(日) v5.28.4誤診の是正revert: 0.100〜0.101はゴミでなく入口の番人(entryGuardian)のpark sentinel(退避帯)=実エントリーはguardOrigFrom/Toに退避保存・E側はsentinel見たらguardOrig参照で正常約定。park→unpark→約定の実例fc#460(退避帯160.462〜160.522→約定160.503帯内・tk957310479)等8件で実証=死にアームではなかった。①凍結5を正典へbyte-exact revert(fishermanForecast 2ad3dec8/waxForecast 50df0a66=v5.28.4の乖離ガード除去・他3本不変) ②表示是正(arm=park中はguardOrig実値＋『待機(park中)』バッジ・『予想待ち(再生成)』撤去) ③v5.28.4で誤cancel63/削除110したが6/16日銀/6/17/FOMC等は実値park中で再arm済・監査データ無傷。デモ・建玉0・kill flag維持。 / v5.28.3 status監視窓本修理 / v5.28.1 master ON自動復帰 / v5.28.0 pre_trend_scalper(デモ限定)。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
-    "fishermanForecast": "af1383b47c0877436534c692661812f6f1cf6458cb0533b2528cd734cc803550",
+    "fishermanForecast": "2ad3dec80cf8ca13fac453870e2c7d6049c5015b7f7dd7d0e0c1df6d6b4727cf",
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
-    "waxForecast": "3d067f27f02d905eac194066baf2fd8989bc2be40655d5852d86b82ea5b12b39"
+    "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.4は会長承認の下 fishermanForecast(新SHA af1383b4)・waxForecast(新SHA 3d067f27)を改変(入値プラウシビリティ・ガード追加)。activeExit/fishermanTrader/waxTrader 3本は不変。"
+  "frozenNote": "v5.28.5でfishermanForecast/waxForecastを正典SHA(2ad3dec8/50df0a66)へrevert(v5.28.4の誤診ガードを除去)。凍結5は全5本が正典に一致。"
 }
