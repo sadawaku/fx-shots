@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-15T21:34:18.936+09:00",
+ "generatedAt": "2026-06-15T21:35:18.940+09:00",
  "version": "v5.28.11",
  "schema": 1,
- "lastPushOk": "2026-06-15T21:33:26.836+09:00",
+ "lastPushOk": "2026-06-15T21:34:26.996+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 958184105,
-   "agent": "wax wax ny",
-   "dir": "buy",
-   "entry": 160.139,
-   "pips": 0
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 575,
@@ -228,7 +220,7 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 6,
+  "n": 7,
   "pips": -7.9
  },
  "todayVirtual": {
