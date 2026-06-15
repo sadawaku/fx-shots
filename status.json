@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T11:27:19.716+09:00",
+ "generatedAt": "2026-06-15T11:28:19.764+09:00",
  "version": "v5.28.5",
  "schema": 1,
- "lastPushOk": "2026-06-15T11:22:27.376+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-15T11:27:27.460+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -102,6 +102,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-15T04:20:00.000Z"
+  },
+  {
+   "fcId": 649,
+   "event": "🇪🇺 ECB President Lagarde Speaks",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T07:05:00.000Z"
   }
  ],
  "waxForecast": {
@@ -198,6 +206,13 @@
     "armId": 648,
     "gen": 648,
     "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 649,
+    "gen": 649,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    }
