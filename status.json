@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-06-16T00:07:47.606+09:00",
- "version": "v5.28.14",
+ "generatedAt": "2026-06-16T00:13:09.678+09:00",
+ "version": "v5.28.15",
  "schema": 1,
  "lastPushOk": null,
  "lastPushAgoSec": 60,
@@ -89,15 +89,25 @@
   }
  ],
  "waxForecast": {
-  "id": 237,
+  "id": 238,
   "direction": "DOWN",
-  "entryFrom": 160.294,
-  "entryTo": 160.324,
-  "opposingSR": 160.584,
-  "jst": "2026-06-16 00:07:34"
+  "entryFrom": 160.286,
+  "entryTo": 160.316,
+  "opposingSR": 159.537,
+  "jst": "2026-06-16 00:12:24"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 958184105,
+   "peak": 0,
+   "openedMs": 1781536331008,
+   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
+   "basis": "broker bracket primary (WAX超攻撃型)",
+   "action": "ブローカーTP35/SL15 or トレンド終了",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -173,7 +183,17 @@
    }
   ]
  },
- "coach": [],
+ "coach": [
+  {
+   "ticket": 958184105,
+   "haiku": {
+    "state": "異変",
+    "text": "下げ圧強い。棚まで0.3pしかなく危険。損切り検討の局面です。",
+    "at": 1781536332421
+   },
+   "captain": null
+  }
+ ],
  "dailyGuard": {
   "enabled": false,
   "pct": 2,
@@ -196,8 +216,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 0,
-  "pips": 0
+  "n": 1,
+  "pips": -0.3
  },
  "todayVirtual": {
   "n": 0,
