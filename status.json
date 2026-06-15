@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T15:11:42.670+09:00",
+ "generatedAt": "2026-06-15T15:15:42.713+09:00",
  "version": "v5.28.7",
  "schema": 1,
- "lastPushOk": "2026-06-15T15:06:50.516+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-15T15:11:50.611+09:00",
+ "lastPushAgoSec": 232,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -97,15 +97,25 @@
   }
  ],
  "waxForecast": {
-  "id": 224,
+  "id": 225,
   "direction": "DOWN",
   "entryFrom": 160.08,
   "entryTo": 160.14,
   "opposingSR": 159.537,
-  "jst": "2026-06-15 14:56:04"
+  "jst": "2026-06-15 15:14:47"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 958078830,
+   "peak": 0,
+   "openedMs": 1781504087337,
+   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
+   "basis": "broker bracket primary (WAX超攻撃型)",
+   "action": "ブローカーTP35/SL15 or トレンド終了",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -188,7 +198,21 @@
    }
   ]
  },
- "coach": [],
+ "coach": [
+  {
+   "ticket": 958078830,
+   "haiku": {
+    "state": "異変",
+    "text": "売り建玉、わずか含み損。直近5分ほぼ動かず、棚まで距離あり。反転警戒。",
+    "at": 1781504103658
+   },
+   "captain": {
+    "decision": "警戒",
+    "reason": "売り押され気味、棚まで0.7pで即タイト化",
+    "at": 1781504090305
+   }
+  }
+ ],
  "dailyGuard": {
   "enabled": false,
   "pct": 2,
@@ -211,8 +235,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 4,
-  "pips": -10.9
+  "n": 5,
+  "pips": -11.4
  },
  "todayVirtual": {
   "n": 5,
