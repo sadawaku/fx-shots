@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T11:07:19.526+09:00",
+ "generatedAt": "2026-06-15T11:10:19.545+09:00",
  "version": "v5.28.5",
  "schema": 1,
- "lastPushOk": "2026-06-15T11:02:27.288+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-15T11:07:27.310+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -94,6 +94,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T02:20:00.000Z"
+  },
+  {
+   "fcId": 648,
+   "event": "🇯🇵 Tertiary Industry Activity m/m",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-15T04:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -183,6 +191,13 @@
     "armId": 647,
     "gen": 647,
     "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 648,
+    "gen": 648,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    }
