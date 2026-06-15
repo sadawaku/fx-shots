@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.6",
-  "gitCommit": "c931d4bdc82a1d9fb0ec40a92a310fa81997b0db",
+  "version": "v5.28.7",
+  "gitCommit": "caf55f6e4e093604cf2a1c337c99272e1de09657",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-15T11:20:00Z",
-  "note": "v5.28.6(日) 漁師アーム一覧の取引日グルーピング+テスト残骸掃除(表示/掃除のみ・非凍結・デモ): ①FishermanForecastPanelの承認アーム一覧を取引日(境目=NYクローズ17:00 America/New_York・DST自動)で今日/翌日/翌々日…に分割表示(件数+取引日日付・各armのトリガー時刻が属するセッションで仕分け・park中は実値guardOrig+待機バッジ維持)。例FOMC 6/18 03:00 JST=NY 6/17 14:00→6/17取引日。②テスト残骸 fc#647『隔離テストBOJ』(6/16 11:30で本物fc#638と二重=二重発注リスク)をcancel。売買/トリガー/出口/凍結5 非接触・version backend+frontend同期。 / v5.28.5 v5.28.4誤診是正(park sentinel・凍結5正典revert) / v5.28.3 status監視窓 / v5.28.1 master ON自動復帰。",
+  "builtAt": "2026-06-15T12:10:00Z",
+  "note": "v5.28.7(日) ①pullback_scalper新設(30分5pip押し目順張り・新規独立・デモ専用・会長命令BT省略): entry/pullbackScalper.ts=ルールベース検知(M5 EMA9/21トレンド+M1押し目→再開・AI不使用)→openPositionでブローカーTP+5/SL-8同時発注・30分タイムアウト撤収・lot1・同時1本・kill flag pullback_scalper(既定off)・is_demo!==trueなら発注拒否。autotrader tickフック(off時即return)。漁師/WAX/凍結5 非接触。②漁師arm入値『圏 —』修正(表示・非凍結): park中(entry=sentinel 0.100/0.101)は実値が消えるがguardOrigFrom/Toに退避済(ケースA表示の抜け)。/api/fisherman/armed に最新世代行のguardOrig付与+FishermanForecastPanelがpark中はguardOrig実値+待機(park中)バッジ表示(WAXと同じ見え方・圏 —廃止)。凍結5無改変・version backend+frontend同期・デモ・建玉0・kill flag維持。 / v5.28.6 アーム取引日グルーピング / v5.28.5 v5.28.4誤診是正(park sentinel) / v5.28.1 master ON自動復帰。",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.6は表示/掃除のみ(frontend+version)。凍結5は全5本 正典のまま不変。"
+  "frozenNote": "v5.28.7は新規独立agent(pullbackScalper)+非凍結(autotrader/server/frontend)のみ。凍結5は全5本 正典のまま無改変。"
 }
