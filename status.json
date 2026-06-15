@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T09:53:27.315+09:00",
+ "generatedAt": "2026-06-15T09:54:27.315+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:48:34.943+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-15T09:53:34.974+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -97,22 +97,22 @@
   }
  ],
  "waxForecast": {
-  "id": 220,
+  "id": 221,
   "direction": "DOWN",
   "entryFrom": 160.08,
   "entryTo": 160.12,
   "opposingSR": 159.537,
-  "jst": "2026-06-15 09:53:09"
+  "jst": "2026-06-15 09:53:31"
  },
  "entryJudges": [],
  "exitLive": [
   {
-   "ticket": 957970447,
+   "ticket": 957986296,
    "peak": 0,
-   "openedMs": 1781482360408,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過20分",
-   "basis": "broker bracket primary (能動決済は漁師から切断)",
-   "action": "20分タイムアウト→成行撤収",
+   "openedMs": 1781484811963,
+   "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
+   "basis": "broker bracket primary (WAX超攻撃型)",
+   "action": "ブローカーTP35/SL15 or トレンド終了",
    "target": null
   }
  ],
@@ -198,14 +198,28 @@
    }
   ]
  },
- "coach": [],
+ "coach": [
+  {
+   "ticket": 957986296,
+   "haiku": {
+    "state": "異変",
+    "text": "売りが押され中。棚まで1.1pと近い。損切り検討の場面。",
+    "at": 1781484813465
+   },
+   "captain": {
+    "decision": "警戒",
+    "reason": "建値割れ寸前、棚まで1pで反発リスク高い",
+    "at": 1781484815539
+   }
+  }
+ ],
  "dailyGuard": {
   "enabled": true,
   "pct": 2,
   "day": "2026-06-15",
   "tripped": false,
-  "realizedJpy": -5700,
-  "lossPctOfStart": -0.57
+  "realizedJpy": -7800,
+  "lossPctOfStart": -0.78
  },
  "flags": {
   "entry_guardian": "on",
@@ -224,8 +238,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 1,
-  "pips": -5.7
+  "n": 2,
+  "pips": -7.8
  },
  "todayVirtual": {
   "n": 0,
