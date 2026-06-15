@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-15T09:32:27.020+09:00",
+ "generatedAt": "2026-06-15T09:33:27.032+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:31:34.928+09:00",
+ "lastPushOk": "2026-06-15T09:32:34.928+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 957970447,
-   "agent": "fisherman fisher",
-   "dir": "sell",
-   "entry": 159.914,
-   "pips": -6.4
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 575,
@@ -70,15 +62,31 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T02:20:00.000Z"
+  },
+  {
+   "fcId": 639,
+   "event": "6/16 🇯🇵 BOJ Press Conference",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-16T05:20:00.000Z"
+  },
+  {
+   "fcId": 640,
+   "event": "6/17 🇬🇧 CPI y/y",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T05:50:00.000Z"
   }
  ],
  "waxForecast": {
-  "id": 218,
-  "direction": "UP",
-  "entryFrom": 159.76,
-  "entryTo": 159.79,
-  "opposingSR": 160,
-  "jst": "2026-06-15 09:12:40"
+  "id": 219,
+  "direction": "DOWN",
+  "entryFrom": 160.11,
+  "entryTo": 160.14000000000001,
+  "opposingSR": 159.362,
+  "jst": "2026-06-15 09:32:54"
  },
  "entryJudges": [],
  "exitLive": [
@@ -88,7 +96,7 @@
    "openedMs": 1781482360408,
    "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過20分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
-   "action": "ブローカーTP/SL待ち",
+   "action": "20分タイムアウト→成行撤収",
    "target": null
   }
  ],
@@ -143,6 +151,20 @@
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
+   },
+   {
+    "armId": 639,
+    "gen": 639,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 640,
+    "gen": 640,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
    }
   ]
  },
@@ -152,8 +174,8 @@
   "pct": 2,
   "day": "2026-06-15",
   "tripped": false,
-  "realizedJpy": 0,
-  "lossPctOfStart": 0
+  "realizedJpy": -5700,
+  "lossPctOfStart": -0.57
  },
  "flags": {
   "entry_guardian": "on",
@@ -172,8 +194,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 0,
-  "pips": 0
+  "n": 1,
+  "pips": -5.7
  },
  "todayVirtual": {
   "n": 0,
