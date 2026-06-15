@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T11:16:19.555+09:00",
+ "generatedAt": "2026-06-15T11:17:19.581+09:00",
  "version": "v5.28.5",
  "schema": 1,
- "lastPushOk": "2026-06-15T11:10:27.331+09:00",
- "lastPushAgoSec": 352,
+ "lastPushOk": "2026-06-15T11:16:27.174+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -205,12 +205,9 @@
  },
  "coach": [],
  "dailyGuard": {
-  "enabled": true,
+  "enabled": false,
   "pct": 2,
-  "day": "2026-06-15",
-  "tripped": false,
-  "realizedJpy": -11000,
-  "lossPctOfStart": -1.1
+  "lossPctOfStart": null
  },
  "flags": {
   "entry_guardian": "on",
@@ -222,7 +219,7 @@
   "fisherman_entry_judge": "on(default)",
   "status_export": "on(default)",
   "position_coach": "on(default)",
-  "daily_loss_guard": "on(default)",
+  "daily_loss_guard": "off",
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "live",
   "fisherman_auto_approve": "1",
