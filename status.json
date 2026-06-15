@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T14:46:53.324+09:00",
+ "generatedAt": "2026-06-15T14:47:53.329+09:00",
  "version": "v5.28.6",
  "schema": 1,
- "lastPushOk": "2026-06-15T14:45:01.023+09:00",
- "lastPushAgoSec": 112,
+ "lastPushOk": "2026-06-15T14:47:01.113+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -26,7 +26,7 @@
   {
    "fcId": 578,
    "event": "6/17 🇺🇸 小売売上高（5月）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T12:20:00.000Z"
@@ -135,21 +135,21 @@
    },
    {
     "armId": 578,
-    "gen": 578,
-    "dir": "buy",
+    "gen": 655,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 579,
-    "gen": 579,
+    "gen": 656,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 580,
-    "gen": 580,
+    "gen": 657,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
