@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-15T09:54:27.315+09:00",
+ "generatedAt": "2026-06-15T09:57:27.358+09:00",
  "version": "v5.28.4",
  "schema": 1,
- "lastPushOk": "2026-06-15T09:53:34.974+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-15T09:54:35.314+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -97,19 +97,19 @@
   }
  ],
  "waxForecast": {
-  "id": 221,
+  "id": 222,
   "direction": "DOWN",
   "entryFrom": 160.08,
   "entryTo": 160.12,
   "opposingSR": 159.537,
-  "jst": "2026-06-15 09:53:31"
+  "jst": "2026-06-15 09:56:28"
  },
  "entryJudges": [],
  "exitLive": [
   {
-   "ticket": 957986296,
+   "ticket": 957987766,
    "peak": 0,
-   "openedMs": 1781484811963,
+   "openedMs": 1781484988439,
    "text": "🅱️ WAXワイドブラケット(TP35/SL15)に委任中・波死亡(逆行)のみ安全弁",
    "basis": "broker bracket primary (WAX超攻撃型)",
    "action": "ブローカーTP35/SL15 or トレンド終了",
@@ -200,16 +200,16 @@
  },
  "coach": [
   {
-   "ticket": 957986296,
+   "ticket": 957987766,
    "haiku": {
     "state": "異変",
-    "text": "売りが押され中。棚まで1.1pと近い。損切り検討の場面。",
-    "at": 1781484813465
+    "text": "売りが効かず。レンジ内で上値抵抗。損失じり増。反転兆し。ポジション整理推奨。",
+    "at": 1781484990584
    },
    "captain": {
-    "decision": "警戒",
-    "reason": "建値割れ寸前、棚まで1pで反発リスク高い",
-    "at": 1781484815539
+    "decision": "今すぐ利確",
+    "reason": "売り不発、損失拡大中、早期撤退が最善",
+    "at": 1781484993698
    }
   }
  ],
@@ -218,8 +218,8 @@
   "pct": 2,
   "day": "2026-06-15",
   "tripped": false,
-  "realizedJpy": -7800,
-  "lossPctOfStart": -0.78
+  "realizedJpy": -11000,
+  "lossPctOfStart": -1.1
  },
  "flags": {
   "entry_guardian": "on",
@@ -238,8 +238,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 2,
-  "pips": -7.8
+  "n": 3,
+  "pips": -11
  },
  "todayVirtual": {
   "n": 0,
