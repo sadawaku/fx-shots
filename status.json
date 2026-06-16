@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T11:42:16.877+09:00",
+ "generatedAt": "2026-06-16T11:43:16.888+09:00",
  "version": "v5.28.15",
  "schema": 1,
- "lastPushOk": "2026-06-16T11:41:24.503+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-16T11:42:25.432+09:00",
+ "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [
   {
@@ -149,7 +149,7 @@
    "ticket": 958376477,
    "peak": 0,
    "openedMs": 1781576918908,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過14分",
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過15分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
    "action": "ブローカーTP/SL待ち",
    "target": null
@@ -158,7 +158,7 @@
    "ticket": 958376483,
    "peak": 0,
    "openedMs": 1781576920458,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過14分",
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過15分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
    "action": "ブローカーTP/SL待ち",
    "target": null
