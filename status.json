@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-17T08:25:50.166+09:00",
+ "generatedAt": "2026-06-17T08:30:50.231+09:00",
  "version": "v5.29.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T08:20:57.997+09:00",
+ "lastPushOk": "2026-06-17T08:25:58.510+09:00",
  "lastPushAgoSec": 292,
  "pushStale": false,
  "positions": [],
@@ -341,7 +341,7 @@
   "position_coach": "on(default)",
   "daily_loss_guard": "off",
   "daily_loss_guard_pct": "2(default)",
-  "wax_hedge_mode": "shadow",
+  "wax_hedge_mode": "live",
   "fisherman_auto_approve": "1",
   "wax_auto_delegate": "1"
  },
