@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T08:05:49.956+09:00",
+ "generatedAt": "2026-06-17T08:10:49.990+09:00",
  "version": "v5.29.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T08:02:57.879+09:00",
- "lastPushAgoSec": 172,
+ "lastPushOk": "2026-06-17T08:05:57.824+09:00",
+ "lastPushAgoSec": 292,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -64,14 +64,6 @@
    "trigger": "2026-06-17T12:20:00.000Z"
   },
   {
-   "fcId": 687,
-   "event": "6/17 🇺🇸 米鉱工業生産（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:05:00.000Z"
-  },
-  {
    "fcId": 688,
    "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
    "dir": "buy",
@@ -94,6 +86,78 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T13:50:00.000Z"
+  },
+  {
+   "fcId": 746,
+   "event": "6/19 🇯🇵 日銀金融政策決定会合（結果・植田総裁会見）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-19T02:50:00.000Z"
+  },
+  {
+   "fcId": 743,
+   "event": "6/18 🇺🇸 米住宅着工件数・建設許可件数（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 739,
+   "event": "6/17 🇺🇸 ミシガン大インフレ期待5年（6月・速報）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:50:00.000Z"
+  },
+  {
+   "fcId": 736,
+   "event": "6/17 🇺🇸 設備稼働率（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:05:00.000Z"
+  },
+  {
+   "fcId": 735,
+   "event": "6/17 🇺🇸 米鉱工業生産（5月）MoM",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:05:00.000Z"
+  },
+  {
+   "fcId": 734,
+   "event": "6/17 🇺🇸 米輸入物価指数（5月）MoM",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T12:20:00.000Z"
+  },
+  {
+   "fcId": 733,
+   "event": "6/17 🇺🇸 米小売売上高（5月）MoM",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T12:20:00.000Z"
+  },
+  {
+   "fcId": 732,
+   "event": "6/17 🇪🇺 ユーロ圏CPI（5月・確報）YoY",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T08:50:00.000Z"
+  },
+  {
+   "fcId": 731,
+   "event": "6/17 🇬🇧 英小売売上高（5月）MoM",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T05:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -159,13 +223,6 @@
     "bandAgeSec": null
    },
    {
-    "armId": 687,
-    "gen": 713,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 688,
     "gen": 745,
     "dir": "buy",
@@ -182,6 +239,69 @@
    {
     "armId": 690,
     "gen": 716,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 746,
+    "gen": 746,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 743,
+    "gen": 743,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 739,
+    "gen": 739,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 736,
+    "gen": 736,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 735,
+    "gen": 735,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 734,
+    "gen": 734,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 733,
+    "gen": 733,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 732,
+    "gen": 732,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 731,
+    "gen": 731,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
