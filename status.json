@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T14:13:55.013+09:00",
+ "generatedAt": "2026-06-16T14:16:55.034+09:00",
  "version": "v5.28.18",
  "schema": 1,
- "lastPushOk": "2026-06-16T14:09:02.342+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": "2026-06-16T14:14:04.708+09:00",
+ "lastPushAgoSec": 170,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -34,7 +34,7 @@
   {
    "fcId": 639,
    "event": "6/16 🇯🇵 BOJ Press Conference",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T05:20:00.000Z"
@@ -156,8 +156,8 @@
    },
    {
     "armId": 639,
-    "gen": 672,
-    "dir": "buy",
+    "gen": 700,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
