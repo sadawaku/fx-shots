@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-16T16:27:56.619+09:00",
+ "generatedAt": "2026-06-16T16:30:56.626+09:00",
  "version": "v5.28.18",
  "schema": 1,
- "lastPushOk": "2026-06-16T16:23:04.291+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-16T16:28:04.515+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 958450987,
+   "agent": "pullback_scalper",
+   "dir": "buy",
+   "entry": 160.285,
+   "pips": 1.5
+  }
+ ],
  "arms": [
   {
    "fcId": 575,
