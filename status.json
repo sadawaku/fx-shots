@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T23:59:02.880+09:00",
+ "generatedAt": "2026-06-17T00:00:02.892+09:00",
  "version": "v5.28.21",
  "schema": 1,
- "lastPushOk": "2026-06-16T23:54:09.961+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": "2026-06-16T23:59:10.898+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -211,8 +211,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 5,
-  "pips": -20.3
+  "n": 0,
+  "pips": 0
  },
  "todayVirtual": {
   "n": 0,
