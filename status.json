@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-16T14:48:55.427+09:00",
+ "generatedAt": "2026-06-16T14:49:55.435+09:00",
  "version": "v5.28.18",
  "schema": 1,
- "lastPushOk": "2026-06-16T14:48:02.954+09:00",
+ "lastPushOk": "2026-06-16T14:49:03.274+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
@@ -192,21 +192,21 @@
    },
    {
     "armId": 683,
-    "gen": 683,
+    "gen": 710,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 685,
-    "gen": 685,
+    "gen": 711,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 686,
-    "gen": 686,
+    "gen": 712,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
