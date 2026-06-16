@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.18",
-  "gitCommit": "31227926691935d091c5c9a63bc49404a660e218",
+  "version": "v5.28.19",
+  "gitCommit": "c2138f2c57be93facafabee11e0725ac37e8fc49",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-16T04:30:00Z",
-  "note": "v5.28.18(火) WAX-DE Phase1 hotfix(育成): ①OPENパーサ堅牢化(方向語+pipsがあれば決済/利確語混在でもOPEN最優先・side確定・逆方向誤発注防止・MODIFYは方向語なし時のみ・エコー方向明示) ②『(N)pipsで決済/利確』(方向なし)=会長指示建玉のTPを+Npへ設定(tp_set・エコー+GO) ③不誠実履歴の根治=会長指示建玉の決済をwax_journalへ記録(recordChairmanClose・autotrader close検知から自己ガード呼び出し) ④直近2本の不誠実履歴を会長指示で削除済. preview全入力テスト合格. 発注は会長GOのみ・凍結5/mt5_server.py/mt5trade共有 無改変. / v5.28.17 WAX-DE Phase1-minimum(育成ページ+会長コマンド即時実行).",
+  "builtAt": "2026-06-16T16:30:00Z",
+  "note": "v5.28.19(火) 永久追放ログ隔離(墓標)+中央フィルタ(復元でなく恒久ブロック・会長最高権限): MT5台帳に残るバグ由来invalid/quarantined 4本を通常成績/学習/UI/通常監査に二度と混入させない. excluded_trade_tombstones+db.isExcludedTrade/getExcludedTradeScope/addTombstone. agent_trades通常API・WAX-DE history/positions/recordClose に適用. 4本はagent_trades/wax_journal物理削除済+tombstone恒久ブロック. MT5突合は Broker net/Strategy valid net/隔離済み事故損益(件数合計のみ・明細非表示) の3分割. chairman_command成績へ復元しない. 凍結5/mt5_server.py/漁師/WAX/pullback無改変・発注なし. / v5.28.18 WAX-DE hotfix. / v5.28.17 WAX-DE Phase1.",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.18はWAX-DE Phase1 hotfix(wax/chairmanCommand parser堅牢化+tp_set+recordChairmanClose・server/autotrader配線・frontend)+version。凍結5(ai/5本)は全本 正典のまま無改変。mt5_server.py/mt5trade共有も無改変。"
+  "frozenNote": "v5.28.19はdb.ts(tombstone+中央フィルタ)+server.ts(agent_trades API適用)+chairmanCommand(適用)+version。凍結5(ai/5本)無改変。mt5_server.py無改変。"
 }
