@@ -1,20 +1,12 @@
 {
- "generatedAt": "2026-06-16T20:19:54.192+09:00",
+ "generatedAt": "2026-06-16T22:48:10.126+09:00",
  "version": "v5.28.20",
  "schema": 1,
- "lastPushOk": "2026-06-16T20:15:01.730+09:00",
- "lastPushAgoSec": 292,
- "pushStale": false,
+ "lastPushOk": null,
+ "lastPushAgoSec": 6781,
+ "pushStale": true,
  "positions": [],
  "arms": [
-  {
-   "fcId": 575,
-   "event": "6/16 🇺🇸 NYエンパイアステート製造業指数（6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T12:20:00.000Z"
-  },
   {
    "fcId": 577,
    "event": "6/17 🇯🇵 日銀金融政策決定会合（結果・植田総裁会見）",
@@ -26,7 +18,7 @@
   {
    "fcId": 580,
    "event": "6/17 🇺🇸 NAHB住宅市場指数（6月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
@@ -127,22 +119,22 @@
   "arms": [
    {
     "armId": 575,
-    "gen": 703,
+    "gen": 720,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 577,
-    "gen": 704,
+    "gen": 722,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 580,
-    "gen": 705,
-    "dir": "sell",
+    "gen": 724,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
@@ -155,7 +147,7 @@
    },
    {
     "armId": 643,
-    "gen": 708,
+    "gen": 727,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
