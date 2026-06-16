@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T14:56:55.480+09:00",
+ "generatedAt": "2026-06-16T15:00:55.517+09:00",
  "version": "v5.28.18",
  "schema": 1,
- "lastPushOk": "2026-06-16T14:52:03.212+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-16T14:57:03.066+09:00",
+ "lastPushAgoSec": 232,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -30,14 +30,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
-  },
-  {
-   "fcId": 639,
-   "event": "6/16 🇯🇵 BOJ Press Conference",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T05:20:00.000Z"
   },
   {
    "fcId": 640,
@@ -128,15 +120,7 @@
   "opposingSR": 160.59,
   "jst": "2026-06-16 14:45:51"
  },
- "entryJudges": [
-  {
-   "armId": 639,
-   "state": "done",
-   "bias": "skip",
-   "reason": "BOJ会見直前、超重要イベントで膠着・急変リスク大",
-   "at": 1781588403669
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -159,13 +143,6 @@
     "armId": 580,
     "gen": 705,
     "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 639,
-    "gen": 706,
-    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
