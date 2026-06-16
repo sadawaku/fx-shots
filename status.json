@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-16T12:20:54.914+09:00",
+ "generatedAt": "2026-06-16T12:25:54.971+09:00",
  "version": "v5.28.17",
  "schema": 1,
- "lastPushOk": "2026-06-16T12:17:02.396+09:00",
- "lastPushAgoSec": 233,
+ "lastPushOk": "2026-06-16T12:21:02.621+09:00",
+ "lastPushAgoSec": 292,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 958389165,
+   "agent": "cmd",
+   "dir": "sell",
+   "entry": 160.157,
+   "pips": -2.6
+  }
+ ],
  "arms": [
   {
    "fcId": 575,
@@ -129,17 +137,7 @@
   "jst": "2026-06-16 09:51:31"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 958387670,
-   "peak": 0,
-   "openedMs": 1781580007570,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過1分",
-   "basis": "broker bracket primary (能動決済は漁師から切断)",
-   "action": "ブローカーTP/SL待ち",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
