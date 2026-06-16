@@ -1,9 +1,9 @@
 {
-  "version": "v5.28.19",
-  "gitCommit": "c2138f2c57be93facafabee11e0725ac37e8fc49",
+  "version": "v5.28.20",
+  "gitCommit": "e0a9ca56a82f6000c1ae04a1d5e803a2010c762d",
   "branch": "work/v5.0.0",
-  "builtAt": "2026-06-16T16:30:00Z",
-  "note": "v5.28.19(火) 永久追放ログ隔離(墓標)+中央フィルタ(復元でなく恒久ブロック・会長最高権限): MT5台帳に残るバグ由来invalid/quarantined 4本を通常成績/学習/UI/通常監査に二度と混入させない. excluded_trade_tombstones+db.isExcludedTrade/getExcludedTradeScope/addTombstone. agent_trades通常API・WAX-DE history/positions/recordClose に適用. 4本はagent_trades/wax_journal物理削除済+tombstone恒久ブロック. MT5突合は Broker net/Strategy valid net/隔離済み事故損益(件数合計のみ・明細非表示) の3分割. chairman_command成績へ復元しない. 凍結5/mt5_server.py/漁師/WAX/pullback無改変・発注なし. / v5.28.18 WAX-DE hotfix. / v5.28.17 WAX-DE Phase1.",
+  "builtAt": "2026-06-16T18:30:00Z",
+  "note": "v5.28.20(火) 永久追放ログ隔離 C/D全面適用(物理削除依存を解消): agent_trades読む全集計に中央フィルタ(tombstone除外SQL・モデル集計/忠実度/月次/status/学習dynamicParams/patternMiner)+バックアップ復元APIにtombstone guard(skip件数のみ・明細非表示)+MT5突合恒久コード化 backend/audit/mt5_reconcile.py(Broker net/Strategy valid net/Quarantined件数合計のみ・明細漏洩不可). /api/agent-trades+WAX-DEは前版適用済. 通常成績/学習/UI/通常監査/再import/復元 から追放ログが二度と表示されない. 凍結5/mt5_server.py/mt5trade/漁師/WAX/pullback/activeExit無改変・発注なし. / v5.28.19 隔離墓標+中央フィルタ. ",
   "frozen": {
     "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
     "fishermanTrader": "83806f44e1e342df33f9825a9ab725eea845bd7a97a476342534ba6932d4be0e",
@@ -11,5 +11,5 @@
     "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
     "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
   },
-  "frozenNote": "v5.28.19はdb.ts(tombstone+中央フィルタ)+server.ts(agent_trades API適用)+chairmanCommand(適用)+version。凍結5(ai/5本)無改変。mt5_server.py無改変。"
+  "frozenNote": "v5.28.20はdb.ts/server.ts/statusExport.ts/learning(dynamicParams,patternMiner)/version + backend/audit/mt5_reconcile.py(新規)。凍結5(ai/5本)無改変。mt5_server.py/mt5trade無改変。"
 }
