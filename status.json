@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T11:59:17.026+09:00",
- "version": "v5.28.15",
+ "generatedAt": "2026-06-16T12:03:54.684+09:00",
+ "version": "v5.28.17",
  "schema": 1,
- "lastPushOk": "2026-06-16T11:54:24.380+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -64,44 +64,12 @@
    "trigger": "2026-06-17T17:50:00.000Z"
   },
   {
-   "fcId": 690,
-   "event": "6/18 🇺🇸 米住宅着工・建設許可件数（5月）",
+   "fcId": 683,
+   "event": "🇺🇸 ニューヨーク連銀製造業景況指数（6月）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-18T13:50:00.000Z"
-  },
-  {
-   "fcId": 689,
-   "event": "6/18 🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
-  },
-  {
-   "fcId": 688,
-   "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
-  },
-  {
-   "fcId": 687,
-   "event": "6/17 🇺🇸 米鉱工業生産（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:05:00.000Z"
-  },
-  {
-   "fcId": 686,
-   "event": "6/17 🇺🇸 米輸入物価指数（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T12:20:00.000Z"
+   "trigger": "2026-06-16T13:20:00.000Z"
   },
   {
    "fcId": 685,
@@ -112,12 +80,44 @@
    "trigger": "2026-06-17T12:20:00.000Z"
   },
   {
-   "fcId": 683,
-   "event": "🇺🇸 ニューヨーク連銀製造業景況指数（6月）",
+   "fcId": 686,
+   "event": "6/17 🇺🇸 米輸入物価指数（5月）",
    "dir": "buy",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-16T13:20:00.000Z"
+   "trigger": "2026-06-17T12:20:00.000Z"
+  },
+  {
+   "fcId": 687,
+   "event": "6/17 🇺🇸 米鉱工業生産（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:05:00.000Z"
+  },
+  {
+   "fcId": 688,
+   "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 689,
+   "event": "6/18 🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 690,
+   "event": "6/18 🇺🇸 米住宅着工・建設許可件数（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T13:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -129,17 +129,7 @@
   "jst": "2026-06-16 09:51:31"
  },
  "entryJudges": [],
- "exitLive": [
-  {
-   "ticket": 958376483,
-   "peak": 0,
-   "openedMs": 1781576920458,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過20分",
-   "basis": "broker bracket primary (能動決済は漁師から切断)",
-   "action": "20分タイムアウト→成行撤収",
-   "target": null
-  }
- ],
+ "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -193,36 +183,8 @@
     "bandAgeSec": null
    },
    {
-    "armId": 690,
-    "gen": 690,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 689,
-    "gen": 689,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 688,
-    "gen": 688,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 687,
-    "gen": 687,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 686,
-    "gen": 686,
+    "armId": 683,
+    "gen": 683,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
@@ -235,8 +197,36 @@
     "bandAgeSec": null
    },
    {
-    "armId": 683,
-    "gen": 683,
+    "armId": 686,
+    "gen": 686,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 687,
+    "gen": 687,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 688,
+    "gen": 688,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 689,
+    "gen": 689,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 690,
+    "gen": 690,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
