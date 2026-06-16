@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T14:36:55.340+09:00",
+ "generatedAt": "2026-06-16T14:40:55.378+09:00",
  "version": "v5.28.18",
  "schema": 1,
- "lastPushOk": "2026-06-16T14:32:02.829+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": "2026-06-16T14:37:03.063+09:00",
+ "lastPushAgoSec": 232,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -128,7 +128,15 @@
   "opposingSR": 160.39,
   "jst": "2026-06-16 09:51:31"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 639,
+   "state": "done",
+   "bias": "skip",
+   "reason": "BOJ会見直前、超重要イベントで膠着・急変リスク大",
+   "at": 1781588403669
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
