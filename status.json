@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-16T23:29:10.954+09:00",
- "version": "v5.28.20",
+ "generatedAt": "2026-06-16T23:34:01.438+09:00",
+ "version": "v5.28.21",
  "schema": 1,
- "lastPushOk": "2026-06-16T23:24:20.470+09:00",
- "lastPushAgoSec": 290,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -97,12 +97,12 @@
   }
  ],
  "waxForecast": {
-  "id": 252,
+  "id": 253,
   "direction": "UP",
-  "entryFrom": 160.31,
-  "entryTo": 160.34,
+  "entryFrom": 160.32,
+  "entryTo": 160.355,
   "opposingSR": 160.59,
-  "jst": "2026-06-16 23:28:48"
+  "jst": "2026-06-16 23:33:19"
  },
  "entryJudges": [],
  "exitLive": [],
@@ -206,7 +206,7 @@
   "position_coach": "on(default)",
   "daily_loss_guard": "off",
   "daily_loss_guard_pct": "2(default)",
-  "wax_hedge_mode": "live",
+  "wax_hedge_mode": "shadow",
   "fisherman_auto_approve": "1",
   "wax_auto_delegate": "1"
  },
