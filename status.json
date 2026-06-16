@@ -1,11 +1,26 @@
 {
- "generatedAt": "2026-06-16T11:26:16.744+09:00",
+ "generatedAt": "2026-06-16T11:29:16.779+09:00",
  "version": "v5.28.15",
  "schema": 1,
- "lastPushOk": "2026-06-16T11:21:24.308+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-16T11:26:24.978+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 958376477,
+   "agent": "fisherman fisher",
+   "dir": "sell",
+   "entry": 160.144,
+   "pips": -2
+  },
+  {
+   "ticket": 958376483,
+   "agent": "fisherman fisher",
+   "dir": "sell",
+   "entry": 160.147,
+   "pips": -1.7
+  }
+ ],
  "arms": [
   {
    "fcId": 575,
@@ -30,14 +45,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
-  },
-  {
-   "fcId": 638,
-   "event": "6/16 🇯🇵 Monetary Policy Statement",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T02:20:00.000Z"
   },
   {
    "fcId": 639,
@@ -126,14 +133,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-16T13:20:00.000Z"
-  },
-  {
-   "fcId": 692,
-   "event": "🇯🇵 BOJ Policy Rate",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-16T02:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -145,7 +144,26 @@
   "jst": "2026-06-16 09:51:31"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 958376477,
+   "peak": 0,
+   "openedMs": 1781576918908,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過1分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
+  },
+  {
+   "ticket": 958376483,
+   "peak": 0,
+   "openedMs": 1781576920458,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過1分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -167,13 +185,6 @@
     "armId": 580,
     "gen": 670,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 638,
-    "gen": 694,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
@@ -250,13 +261,6 @@
    {
     "armId": 683,
     "gen": 683,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 692,
-    "gen": 695,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
