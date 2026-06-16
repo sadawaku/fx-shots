@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-06-16T22:48:10.126+09:00",
+ "generatedAt": "2026-06-16T22:49:10.133+09:00",
  "version": "v5.28.20",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 6781,
- "pushStale": true,
+ "lastPushOk": "2026-06-16T22:48:18.502+09:00",
+ "lastPushAgoSec": 52,
+ "pushStale": false,
  "positions": [],
  "arms": [
   {
@@ -105,25 +105,18 @@
   }
  ],
  "waxForecast": {
-  "id": 249,
+  "id": 250,
   "direction": "UP",
-  "entryFrom": 160.186,
-  "entryTo": 160.216,
+  "entryFrom": 160.29,
+  "entryTo": 160.34,
   "opposingSR": 160.59,
-  "jst": "2026-06-16 15:06:03"
+  "jst": "2026-06-16 22:48:17"
  },
  "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
-   {
-    "armId": 575,
-    "gen": 720,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
    {
     "armId": 577,
     "gen": 722,
@@ -161,7 +154,7 @@
    },
    {
     "armId": 683,
-    "gen": 710,
+    "gen": 729,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
