@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-16T12:47:54.043+09:00",
+ "generatedAt": "2026-06-16T12:48:54.051+09:00",
  "version": "v5.28.18",
  "schema": 1,
- "lastPushOk": "2026-06-16T12:47:01.649+09:00",
+ "lastPushOk": "2026-06-16T12:48:01.835+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,21 +11,21 @@
    "agent": "pullback_scalper",
    "dir": "buy",
    "entry": 160.23,
-   "pips": -1.5
+   "pips": -0.8
   },
   {
    "ticket": 958397304,
    "agent": "cmd",
    "dir": "buy",
    "entry": 160.249,
-   "pips": -3.4
+   "pips": -2.7
   },
   {
    "ticket": 958398052,
    "agent": "cmd",
    "dir": "sell",
    "entry": 160.226,
-   "pips": -0.2
+   "pips": -1
   }
  ],
  "arms": [
