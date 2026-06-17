@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T14:46:21.855+09:00",
+ "generatedAt": "2026-06-17T14:47:21.880+09:00",
  "version": "v5.31.2",
  "schema": 1,
- "lastPushOk": "2026-06-17T14:42:29.671+09:00",
- "lastPushAgoSec": 232,
+ "lastPushOk": "2026-06-17T14:46:29.688+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -26,7 +26,7 @@
   {
    "fcId": 643,
    "event": "6/17 🇺🇸 President Trump Speaks",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:20:00.000Z"
@@ -182,21 +182,21 @@
    },
    {
     "armId": 640,
-    "gen": 751,
+    "gen": 755,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 643,
-    "gen": 727,
-    "dir": "sell",
+    "gen": 756,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 646,
-    "gen": 709,
+    "gen": 757,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
