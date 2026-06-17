@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T22:06:57.030+09:00",
- "version": "v5.34.0",
+ "generatedAt": "2026-06-17T22:09:04.318+09:00",
+ "version": "v5.34.1",
  "schema": 1,
- "lastPushOk": "2026-06-17T22:06:05.258+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.242,
-   "pips": -1.5
+   "pips": -2.3
   }
  ],
  "arms": [
@@ -88,22 +88,6 @@
    "trigger": "2026-06-19T02:50:00.000Z"
   },
   {
-   "fcId": 765,
-   "event": "6/17 🇺🇸 米小売売上高（5月）MoM",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T12:20:00.000Z"
-  },
-  {
-   "fcId": 766,
-   "event": "6/17 🇺🇸 米輸入物価指数（5月）MoM",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T12:20:00.000Z"
-  },
-  {
    "fcId": 767,
    "event": "6/17 🇺🇸 米鉱工業生産（5月）MoM",
    "dir": "buy",
@@ -120,22 +104,7 @@
   "opposingSR": 160.5,
   "jst": "2026-06-17 08:05:12"
  },
- "entryJudges": [
-  {
-   "armId": 765,
-   "state": "done",
-   "bias": "buy",
-   "reason": "小売上振れ期待+金利差円安圧力継続でドル買い優勢",
-   "at": 1781701083708
-  },
-  {
-   "armId": 766,
-   "state": "done",
-   "bias": "buy",
-   "reason": "金利差円安圧力継続・DXY低迷でも輸入物価上振れ期待でドル買い優位",
-   "at": 1781701083830
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -199,20 +168,6 @@
    {
     "armId": 746,
     "gen": 785,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 765,
-    "gen": 790,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 766,
-    "gen": 789,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
