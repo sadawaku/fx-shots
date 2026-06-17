@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T22:50:40.282+09:00",
+ "generatedAt": "2026-06-17T22:51:40.304+09:00",
  "version": "v5.35.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T22:46:48.964+09:00",
- "lastPushAgoSec": 231,
+ "lastPushOk": "2026-06-17T22:50:48.375+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
   {
@@ -12,6 +12,13 @@
    "dir": "sell",
    "entry": 160.229,
    "pips": -0.2
+  },
+  {
+   "ticket": 958883102,
+   "agent": "cmd",
+   "dir": "buy",
+   "entry": 160.242,
+   "pips": -2.4
   }
  ],
  "arms": [
@@ -150,7 +157,7 @@
     "gen": 791,
     "dir": "sell",
     "banded": true,
-    "bandAgeSec": 0
+    "bandAgeSec": 60
    },
    {
     "armId": 643,
@@ -206,7 +213,7 @@
     "gen": 788,
     "dir": "buy",
     "banded": true,
-    "bandAgeSec": 1
+    "bandAgeSec": 61
    },
    {
     "armId": 783,
