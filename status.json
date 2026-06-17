@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T14:57:35.927+09:00",
+ "generatedAt": "2026-06-17T14:58:35.933+09:00",
  "version": "v5.32.0",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 60,
+ "lastPushOk": "2026-06-17T14:57:43.861+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -18,7 +18,7 @@
   {
    "fcId": 640,
    "event": "6/17 🇬🇧 CPI y/y",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T05:50:00.000Z"
@@ -158,8 +158,8 @@
    },
    {
     "armId": 640,
-    "gen": 770,
-    "dir": "sell",
+    "gen": 773,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
@@ -193,7 +193,7 @@
    },
    {
     "armId": 731,
-    "gen": 771,
+    "gen": 772,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
