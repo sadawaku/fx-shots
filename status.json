@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-17T14:48:21.866+09:00",
+ "generatedAt": "2026-06-17T14:49:21.894+09:00",
  "version": "v5.31.2",
  "schema": 1,
- "lastPushOk": "2026-06-17T14:47:29.731+09:00",
+ "lastPushOk": "2026-06-17T14:48:29.974+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
@@ -66,7 +66,7 @@
   {
    "fcId": 689,
    "event": "6/18 🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T12:20:00.000Z"
@@ -217,21 +217,21 @@
    },
    {
     "armId": 688,
-    "gen": 745,
+    "gen": 760,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 689,
-    "gen": 744,
-    "dir": "buy",
+    "gen": 761,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 690,
-    "gen": 716,
+    "gen": 762,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
