@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T23:05:40.611+09:00",
- "version": "v5.35.0",
+ "generatedAt": "2026-06-17T23:07:47.812+09:00",
+ "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-17T23:04:48.864+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [
   {
@@ -11,14 +11,14 @@
    "agent": "cmd",
    "dir": "buy",
    "entry": 160.207,
-   "pips": 0.2
+   "pips": 0.4
   },
   {
    "ticket": 958889581,
    "agent": "wsim",
    "dir": "buy",
    "entry": 160.231,
-   "pips": -2.2
+   "pips": -2
   }
  ],
  "arms": [
@@ -29,14 +29,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
-  },
-  {
-   "fcId": 643,
-   "event": "6/17 🇺🇸 President Trump Speaks",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:20:00.000Z"
   },
   {
    "fcId": 646,
@@ -63,14 +55,6 @@
    "trigger": "2026-06-18T13:50:00.000Z"
   },
   {
-   "fcId": 736,
-   "event": "6/17 🇺🇸 設備稼働率（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:05:00.000Z"
-  },
-  {
    "fcId": 743,
    "event": "6/18 🇺🇸 米住宅着工件数・建設許可件数（5月）",
    "dir": "buy",
@@ -85,14 +69,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-19T02:50:00.000Z"
-  },
-  {
-   "fcId": 767,
-   "event": "6/17 🇺🇸 米鉱工業生産（5月）MoM",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:05:00.000Z"
   },
   {
    "fcId": 783,
@@ -111,43 +87,7 @@
   "opposingSR": 160.5,
   "jst": "2026-06-17 08:05:12"
  },
- "entryJudges": [
-  {
-   "armId": 580,
-   "state": "done",
-   "bias": "sell",
-   "reason": "直近10分-5p下落中、売り初動に順張り",
-   "at": 1781704238237
-  },
-  {
-   "armId": 643,
-   "state": "done",
-   "bias": "buy",
-   "reason": "金利差円安圧力継続・Trump発言でドル買い期待",
-   "at": 1781704238138
-  },
-  {
-   "armId": 736,
-   "state": "done",
-   "bias": "buy",
-   "reason": "金利差円安圧力維持、直近下落も設備稼働改善期待で買い優勢",
-   "at": 1781704238319
-  },
-  {
-   "armId": 767,
-   "state": "done",
-   "bias": "sell",
-   "reason": "直近10分ネット-5.4p下落優勢、売り初動に順張り",
-   "at": 1781704238734
-  },
-  {
-   "armId": 783,
-   "state": "done",
-   "bias": "skip",
-   "reason": "直前10分ネット-5.5p下落中、初動方向不明瞭で逆張りリスク高",
-   "at": 1781704238668
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -156,13 +96,6 @@
     "armId": 580,
     "gen": 791,
     "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 643,
-    "gen": 778,
-    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
@@ -188,13 +121,6 @@
     "bandAgeSec": null
    },
    {
-    "armId": 736,
-    "gen": 782,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 743,
     "gen": 784,
     "dir": "buy",
@@ -205,13 +131,6 @@
     "armId": 746,
     "gen": 785,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 767,
-    "gen": 792,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
