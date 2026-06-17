@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-17T15:29:36.342+09:00",
+ "generatedAt": "2026-06-17T15:30:36.357+09:00",
  "version": "v5.32.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T15:28:44.104+09:00",
+ "lastPushOk": "2026-06-17T15:29:44.457+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "buy",
    "entry": 160.297,
-   "pips": -0.4
+   "pips": -0.7
   }
  ],
  "arms": [
@@ -22,14 +22,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:50:00.000Z"
-  },
-  {
-   "fcId": 640,
-   "event": "6/17 🇬🇧 CPI y/y",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T05:50:00.000Z"
   },
   {
    "fcId": 643,
@@ -62,14 +54,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T13:50:00.000Z"
-  },
-  {
-   "fcId": 731,
-   "event": "6/17 🇬🇧 英小売売上高（5月）MoM",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T05:50:00.000Z"
   },
   {
    "fcId": 732,
@@ -165,13 +149,6 @@
     "bandAgeSec": null
    },
    {
-    "armId": 640,
-    "gen": 773,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 643,
     "gen": 756,
     "dir": "buy",
@@ -195,13 +172,6 @@
    {
     "armId": 690,
     "gen": 762,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 731,
-    "gen": 772,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
