@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T08:00:53.592+09:00",
+ "generatedAt": "2026-06-18T08:05:53.633+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T07:56:01.325+09:00",
+ "lastPushOk": "2026-06-18T08:01:01.517+09:00",
  "lastPushAgoSec": 292,
  "pushStale": false,
  "positions": [],
@@ -41,12 +41,12 @@
   }
  ],
  "waxForecast": {
-  "id": 255,
+  "id": 256,
   "direction": "UP",
-  "entryFrom": 160.32,
-  "entryTo": 160.36,
-  "opposingSR": 160.5,
-  "jst": "2026-06-17 08:05:12"
+  "entryFrom": 160.47,
+  "entryTo": 160.51,
+  "opposingSR": 160.789,
+  "jst": "2026-06-18 08:05:14"
  },
  "entryJudges": [],
  "exitLive": [
