@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-06-18T02:51:50.471+09:00",
+ "generatedAt": "2026-06-18T02:56:50.519+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T02:46:58.447+09:00",
+ "lastPushOk": "2026-06-18T02:51:58.629+09:00",
  "lastPushAgoSec": 292,
  "pushStale": false,
- "positions": [],
- "arms": [
+ "positions": [
   {
-   "fcId": 646,
-   "event": "6/18 🇺🇸 FOMC Statement",
+   "ticket": 958964719,
+   "agent": "fisherman fisher",
    "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T17:50:00.000Z"
-  },
+   "entry": 160.231,
+   "pips": -2.2
+  }
+ ],
+ "arms": [
   {
    "fcId": 688,
    "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
@@ -57,17 +57,20 @@
   "jst": "2026-06-17 08:05:12"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 958964719,
+   "peak": 0,
+   "openedMs": 1781718964170,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過1分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
-   {
-    "armId": 646,
-    "gen": 793,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
    {
     "armId": 688,
     "gen": 780,
