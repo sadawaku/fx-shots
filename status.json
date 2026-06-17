@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T08:10:53.653+09:00",
+ "generatedAt": "2026-06-18T08:12:53.731+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T08:06:01.514+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-18T08:11:01.421+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -86,6 +86,22 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T23:40:00.000Z"
+  },
+  {
+   "fcId": 806,
+   "event": "🇬🇧 Claimant Count Change",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T05:50:00.000Z"
+  },
+  {
+   "fcId": 807,
+   "event": "🇬🇧 Average Earnings Index 3m/y",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T05:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -178,6 +194,20 @@
     "armId": 796,
     "gen": 796,
     "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 806,
+    "gen": 806,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 807,
+    "gen": 807,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    }
