@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-17T20:55:26.216+09:00",
+ "generatedAt": "2026-06-17T20:56:26.220+09:00",
  "version": "v5.32.4",
  "schema": 1,
- "lastPushOk": "2026-06-17T20:54:34.410+09:00",
+ "lastPushOk": "2026-06-17T20:55:34.423+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.3,
-   "pips": -1.2
+   "pips": -2.4
   }
  ],
  "arms": [
@@ -82,7 +82,7 @@
   {
    "fcId": 746,
    "event": "6/19 🇯🇵 日銀金融政策決定会合（結果・植田総裁会見）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-19T02:50:00.000Z"
@@ -169,22 +169,22 @@
    },
    {
     "armId": 739,
-    "gen": 739,
+    "gen": 783,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 743,
-    "gen": 743,
+    "gen": 784,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 746,
-    "gen": 746,
-    "dir": "sell",
+    "gen": 785,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
