@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T20:19:36.384+09:00",
+ "generatedAt": "2026-06-17T20:20:36.388+09:00",
  "version": "v5.32.2",
  "schema": 1,
- "lastPushOk": "2026-06-17T20:14:44.093+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-17T20:19:44.299+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -80,14 +80,6 @@
    "trigger": "2026-06-19T02:50:00.000Z"
   },
   {
-   "fcId": 747,
-   "event": "🇪🇺 ECB President Lagarde Speaks",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T10:40:00.000Z"
-  },
-  {
    "fcId": 765,
    "event": "6/17 🇺🇸 米小売売上高（5月）MoM",
    "dir": "buy",
@@ -120,15 +112,7 @@
   "opposingSR": 160.5,
   "jst": "2026-06-17 08:05:12"
  },
- "entryJudges": [
-  {
-   "armId": 747,
-   "state": "done",
-   "bias": "both",
-   "reason": "円高・円安拮抗で方向感なし、初動追従",
-   "at": 1781694723606
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -193,13 +177,6 @@
     "armId": 746,
     "gen": 746,
     "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 747,
-    "gen": 775,
-    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
