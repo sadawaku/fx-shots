@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-17T22:44:40.082+09:00",
+ "generatedAt": "2026-06-17T22:46:40.153+09:00",
  "version": "v5.35.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T22:42:48.340+09:00",
+ "lastPushOk": "2026-06-17T22:44:48.451+09:00",
  "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
@@ -56,14 +56,6 @@
    "trigger": "2026-06-17T13:05:00.000Z"
   },
   {
-   "fcId": 739,
-   "event": "6/17 🇺🇸 ミシガン大インフレ期待5年（6月・速報）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T13:50:00.000Z"
-  },
-  {
    "fcId": 743,
    "event": "6/18 🇺🇸 米住宅着工件数・建設許可件数（5月）",
    "dir": "buy",
@@ -86,6 +78,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T13:05:00.000Z"
+  },
+  {
+   "fcId": 783,
+   "event": "6/17 🇺🇸 ミシガン大インフレ期待5年（6月・速報）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-17T13:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -144,13 +144,6 @@
     "bandAgeSec": null
    },
    {
-    "armId": 739,
-    "gen": 783,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 743,
     "gen": 784,
     "dir": "buy",
@@ -167,6 +160,13 @@
    {
     "armId": 767,
     "gen": 788,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 783,
+    "gen": 783,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
