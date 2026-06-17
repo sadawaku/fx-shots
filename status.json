@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T14:52:35.681+09:00",
+ "generatedAt": "2026-06-17T14:53:35.749+09:00",
  "version": "v5.32.0",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 60,
+ "lastPushOk": "2026-06-17T14:52:45.005+09:00",
+ "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -58,7 +58,7 @@
   {
    "fcId": 731,
    "event": "6/17 🇬🇧 英小売売上高（5月）MoM",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-17T05:50:00.000Z"
@@ -158,7 +158,7 @@
    },
    {
     "armId": 640,
-    "gen": 755,
+    "gen": 768,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
@@ -193,8 +193,8 @@
    },
    {
     "armId": 731,
-    "gen": 763,
-    "dir": "buy",
+    "gen": 769,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
