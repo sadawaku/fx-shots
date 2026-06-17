@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T20:10:36.280+09:00",
+ "generatedAt": "2026-06-17T20:12:36.309+09:00",
  "version": "v5.32.2",
  "schema": 1,
- "lastPushOk": "2026-06-17T20:05:44.240+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-17T20:10:44.282+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -120,7 +120,15 @@
   "opposingSR": 160.5,
   "jst": "2026-06-17 08:05:12"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 747,
+   "state": "done",
+   "bias": "both",
+   "reason": "円高・円安拮抗で方向感なし、初動追従",
+   "at": 1781694723606
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -192,8 +200,8 @@
     "armId": 747,
     "gen": 775,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 33
    },
    {
     "armId": 765,
