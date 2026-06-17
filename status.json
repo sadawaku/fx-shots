@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T08:12:53.731+09:00",
+ "generatedAt": "2026-06-18T08:13:53.793+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T08:11:01.421+09:00",
- "lastPushAgoSec": 112,
+ "lastPushOk": "2026-06-18T08:13:01.611+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -102,6 +102,22 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T05:50:00.000Z"
+  },
+  {
+   "fcId": 808,
+   "event": "🇬🇧 Monetary Policy Summary",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T10:50:00.000Z"
+  },
+  {
+   "fcId": 809,
+   "event": "🇬🇧 MPC Official Bank Rate Votes",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T10:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -207,6 +223,20 @@
    {
     "armId": 807,
     "gen": 807,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 808,
+    "gen": 808,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 809,
+    "gen": 809,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
