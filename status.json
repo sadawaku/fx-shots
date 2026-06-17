@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T08:05:53.633+09:00",
+ "generatedAt": "2026-06-18T08:10:53.653+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T08:01:01.517+09:00",
+ "lastPushOk": "2026-06-18T08:06:01.514+09:00",
  "lastPushAgoSec": 292,
  "pushStale": false,
  "positions": [],
@@ -38,6 +38,54 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-19T02:50:00.000Z"
+  },
+  {
+   "fcId": 805,
+   "event": "🇪🇺 ユーロ圏CPI改定値（5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T07:50:00.000Z"
+  },
+  {
+   "fcId": 804,
+   "event": "🇬🇧 英CPI（5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T06:50:00.000Z"
+  },
+  {
+   "fcId": 802,
+   "event": "🇺🇸 景気先行指数（CB Leading Index・5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T13:50:00.000Z"
+  },
+  {
+   "fcId": 800,
+   "event": "🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 797,
+   "event": "🇯🇵 植田総裁 定例記者会見",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T01:20:00.000Z"
+  },
+  {
+   "fcId": 796,
+   "event": "🇯🇵 日銀金融政策決定会合 結果公表（6/19開催・JST朝発表）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T23:40:00.000Z"
   }
  ],
  "waxForecast": {
@@ -88,6 +136,48 @@
     "armId": 746,
     "gen": 785,
     "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 805,
+    "gen": 805,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 804,
+    "gen": 804,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 802,
+    "gen": 802,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 800,
+    "gen": 800,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 797,
+    "gen": 797,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 796,
+    "gen": 796,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    }
