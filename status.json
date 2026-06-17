@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-17T22:12:04.330+09:00",
+ "generatedAt": "2026-06-17T22:13:04.341+09:00",
  "version": "v5.34.1",
  "schema": 1,
- "lastPushOk": "2026-06-17T22:10:12.544+09:00",
- "lastPushAgoSec": 112,
+ "lastPushOk": "2026-06-17T22:12:12.484+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 958855543,
-   "agent": "wsim",
-   "dir": "sell",
-   "entry": 160.242,
-   "pips": -3.5
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 580,
