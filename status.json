@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-17T23:21:48.030+09:00",
+ "generatedAt": "2026-06-17T23:22:48.030+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-17T23:20:56.242+09:00",
+ "lastPushOk": "2026-06-17T23:21:56.235+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 958885477,
-   "agent": "cmd",
-   "dir": "buy",
-   "entry": 160.207,
-   "pips": 5.7
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 580,
@@ -146,8 +138,8 @@
     "armId": 783,
     "gen": 783,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 47
    }
   ]
  },
