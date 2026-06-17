@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-18T02:59:50.526+09:00",
+ "generatedAt": "2026-06-18T03:00:50.522+09:00",
  "version": "v5.35.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T02:58:58.910+09:00",
+ "lastPushOk": "2026-06-18T02:59:58.491+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 958964719,
-   "agent": "fisherman fisher",
-   "dir": "buy",
-   "entry": 160.231,
-   "pips": -4.1
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 688,
@@ -124,8 +116,8 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 0,
-  "pips": 0
+  "n": 1,
+  "pips": 3.1
  },
  "todayVirtual": {
   "n": 0,
