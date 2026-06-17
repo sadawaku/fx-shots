@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T14:51:21.936+09:00",
- "version": "v5.31.2",
+ "generatedAt": "2026-06-17T14:52:35.681+09:00",
+ "version": "v5.32.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T14:50:29.811+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -40,33 +40,9 @@
    "trigger": "2026-06-17T17:50:00.000Z"
   },
   {
-   "fcId": 685,
-   "event": "6/17 🇺🇸 米小売売上高（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T12:20:00.000Z"
-  },
-  {
-   "fcId": 686,
-   "event": "6/17 🇺🇸 米輸入物価指数（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-17T12:20:00.000Z"
-  },
-  {
    "fcId": 688,
    "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
    "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
-  },
-  {
-   "fcId": 689,
-   "event": "6/18 🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
-   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T12:20:00.000Z"
@@ -202,30 +178,9 @@
     "bandAgeSec": null
    },
    {
-    "armId": 685,
-    "gen": 758,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 686,
-    "gen": 759,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 688,
     "gen": 760,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 689,
-    "gen": 761,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
