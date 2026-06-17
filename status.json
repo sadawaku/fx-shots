@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T22:35:04.660+09:00",
- "version": "v5.34.1",
+ "generatedAt": "2026-06-17T22:36:39.961+09:00",
+ "version": "v5.35.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T22:34:12.726+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.258,
-   "pips": -4.5
+   "pips": -2.7
   }
  ],
  "arms": [
@@ -104,29 +104,7 @@
   "opposingSR": 160.5,
   "jst": "2026-06-17 08:05:12"
  },
- "entryJudges": [
-  {
-   "armId": 643,
-   "state": "done",
-   "bias": "buy",
-   "reason": "金利差円安圧力継続、初動買い優勢で順張り",
-   "at": 1781702943521
-  },
-  {
-   "armId": 736,
-   "state": "done",
-   "bias": "buy",
-   "reason": "金利差円安圧力優位、直近上昇モメンタム継続",
-   "at": 1781702943266
-  },
-  {
-   "armId": 767,
-   "state": "done",
-   "bias": "buy",
-   "reason": "金利差円安圧力+上方初動3.9p順張り優位",
-   "at": 1781702943544
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
