@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-17T21:47:57.449+09:00",
- "version": "v5.33.0",
+ "generatedAt": "2026-06-17T21:49:56.883+09:00",
+ "version": "v5.34.0",
  "schema": 1,
- "lastPushOk": "2026-06-17T21:47:05.562+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.277,
-   "pips": 0.1
+   "pips": 1
   }
  ],
  "arms": [
@@ -120,22 +120,7 @@
   "opposingSR": 160.5,
   "jst": "2026-06-17 08:05:12"
  },
- "entryJudges": [
-  {
-   "armId": 765,
-   "state": "done",
-   "bias": "both",
-   "reason": "円高円安拮抗・初動方向未確定のため両方警戒",
-   "at": 1781699448161
-  },
-  {
-   "armId": 766,
-   "state": "done",
-   "bias": "both",
-   "reason": "円高・円安拮抗でレンジ4.9p、方向感なし",
-   "at": 1781699449016
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
