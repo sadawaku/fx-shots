@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T15:16:33.827+09:00",
+ "generatedAt": "2026-06-18T15:17:33.838+09:00",
  "version": "v5.38.3",
  "schema": 1,
- "lastPushOk": "2026-06-18T15:14:42.026+09:00",
- "lastPushAgoSec": 112,
+ "lastPushOk": "2026-06-18T15:16:42.047+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,14 @@
    "agent": "wsim",
    "dir": "buy",
    "entry": 160.601,
-   "pips": 1.8
+   "pips": 3.1
+  },
+  {
+   "ticket": 959185486,
+   "agent": "fisherman fisher",
+   "dir": "buy",
+   "entry": 160.642,
+   "pips": -1
   }
  ],
  "arms": [
@@ -88,14 +95,6 @@
    "trigger": "2026-06-18T06:50:00.000Z"
   },
   {
-   "fcId": 806,
-   "event": "🇬🇧 Claimant Count Change",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T05:50:00.000Z"
-  },
-  {
    "fcId": 807,
    "event": "🇬🇧 Average Earnings Index 3m/y",
    "dir": "buy",
@@ -128,8 +127,26 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [],
- "exitLive": [],
+ "entryJudges": [
+  {
+   "armId": 807,
+   "state": "done",
+   "bias": "buy",
+   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
+   "at": 1781763422419
+  }
+ ],
+ "exitLive": [
+  {
+   "ticket": 959185486,
+   "peak": 0,
+   "openedMs": 1781763424094,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過0分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
   "arms": [
@@ -197,18 +214,11 @@
     "bandAgeSec": null
    },
    {
-    "armId": 806,
-    "gen": 815,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 807,
     "gen": 816,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 31
    },
    {
     "armId": 808,
