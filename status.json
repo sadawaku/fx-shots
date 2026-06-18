@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T20:37:35.232+09:00",
- "version": "v5.39.1",
+ "generatedAt": "2026-06-18T20:40:43.561+09:00",
+ "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T20:32:43.620+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
