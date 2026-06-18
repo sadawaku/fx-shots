@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T23:21:45.387+09:00",
+ "generatedAt": "2026-06-18T23:22:45.389+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T23:20:53.396+09:00",
+ "lastPushOk": "2026-06-18T23:21:53.553+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -81,7 +81,7 @@
     "gen": 820,
     "dir": "buy",
     "banded": true,
-    "bandAgeSec": 40
+    "bandAgeSec": 100
    },
    {
     "armId": 746,
@@ -133,8 +133,8 @@
   "pips": 2.5
  },
  "todayVirtual": {
-  "n": 30,
-  "pips": -143.2
+  "n": 32,
+  "pips": -152.8
  },
  "master": true
 }
