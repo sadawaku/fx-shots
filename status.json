@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T21:19:43.916+09:00",
+ "generatedAt": "2026-06-18T21:20:43.927+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T21:18:52.048+09:00",
+ "lastPushOk": "2026-06-18T21:19:52.047+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.895,
-   "pips": -1.5
+   "pips": 0.1
   }
  ],
  "arms": [
@@ -80,7 +80,29 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 688,
+   "state": "done",
+   "bias": "buy",
+   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
+   "at": 1781785233270
+  },
+  {
+   "armId": 743,
+   "state": "done",
+   "bias": "buy",
+   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
+   "at": 1781785233290
+  },
+  {
+   "armId": 800,
+   "state": "done",
+   "bias": "buy",
+   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
+   "at": 1781785233374
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
