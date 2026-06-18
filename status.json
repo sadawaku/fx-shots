@@ -1,28 +1,12 @@
 {
- "generatedAt": "2026-06-18T21:59:44.504+09:00",
+ "generatedAt": "2026-06-18T22:00:44.515+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T21:58:52.480+09:00",
+ "lastPushOk": "2026-06-18T21:59:52.607+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 959325897,
-   "agent": "wsim",
-   "dir": "sell",
-   "entry": 160.905,
-   "pips": 2.2
-  }
- ],
+ "positions": [],
  "arms": [
-  {
-   "fcId": 688,
-   "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
-  },
   {
    "fcId": 690,
    "event": "6/18 🇺🇸 米住宅着工・建設許可件数（5月）",
@@ -30,14 +14,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T13:50:00.000Z"
-  },
-  {
-   "fcId": 743,
-   "event": "6/18 🇺🇸 米住宅着工件数・建設許可件数（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
   },
   {
    "fcId": 746,
@@ -56,14 +32,6 @@
    "trigger": "2026-06-18T23:40:00.000Z"
   },
   {
-   "fcId": 800,
-   "event": "🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
-  },
-  {
    "fcId": 802,
    "event": "🇺🇸 景気先行指数（CB Leading Index・5月）",
    "dir": "buy",
@@ -80,50 +48,14 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [
-  {
-   "armId": 688,
-   "state": "done",
-   "bias": "buy",
-   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
-   "at": 1781785233270
-  },
-  {
-   "armId": 743,
-   "state": "done",
-   "bias": "buy",
-   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
-   "at": 1781785233290
-  },
-  {
-   "armId": 800,
-   "state": "done",
-   "bias": "buy",
-   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
-   "at": 1781785233374
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
   "arms": [
    {
-    "armId": 688,
-    "gen": 819,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 690,
     "gen": 820,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 743,
-    "gen": 821,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
@@ -139,13 +71,6 @@
     "armId": 796,
     "gen": 796,
     "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 800,
-    "gen": 800,
-    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
@@ -185,8 +110,8 @@
   "pips": 2.5
  },
  "todayVirtual": {
-  "n": 18,
-  "pips": -71.8
+  "n": 21,
+  "pips": -88.6
  },
  "master": true
 }
