@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T16:29:34.548+09:00",
+ "generatedAt": "2026-06-18T16:30:34.557+09:00",
  "version": "v5.38.3",
  "schema": 1,
- "lastPushOk": "2026-06-18T16:28:43.144+09:00",
+ "lastPushOk": "2026-06-18T16:29:43.116+09:00",
  "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "buy",
    "entry": 160.615,
-   "pips": -2.4
+   "pips": -1.2
   }
  ],
  "arms": [
@@ -80,14 +80,6 @@
    "trigger": "2026-06-18T13:50:00.000Z"
   },
   {
-   "fcId": 804,
-   "event": "🇬🇧 英CPI（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T06:50:00.000Z"
-  },
-  {
    "fcId": 808,
    "event": "🇬🇧 Monetary Policy Summary",
    "dir": "buy",
@@ -112,15 +104,7 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [
-  {
-   "armId": 804,
-   "state": "done",
-   "bias": "sell",
-   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
-   "at": 1781765641057
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -180,13 +164,6 @@
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
-   },
-   {
-    "armId": 804,
-    "gen": 804,
-    "dir": "sell",
-    "banded": true,
-    "bandAgeSec": 30
    },
    {
     "armId": 808,
