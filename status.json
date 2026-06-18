@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T22:52:45.136+09:00",
+ "generatedAt": "2026-06-18T22:53:45.151+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T22:51:53.577+09:00",
+ "lastPushOk": "2026-06-18T22:52:53.251+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.84,
-   "pips": -2.5
+   "pips": -2.8
   }
  ],
  "arms": [
@@ -56,7 +56,22 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 690,
+   "state": "done",
+   "bias": "buy",
+   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
+   "at": 1781790782389
+  },
+  {
+   "armId": 802,
+   "state": "done",
+   "bias": "buy",
+   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
+   "at": 1781790782394
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -65,8 +80,8 @@
     "armId": 690,
     "gen": 820,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 42
    },
    {
     "armId": 746,
@@ -86,8 +101,8 @@
     "armId": 802,
     "gen": 802,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 42
    }
   ]
  },
