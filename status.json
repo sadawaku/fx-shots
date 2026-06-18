@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T20:24:35.038+09:00",
+ "generatedAt": "2026-06-18T20:27:35.130+09:00",
  "version": "v5.39.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T20:19:43.702+09:00",
- "lastPushAgoSec": 291,
+ "lastPushOk": "2026-06-18T20:24:43.644+09:00",
+ "lastPushAgoSec": 171,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -200,8 +200,8 @@
   "pips": 2.5
  },
  "todayVirtual": {
-  "n": 11,
-  "pips": -29.8
+  "n": 12,
+  "pips": -35.3
  },
  "master": true
 }
