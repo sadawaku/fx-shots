@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T13:38:22.290+09:00",
+ "generatedAt": "2026-06-18T13:39:22.342+09:00",
  "version": "v5.37.2",
  "schema": 1,
- "lastPushOk": "2026-06-18T13:36:33.441+09:00",
- "lastPushAgoSec": 109,
+ "lastPushOk": "2026-06-18T13:38:30.178+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,7 @@
    "agent": "cmd",
    "dir": "buy",
    "entry": 160.624,
-   "pips": -2.5
+   "pips": -2.6
   }
  ],
  "arms": [
