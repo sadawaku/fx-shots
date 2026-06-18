@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T21:27:43.993+09:00",
+ "generatedAt": "2026-06-18T21:28:44.000+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T21:26:51.972+09:00",
+ "lastPushOk": "2026-06-18T21:27:52.351+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -111,8 +111,8 @@
     "armId": 688,
     "gen": 819,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 43
    },
    {
     "armId": 690,
@@ -125,8 +125,8 @@
     "armId": 743,
     "gen": 821,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 43
    },
    {
     "armId": 746,
@@ -146,8 +146,8 @@
     "armId": 800,
     "gen": 800,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 43
    },
    {
     "armId": 802,
