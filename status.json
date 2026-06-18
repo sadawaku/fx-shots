@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T19:18:34.249+09:00",
+ "generatedAt": "2026-06-18T19:19:34.248+09:00",
  "version": "v5.39.1",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 60,
+ "lastPushOk": "2026-06-18T19:18:42.440+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -178,7 +178,7 @@
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "shadow",
   "fisherman_auto_approve": "1",
-  "wax_auto_delegate": "0"
+  "wax_auto_delegate": "1"
  },
  "todayReal": {
   "n": 3,
