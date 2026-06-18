@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T11:08:51.601+09:00",
+ "generatedAt": "2026-06-18T11:09:51.615+09:00",
  "version": "v5.36.2",
  "schema": 1,
- "lastPushOk": "2026-06-18T11:03:59.373+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-18T11:08:59.712+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -54,14 +54,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T23:40:00.000Z"
-  },
-  {
-   "fcId": 797,
-   "event": "🇯🇵 植田総裁 定例記者会見",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T01:20:00.000Z"
   },
   {
    "fcId": 800,
@@ -172,13 +164,6 @@
     "armId": 796,
     "gen": 796,
     "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 797,
-    "gen": 814,
-    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
