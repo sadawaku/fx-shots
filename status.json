@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T09:48:54.733+09:00",
- "version": "v5.35.1",
+ "generatedAt": "2026-06-18T09:50:26.019+09:00",
+ "version": "v5.36.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T09:48:03.024+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [
   {
@@ -11,10 +11,18 @@
    "agent": "wsim",
    "dir": "buy",
    "entry": 160.654,
-   "pips": 3.5
+   "pips": 4.5
   }
  ],
  "arms": [
+  {
+   "fcId": 805,
+   "event": "🇪🇺 ユーロ圏CPI改定値（5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T07:50:00.000Z"
+  },
   {
    "fcId": 688,
    "event": "6/18 🇺🇸 新規失業保険申請件数（週次）",
@@ -48,36 +56,12 @@
    "trigger": "2026-06-19T02:50:00.000Z"
   },
   {
-   "fcId": 805,
-   "event": "🇪🇺 ユーロ圏CPI改定値（5月）",
+   "fcId": 796,
+   "event": "🇯🇵 日銀金融政策決定会合 結果公表（6/19開催・JST朝発表）",
    "dir": "sell",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-18T07:50:00.000Z"
-  },
-  {
-   "fcId": 804,
-   "event": "🇬🇧 英CPI（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T06:50:00.000Z"
-  },
-  {
-   "fcId": 802,
-   "event": "🇺🇸 景気先行指数（CB Leading Index・5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T13:50:00.000Z"
-  },
-  {
-   "fcId": 800,
-   "event": "🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T12:20:00.000Z"
+   "trigger": "2026-06-18T23:40:00.000Z"
   },
   {
    "fcId": 797,
@@ -88,12 +72,28 @@
    "trigger": "2026-06-18T01:20:00.000Z"
   },
   {
-   "fcId": 796,
-   "event": "🇯🇵 日銀金融政策決定会合 結果公表（6/19開催・JST朝発表）",
+   "fcId": 800,
+   "event": "🇺🇸 フィラデルフィア連銀製造業景況指数（6月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T12:20:00.000Z"
+  },
+  {
+   "fcId": 802,
+   "event": "🇺🇸 景気先行指数（CB Leading Index・5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T13:50:00.000Z"
+  },
+  {
+   "fcId": 804,
+   "event": "🇬🇧 英CPI（5月）",
    "dir": "sell",
    "lots": 1,
    "filled": false,
-   "trigger": "2026-06-18T23:40:00.000Z"
+   "trigger": "2026-06-18T06:50:00.000Z"
   },
   {
    "fcId": 806,
@@ -142,6 +142,13 @@
   "enabled": true,
   "arms": [
    {
+    "armId": 805,
+    "gen": 805,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
     "armId": 688,
     "gen": 780,
     "dir": "buy",
@@ -170,30 +177,9 @@
     "bandAgeSec": null
    },
    {
-    "armId": 805,
-    "gen": 805,
+    "armId": 796,
+    "gen": 796,
     "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 804,
-    "gen": 804,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 802,
-    "gen": 802,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 800,
-    "gen": 800,
-    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
@@ -205,8 +191,22 @@
     "bandAgeSec": null
    },
    {
-    "armId": 796,
-    "gen": 796,
+    "armId": 800,
+    "gen": 800,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 802,
+    "gen": 802,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 804,
+    "gen": 804,
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
