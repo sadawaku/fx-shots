@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T08:34:51.643+09:00",
+ "generatedAt": "2026-06-19T08:36:51.665+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-19T08:29:59.644+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-19T08:34:59.513+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -18,7 +18,7 @@
   {
    "fcId": 796,
    "event": "🇯🇵 日銀金融政策決定会合 結果公表（6/19開催・JST朝発表）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T23:40:00.000Z"
@@ -46,8 +46,8 @@
    },
    {
     "armId": 796,
-    "gen": 796,
-    "dir": "sell",
+    "gen": 823,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    }
