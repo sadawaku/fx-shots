@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T14:46:00.518+09:00",
+ "generatedAt": "2026-06-18T14:47:00.529+09:00",
  "version": "v5.38.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T14:45:08.486+09:00",
+ "lastPushOk": "2026-06-18T14:46:08.570+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,14 +11,14 @@
    "agent": "cmd",
    "dir": "buy",
    "entry": 160.624,
-   "pips": -2.3
+   "pips": -2.2
   }
  ],
  "arms": [
   {
    "fcId": 805,
    "event": "🇪🇺 ユーロ圏CPI改定値（5月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T07:50:00.000Z"
@@ -135,21 +135,21 @@
   "arms": [
    {
     "armId": 805,
-    "gen": 805,
-    "dir": "sell",
+    "gen": 818,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 688,
-    "gen": 780,
+    "gen": 819,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 690,
-    "gen": 781,
+    "gen": 820,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
