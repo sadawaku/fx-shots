@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-18T10:19:26.315+09:00",
- "version": "v5.36.0",
+ "generatedAt": "2026-06-18T10:21:01.071+09:00",
+ "version": "v5.36.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T10:18:34.616+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 959099747,
-   "agent": "wsim",
-   "dir": "buy",
-   "entry": 160.692,
-   "pips": -3
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 805,
@@ -62,6 +54,14 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T23:40:00.000Z"
+  },
+  {
+   "fcId": 797,
+   "event": "🇯🇵 植田総裁 定例記者会見",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-18T01:20:00.000Z"
   },
   {
    "fcId": 800,
@@ -118,14 +118,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T10:50:00.000Z"
-  },
-  {
-   "fcId": 797,
-   "event": "🇯🇵 植田総裁 定例記者会見",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T01:20:00.000Z"
   }
  ],
  "waxForecast": {
