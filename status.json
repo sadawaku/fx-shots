@@ -1,11 +1,19 @@
 {
- "generatedAt": "2026-06-18T19:06:36.439+09:00",
+ "generatedAt": "2026-06-18T19:08:36.464+09:00",
  "version": "v5.39.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T19:01:44.625+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-18T19:06:45.036+09:00",
+ "lastPushAgoSec": 111,
  "pushStale": false,
- "positions": [],
+ "positions": [
+  {
+   "ticket": 959262597,
+   "agent": "wsim",
+   "dir": "sell",
+   "entry": 160.872,
+   "pips": -0.6
+  }
+ ],
  "arms": [
   {
    "fcId": 688,
@@ -178,7 +186,7 @@
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "shadow",
   "fisherman_auto_approve": "1",
-  "wax_auto_delegate": "1"
+  "wax_auto_delegate": "0"
  },
  "todayReal": {
   "n": 3,
