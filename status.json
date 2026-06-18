@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T10:14:26.267+09:00",
+ "generatedAt": "2026-06-18T10:15:26.277+09:00",
  "version": "v5.36.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T10:13:34.928+09:00",
- "lastPushAgoSec": 51,
+ "lastPushOk": "2026-06-18T10:14:34.320+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
   {
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "buy",
    "entry": 160.692,
-   "pips": -2.4
+   "pips": -2.1
   }
  ],
  "arms": [
@@ -122,7 +122,7 @@
   {
    "fcId": 797,
    "event": "🇯🇵 植田総裁 定例記者会見",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T01:20:00.000Z"
