@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T23:58:45.806+09:00",
+ "generatedAt": "2026-06-19T00:00:45.821+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T23:57:53.934+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-18T23:58:54.015+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -76,12 +76,12 @@
   "wax_auto_delegate": "1"
  },
  "todayReal": {
-  "n": 3,
-  "pips": 2.5
+  "n": 0,
+  "pips": 0
  },
  "todayVirtual": {
-  "n": 36,
-  "pips": -168.3
+  "n": 0,
+  "pips": 0
  },
  "master": true
 }
