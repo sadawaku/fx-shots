@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T10:21:01.071+09:00",
+ "generatedAt": "2026-06-18T10:22:01.080+09:00",
  "version": "v5.36.1",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 60,
+ "lastPushOk": "2026-06-18T10:21:09.055+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -128,7 +128,15 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 797,
+   "state": "done",
+   "bias": "skip",
+   "reason": "160円台で介入警戒強く、直近下落でbias不明瞭",
+   "at": 1781745692915
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -177,7 +185,7 @@
    },
    {
     "armId": 797,
-    "gen": 812,
+    "gen": 813,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
