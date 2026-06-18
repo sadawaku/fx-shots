@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-18T14:54:00.608+09:00",
+ "generatedAt": "2026-06-18T14:55:00.610+09:00",
  "version": "v5.38.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T14:53:08.790+09:00",
+ "lastPushOk": "2026-06-18T14:54:09.017+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 959152976,
-   "agent": "cmd",
-   "dir": "buy",
-   "entry": 160.624,
-   "pips": 0.5
-  }
- ],
+ "positions": [],
  "arms": [
   {
    "fcId": 805,
