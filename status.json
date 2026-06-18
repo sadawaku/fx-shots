@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-18T20:29:35.144+09:00",
+ "generatedAt": "2026-06-18T20:30:35.150+09:00",
  "version": "v5.39.1",
  "schema": 1,
- "lastPushOk": "2026-06-18T20:27:43.710+09:00",
- "lastPushAgoSec": 111,
+ "lastPushOk": "2026-06-18T20:29:44.021+09:00",
+ "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -62,22 +62,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-18T13:50:00.000Z"
-  },
-  {
-   "fcId": 808,
-   "event": "🇬🇧 Monetary Policy Summary",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T10:50:00.000Z"
-  },
-  {
-   "fcId": 809,
-   "event": "🇬🇧 MPC Official Bank Rate Votes",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-18T10:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -88,22 +72,7 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [
-  {
-   "armId": 808,
-   "state": "done",
-   "bias": "buy",
-   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
-   "at": 1781779801150
-  },
-  {
-   "armId": 809,
-   "state": "done",
-   "bias": "buy",
-   "reason": "AI失敗=予想方向のみ: Error: 400 {\"type\":\"error\",\"error\":{\"typ",
-   "at": 1781779800993
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -156,20 +125,6 @@
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
-   },
-   {
-    "armId": 808,
-    "gen": 808,
-    "dir": "buy",
-    "banded": true,
-    "bandAgeSec": 12
-   },
-   {
-    "armId": 809,
-    "gen": 809,
-    "dir": "buy",
-    "banded": true,
-    "bandAgeSec": 12
    }
   ]
  },
