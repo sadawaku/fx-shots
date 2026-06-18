@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-18T21:58:44.482+09:00",
+ "generatedAt": "2026-06-18T21:59:44.504+09:00",
  "version": "v5.40.0",
  "schema": 1,
- "lastPushOk": "2026-06-18T21:57:52.878+09:00",
+ "lastPushOk": "2026-06-18T21:58:52.480+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
@@ -11,7 +11,7 @@
    "agent": "wsim",
    "dir": "sell",
    "entry": 160.905,
-   "pips": 1.9
+   "pips": 2.2
   }
  ],
  "arms": [
