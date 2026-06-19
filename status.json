@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T11:53:22.560+09:00",
- "version": "v5.41.1",
+ "generatedAt": "2026-06-19T11:56:38.066+09:00",
+ "version": "v5.41.2",
  "schema": 1,
- "lastPushOk": "2026-06-19T11:52:31.143+09:00",
- "lastPushAgoSec": 51,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -24,15 +24,7 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [
-  {
-   "armId": 746,
-   "state": "done",
-   "bias": "skip",
-   "reason": "日銀結果待ち直前、上下均等リスクで初動方向不明",
-   "at": 1781837526693
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -66,7 +58,7 @@
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "shadow",
   "fisherman_auto_approve": "1",
-  "wax_auto_delegate": "0"
+  "wax_auto_delegate": "1"
  },
  "todayReal": {
   "n": 1,
