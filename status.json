@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T09:36:11.278+09:00",
- "version": "v5.40.3",
+ "generatedAt": "2026-06-19T09:37:42.521+09:00",
+ "version": "v5.41.0",
  "schema": 1,
- "lastPushOk": "2026-06-19T09:35:19.213+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -58,15 +58,15 @@
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "shadow",
   "fisherman_auto_approve": "1",
-  "wax_auto_delegate": "0"
+  "wax_auto_delegate": "1"
  },
  "todayReal": {
   "n": 1,
   "pips": 1.6
  },
  "todayVirtual": {
-  "n": 13,
-  "pips": 36.5
+  "n": 14,
+  "pips": 40.2
  },
  "master": true
 }
