@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-19T22:10:10.824+09:00",
+ "generatedAt": "2026-06-19T22:11:10.838+09:00",
  "version": "v5.41.8",
  "schema": 1,
  "frozen": {
@@ -9,7 +9,7 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-19T22:09:19.450+09:00",
+ "lastPushOk": "2026-06-19T22:10:19.629+09:00",
  "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [
@@ -18,7 +18,7 @@
    "agent": "wsim",
    "dir": "buy",
    "entry": 161.186,
-   "pips": -1.6
+   "pips": -0.8
   }
  ],
  "arms": [],
@@ -56,7 +56,7 @@
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "shadow",
   "fisherman_auto_approve": "1",
-  "wax_auto_delegate": "1"
+  "wax_auto_delegate": "0"
  },
  "todayReal": {
   "n": 2,
