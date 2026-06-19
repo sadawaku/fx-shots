@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T11:56:38.066+09:00",
+ "generatedAt": "2026-06-19T11:58:38.087+09:00",
  "version": "v5.41.2",
  "schema": 1,
- "lastPushOk": null,
- "lastPushAgoSec": 60,
+ "lastPushOk": "2026-06-19T11:56:46.064+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -24,7 +24,15 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 746,
+   "state": "done",
+   "bias": "buy",
+   "reason": "円安レジーム継続・日銀現状維持期待でドル高圧力優勢",
+   "at": 1781837915007
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -33,8 +41,8 @@
     "armId": 746,
     "gen": 822,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 3
    }
   ]
  },
