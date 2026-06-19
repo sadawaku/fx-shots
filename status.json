@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-06-19T12:02:38.104+09:00",
+ "generatedAt": "2026-06-19T12:04:38.121+09:00",
  "version": "v5.41.2",
  "schema": 1,
- "lastPushOk": "2026-06-19T12:00:46.084+09:00",
+ "lastPushOk": "2026-06-19T12:02:46.093+09:00",
  "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
@@ -41,8 +41,8 @@
     "armId": 746,
     "gen": 822,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 46
    }
   ]
  },
@@ -73,8 +73,8 @@
   "pips": 1.6
  },
  "todayVirtual": {
-  "n": 17,
-  "pips": 44.2
+  "n": 18,
+  "pips": 40.1
  },
  "master": true
 }
