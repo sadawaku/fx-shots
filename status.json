@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T11:50:22.477+09:00",
+ "generatedAt": "2026-06-19T11:52:22.509+09:00",
  "version": "v5.41.1",
  "schema": 1,
- "lastPushOk": "2026-06-19T11:45:30.661+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-19T11:50:30.757+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -24,7 +24,15 @@
   "opposingSR": 160.789,
   "jst": "2026-06-18 08:05:14"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 746,
+   "state": "done",
+   "bias": "skip",
+   "reason": "日銀結果待ち直前、上下均等リスクで初動方向不明",
+   "at": 1781837526693
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
