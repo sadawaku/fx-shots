@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-19T18:01:16.639+09:00",
+ "generatedAt": "2026-06-19T18:02:16.650+09:00",
  "version": "v5.41.5",
  "schema": 1,
- "lastPushOk": "2026-06-19T18:00:24.634+09:00",
+ "lastPushOk": "2026-06-19T18:01:24.852+09:00",
  "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 959679822,
-   "agent": "wsim",
-   "dir": "sell",
-   "entry": 161.29,
-   "pips": -3.6
-  }
- ],
+ "positions": [],
  "arms": [],
  "waxForecast": {
   "id": 256,
