@@ -1,21 +1,20 @@
 {
- "generatedAt": "2026-06-19T14:46:27.801+09:00",
+ "generatedAt": "2026-06-19T14:50:27.841+09:00",
  "version": "v5.41.3",
  "schema": 1,
- "lastPushOk": "2026-06-19T14:45:35.621+09:00",
- "lastPushAgoSec": 52,
+ "lastPushOk": "2026-06-19T14:46:35.956+09:00",
+ "lastPushAgoSec": 232,
  "pushStale": false,
- "positions": [],
- "arms": [
+ "positions": [
   {
-   "fcId": 825,
-   "event": "🇬🇧 Retail Sales m/m",
+   "ticket": 959611222,
+   "agent": "fisherman fisher",
    "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-19T05:50:00.000Z"
+   "entry": 161.394,
+   "pips": -2
   }
  ],
+ "arms": [],
  "waxForecast": {
   "id": 256,
   "direction": "UP",
@@ -25,18 +24,20 @@
   "jst": "2026-06-18 08:05:14"
  },
  "entryJudges": [],
- "exitLive": [],
+ "exitLive": [
+  {
+   "ticket": 959611222,
+   "peak": 0,
+   "openedMs": 1781848200622,
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過0分",
+   "basis": "broker bracket primary (能動決済は漁師から切断)",
+   "action": "ブローカーTP/SL待ち",
+   "target": null
+  }
+ ],
  "guardian": {
   "enabled": true,
-  "arms": [
-   {
-    "armId": 825,
-    "gen": 825,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   }
-  ]
+  "arms": []
  },
  "coach": [],
  "dailyGuard": {
