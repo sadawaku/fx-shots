@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T12:26:38.386+09:00",
+ "generatedAt": "2026-06-19T12:29:38.405+09:00",
  "version": "v5.41.2",
  "schema": 1,
- "lastPushOk": "2026-06-19T12:21:46.312+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-19T12:26:46.416+09:00",
+ "lastPushAgoSec": 172,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -41,8 +41,8 @@
     "armId": 746,
     "gen": 822,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 52
    }
   ]
  },
