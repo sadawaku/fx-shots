@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-19T18:42:32.519+09:00",
+ "generatedAt": "2026-06-19T18:43:32.526+09:00",
  "version": "v5.41.6",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-19T18:41:41.383+09:00",
- "lastPushAgoSec": 51,
+ "lastPushOk": "2026-06-19T18:42:40.985+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [
   {
@@ -18,14 +18,14 @@
    "agent": "cmd",
    "dir": "sell",
    "entry": 161.254,
-   "pips": -0.8
+   "pips": -0.1
   },
   {
    "ticket": 959694440,
    "agent": "cmd",
    "dir": "sell",
    "entry": 161.254,
-   "pips": -0.8
+   "pips": -0.1
   }
  ],
  "arms": [],
