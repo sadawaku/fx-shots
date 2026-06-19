@@ -1,19 +1,11 @@
 {
- "generatedAt": "2026-06-19T17:06:55.771+09:00",
+ "generatedAt": "2026-06-19T17:07:55.775+09:00",
  "version": "v5.41.4",
  "schema": 1,
- "lastPushOk": "2026-06-19T17:05:05.301+09:00",
- "lastPushAgoSec": 110,
+ "lastPushOk": "2026-06-19T17:07:04.049+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 959663819,
-   "agent": "cmd",
-   "dir": "sell",
-   "entry": 161.25,
-   "pips": -1.5
-  }
- ],
+ "positions": [],
  "arms": [],
  "waxForecast": {
   "id": 256,
