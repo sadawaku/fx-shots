@@ -1,12 +1,21 @@
 {
- "generatedAt": "2026-06-19T14:45:27.790+09:00",
+ "generatedAt": "2026-06-19T14:46:27.801+09:00",
  "version": "v5.41.3",
  "schema": 1,
- "lastPushOk": "2026-06-19T14:40:35.842+09:00",
- "lastPushAgoSec": 292,
+ "lastPushOk": "2026-06-19T14:45:35.621+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
- "arms": [],
+ "arms": [
+  {
+   "fcId": 825,
+   "event": "🇬🇧 Retail Sales m/m",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-19T05:50:00.000Z"
+  }
+ ],
  "waxForecast": {
   "id": 256,
   "direction": "UP",
@@ -19,7 +28,15 @@
  "exitLive": [],
  "guardian": {
   "enabled": true,
-  "arms": []
+  "arms": [
+   {
+    "armId": 825,
+    "gen": 825,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   }
+  ]
  },
  "coach": [],
  "dailyGuard": {
