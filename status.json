@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-06-19T11:58:38.087+09:00",
+ "generatedAt": "2026-06-19T11:59:38.086+09:00",
  "version": "v5.41.2",
  "schema": 1,
- "lastPushOk": "2026-06-19T11:56:46.064+09:00",
- "lastPushAgoSec": 112,
+ "lastPushOk": "2026-06-19T11:58:46.036+09:00",
+ "lastPushAgoSec": 52,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -42,7 +42,7 @@
     "gen": 822,
     "dir": "buy",
     "banded": true,
-    "bandAgeSec": 3
+    "bandAgeSec": 63
    }
   ]
  },
