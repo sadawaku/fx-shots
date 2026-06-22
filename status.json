@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-06-22T19:46:13.573+09:00",
- "version": "v5.41.21",
+ "generatedAt": "2026-06-22T19:50:11.618+09:00",
+ "version": "v5.42.0",
  "schema": 1,
  "frozen": {
   "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-22T19:41:22.251+09:00",
- "lastPushAgoSec": 291,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
  "positions": [],
  "arms": [],
