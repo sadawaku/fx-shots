@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-23T09:53:22.083+09:00",
+ "generatedAt": "2026-06-23T09:54:22.087+09:00",
  "version": "v5.42.0",
  "schema": 1,
  "frozen": {
@@ -9,16 +9,16 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-23T09:52:31.104+09:00",
+ "lastPushOk": "2026-06-23T09:53:31.217+09:00",
  "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [
   {
-   "ticket": 960409946,
+   "ticket": 960410324,
    "agent": "wsim",
-   "dir": "buy",
-   "entry": 161.563,
-   "pips": 0.3
+   "dir": "sell",
+   "entry": 161.526,
+   "pips": -3
   }
  ],
  "arms": [],
