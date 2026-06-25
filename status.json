@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-06-25T12:30:09.488+09:00",
- "version": "v6.1.2",
+ "generatedAt": "2026-06-25T12:32:56.125+09:00",
+ "version": "v6.1.3",
  "schema": 1,
  "frozen": {
   "activeExit": "8329e65238268a6683df85936a1452b281e5db46aa1eb54cf4a2e903d96e6b11",
@@ -9,25 +9,10 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-25T12:29:18.583+09:00",
- "lastPushAgoSec": 51,
+ "lastPushOk": null,
+ "lastPushAgoSec": 60,
  "pushStale": false,
- "positions": [
-  {
-   "ticket": 961548511,
-   "agent": "cmd",
-   "dir": "sell",
-   "entry": 161.695,
-   "pips": -2.9
-  },
-  {
-   "ticket": 961564442,
-   "agent": "sada",
-   "dir": "buy",
-   "entry": 161.708,
-   "pips": 0.1
-  }
- ],
+ "positions": [],
  "arms": [],
  "waxForecast": {
   "id": 256,
