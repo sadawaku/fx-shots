@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T08:03:15.927+09:00",
+ "generatedAt": "2026-06-26T08:05:15.945+09:00",
  "version": "v6.2.2",
  "schema": 1,
  "frozen": {
@@ -10,23 +10,160 @@
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
  "lastPushOk": "2026-06-26T07:58:24.546+09:00",
- "lastPushAgoSec": 291,
+ "lastPushAgoSec": 411,
  "pushStale": false,
  "positions": [],
- "arms": [],
+ "arms": [
+  {
+   "fcId": 840,
+   "event": "🇺🇸 新築住宅販売件数（5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T13:50:00.000Z"
+  },
+  {
+   "fcId": 839,
+   "event": "🇺🇸 CB消費者信頼感指数（6月）★★★",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T13:50:00.000Z"
+  },
+  {
+   "fcId": 838,
+   "event": "🇺🇸 S&Pケースシラー住宅価格指数（4月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T12:50:00.000Z"
+  },
+  {
+   "fcId": 837,
+   "event": "🇺🇸 耐久財受注（輸送機器除く・5月）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T12:20:00.000Z"
+  },
+  {
+   "fcId": 836,
+   "event": "🇺🇸 耐久財受注（5月速報・前月比）★★★",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T12:20:00.000Z"
+  },
+  {
+   "fcId": 835,
+   "event": "🇪🇺 ユーロ圏マネーサプライM3（5月）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T07:50:00.000Z"
+  },
+  {
+   "fcId": 834,
+   "event": "🇦🇺 豪CPI（5月・前年比）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-26T01:20:00.000Z"
+  },
+  {
+   "fcId": 833,
+   "event": "🇯🇵 鉱工業生産（5月速報・前月比）",
+   "dir": "sell",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-25T23:40:00.000Z"
+  },
+  {
+   "fcId": 832,
+   "event": "🇯🇵 小売業販売額（5月・前年比）",
+   "dir": "buy",
+   "lots": 1,
+   "filled": false,
+   "trigger": "2026-06-25T23:40:00.000Z"
+  }
+ ],
  "waxForecast": {
-  "id": 256,
+  "id": 257,
   "direction": "UP",
-  "entryFrom": 160.47,
-  "entryTo": 160.51,
-  "opposingSR": 160.789,
-  "jst": "2026-06-18 08:05:14"
+  "entryFrom": 161.67,
+  "entryTo": 161.7,
+  "opposingSR": 161.942,
+  "jst": "2026-06-26 08:05:15"
  },
  "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
-  "arms": []
+  "arms": [
+   {
+    "armId": 840,
+    "gen": 840,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 839,
+    "gen": 839,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 838,
+    "gen": 838,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 837,
+    "gen": 837,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 836,
+    "gen": 836,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 835,
+    "gen": 835,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 834,
+    "gen": 834,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 833,
+    "gen": 833,
+    "dir": "sell",
+    "banded": false,
+    "bandAgeSec": null
+   },
+   {
+    "armId": 832,
+    "gen": 832,
+    "dir": "buy",
+    "banded": false,
+    "bandAgeSec": null
+   }
+  ]
  },
  "coach": [],
  "dailyGuard": {
