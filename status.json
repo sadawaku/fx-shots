@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T08:30:16.263+09:00",
+ "generatedAt": "2026-06-26T08:31:16.287+09:00",
  "version": "v6.2.2",
  "schema": 1,
  "frozen": {
@@ -9,7 +9,7 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-26T08:29:25.256+09:00",
+ "lastPushOk": "2026-06-26T08:30:25.777+09:00",
  "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [
@@ -18,7 +18,7 @@
    "agent": "fisherman fisher",
    "dir": "sell",
    "entry": 161.806,
-   "pips": 1
+   "pips": -0.5
   }
  ],
  "arms": [
@@ -101,7 +101,7 @@
    "ticket": 961987103,
    "peak": 0,
    "openedMs": 1782429600421,
-   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過10分",
+   "text": "🅱️ ブラケット主決済(TP8/SL10)に委任中・経過11分",
    "basis": "broker bracket primary (能動決済は漁師から切断)",
    "action": "ブローカーTP/SL待ち",
    "target": null
