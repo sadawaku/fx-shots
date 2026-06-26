@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T20:52:13.604+09:00",
+ "generatedAt": "2026-06-26T20:53:13.623+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,7 +9,7 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-26T20:51:22.315+09:00",
+ "lastPushOk": "2026-06-26T20:52:22.252+09:00",
  "lastPushAgoSec": 51,
  "pushStale": false,
  "positions": [
@@ -18,7 +18,7 @@
    "agent": "cmd",
    "dir": "buy",
    "entry": 161.673,
-   "pips": -0.4
+   "pips": -0.3
   }
  ],
  "arms": [
@@ -49,7 +49,7 @@
   {
    "fcId": 836,
    "event": "🇺🇸 耐久財受注（5月速報・前月比）★★★",
-   "dir": "buy",
+   "dir": "sell",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-26T12:20:00.000Z"
@@ -91,8 +91,8 @@
    },
    {
     "armId": 836,
-    "gen": 857,
-    "dir": "buy",
+    "gen": 864,
+    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    }
