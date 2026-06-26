@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-27T08:05:32.031+09:00",
+ "generatedAt": "2026-06-27T08:10:32.063+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-27T07:57:40.661+09:00",
- "lastPushAgoSec": 471,
+ "lastPushOk": "2026-06-27T08:05:40.717+09:00",
+ "lastPushAgoSec": 291,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -21,22 +21,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-27T14:20:00.000Z"
-  },
-  {
-   "fcId": 874,
-   "event": "🇺🇸 米中古住宅販売保留（5月）",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T13:50:00.000Z"
-  },
-  {
-   "fcId": 873,
-   "event": "🇺🇸 米個人消費支出・個人所得（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T13:50:00.000Z"
   },
   {
    "fcId": 872,
@@ -71,14 +55,6 @@
    "trigger": "2026-06-27T12:20:00.000Z"
   },
   {
-   "fcId": 868,
-   "event": "🇺🇸 米GDP確定値（Q1）[済/発表済]",
-   "dir": "sell",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T12:20:00.000Z"
-  },
-  {
    "fcId": 867,
    "event": "🇯🇵 東京都区部CPI（6月）[済]",
    "dir": "sell",
@@ -108,20 +84,6 @@
     "bandAgeSec": null
    },
    {
-    "armId": 874,
-    "gen": 874,
-    "dir": "sell",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 873,
-    "gen": 873,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
     "armId": 872,
     "gen": 872,
     "dir": "buy",
@@ -146,13 +108,6 @@
     "armId": 869,
     "gen": 869,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 868,
-    "gen": 868,
-    "dir": "sell",
     "banded": false,
     "bandAgeSec": null
    },
