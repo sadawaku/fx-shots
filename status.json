@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T22:26:14.642+09:00",
+ "generatedAt": "2026-06-26T22:30:14.691+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-26T22:21:23.549+09:00",
- "lastPushAgoSec": 291,
+ "lastPushOk": "2026-06-26T22:26:23.628+09:00",
+ "lastPushAgoSec": 231,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -21,14 +21,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-26T13:50:00.000Z"
-  },
-  {
-   "fcId": 838,
-   "event": "🇺🇸 S&Pケースシラー住宅価格指数（4月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-26T12:50:00.000Z"
   }
  ],
  "waxForecast": {
@@ -39,15 +31,7 @@
   "opposingSR": 161.942,
   "jst": "2026-06-26 08:05:15"
  },
- "entryJudges": [
-  {
-   "armId": 838,
-   "state": "done",
-   "bias": "buy",
-   "reason": "初動ネット+4.1p買い優勢、DXY高・円安圧力に順張り",
-   "at": 1782479944675
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -55,13 +39,6 @@
    {
     "armId": 839,
     "gen": 861,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 838,
-    "gen": 862,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
@@ -95,8 +72,8 @@
   "pips": 0.1
  },
  "todayVirtual": {
-  "n": 3,
-  "pips": -1.1
+  "n": 4,
+  "pips": -8.3
  },
  "master": true
 }
