@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T21:58:14.387+09:00",
+ "generatedAt": "2026-06-26T22:00:14.404+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-26T21:57:23.323+09:00",
- "lastPushAgoSec": 51,
+ "lastPushOk": "2026-06-26T21:58:23.169+09:00",
+ "lastPushAgoSec": 111,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -29,22 +29,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-26T12:50:00.000Z"
-  },
-  {
-   "fcId": 837,
-   "event": "🇺🇸 耐久財受注（輸送機器除く・5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-26T12:20:00.000Z"
-  },
-  {
-   "fcId": 836,
-   "event": "🇺🇸 耐久財受注（5月速報・前月比）★★★",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-26T12:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -55,22 +39,7 @@
   "opposingSR": 161.942,
   "jst": "2026-06-26 08:05:15"
  },
- "entryJudges": [
-  {
-   "armId": 837,
-   "state": "done",
-   "bias": "buy",
-   "reason": "DXY高・Fed利上げ観測が支配的、初動上昇に順張り",
-   "at": 1782476526415
-  },
-  {
-   "armId": 836,
-   "state": "done",
-   "bias": "buy",
-   "reason": "初動3.4p陽線・耐久財改善期待・DXY高値圧力で円安方向優勢",
-   "at": 1782476526129
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -85,20 +54,6 @@
    {
     "armId": 838,
     "gen": 862,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 837,
-    "gen": 865,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 836,
-    "gen": 866,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
