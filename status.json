@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-27T08:55:32.594+09:00",
+ "generatedAt": "2026-06-27T09:00:32.616+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-27T08:45:41.233+09:00",
- "lastPushAgoSec": 591,
+ "lastPushOk": "2026-06-27T08:55:41.473+09:00",
+ "lastPushAgoSec": 291,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -53,14 +53,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-27T12:20:00.000Z"
-  },
-  {
-   "fcId": 867,
-   "event": "🇯🇵 東京都区部CPI（6月）[済]",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-26T23:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -107,13 +99,6 @@
    {
     "armId": 869,
     "gen": 869,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 867,
-    "gen": 886,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
