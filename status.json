@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-29T07:05:58.040+09:00",
+ "generatedAt": "2026-06-29T07:10:58.057+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,52 +9,11 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-29T07:01:04.800+09:00",
+ "lastPushOk": "2026-06-29T07:06:04.966+09:00",
  "lastPushAgoSec": 293,
  "pushStale": false,
  "positions": [],
- "arms": [
-  {
-   "fcId": 875,
-   "event": "🇺🇸 米天然ガス在庫（週次）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T14:20:00.000Z"
-  },
-  {
-   "fcId": 872,
-   "event": "🇺🇸 米コアPCEデフレーター（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T13:50:00.000Z"
-  },
-  {
-   "fcId": 871,
-   "event": "🇺🇸 米PCEデフレーター（5月）ヘッドライン",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T13:50:00.000Z"
-  },
-  {
-   "fcId": 870,
-   "event": "🇺🇸 新規失業保険申請件数（週次）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T12:20:00.000Z"
-  },
-  {
-   "fcId": 869,
-   "event": "🇺🇸 米GDP価格指数確定値（Q1）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-27T12:20:00.000Z"
-  }
- ],
+ "arms": [],
  "waxForecast": {
   "id": 259,
   "direction": "UP",
@@ -67,43 +26,7 @@
  "exitLive": [],
  "guardian": {
   "enabled": true,
-  "arms": [
-   {
-    "armId": 875,
-    "gen": 894,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 872,
-    "gen": 895,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 871,
-    "gen": 896,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 870,
-    "gen": 897,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 869,
-    "gen": 898,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   }
-  ]
+  "arms": []
  },
  "coach": [],
  "dailyGuard": {
@@ -124,7 +47,7 @@
   "daily_loss_guard": "off",
   "daily_loss_guard_pct": "2(default)",
   "wax_hedge_mode": "shadow",
-  "fisherman_auto_approve": "0",
+  "fisherman_auto_approve": "1",
   "wax_auto_delegate": "0"
  },
  "todayReal": {
@@ -135,5 +58,5 @@
   "n": 0,
   "pips": 0
  },
- "master": false
+ "master": true
 }
