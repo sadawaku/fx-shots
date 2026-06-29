@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-30T08:05:13.088+09:00",
+ "generatedAt": "2026-06-30T08:06:13.093+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-30T08:00:19.738+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": "2026-06-30T08:05:20.310+09:00",
+ "lastPushAgoSec": 53,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -104,12 +104,12 @@
   }
  ],
  "waxForecast": {
-  "id": 260,
+  "id": 261,
   "direction": "UP",
-  "entryFrom": 161.72,
-  "entryTo": 161.74,
-  "opposingSR": 161.942,
-  "jst": "2026-06-29 08:05:14"
+  "entryFrom": 161.84,
+  "entryTo": 161.86,
+  "opposingSR": 161.977,
+  "jst": "2026-06-30 08:05:14"
  },
  "entryJudges": [],
  "exitLive": [],
