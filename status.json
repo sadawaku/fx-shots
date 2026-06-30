@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-30T09:16:13.890+09:00",
+ "generatedAt": "2026-06-30T09:20:13.943+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-30T09:15:20.711+09:00",
- "lastPushAgoSec": 53,
+ "lastPushOk": "2026-06-30T09:16:20.669+09:00",
+ "lastPushAgoSec": 233,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -61,22 +61,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-30T00:20:00.000Z"
-  },
-  {
-   "fcId": 944,
-   "event": "🇯🇵 小売売上高（5月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-29T23:40:00.000Z"
-  },
-  {
-   "fcId": 943,
-   "event": "🇯🇵 鉱工業生産（5月速報）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-29T23:40:00.000Z"
   }
  ],
  "waxForecast": {
@@ -130,20 +114,6 @@
    {
     "armId": 945,
     "gen": 958,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 944,
-    "gen": 956,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
-   },
-   {
-    "armId": 943,
-    "gen": 957,
     "dir": "buy",
     "banded": false,
     "bandAgeSec": null
