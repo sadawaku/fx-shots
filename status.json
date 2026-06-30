@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-30T09:58:14.424+09:00",
+ "generatedAt": "2026-06-30T10:00:14.434+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-30T09:57:21.526+09:00",
- "lastPushAgoSec": 53,
+ "lastPushOk": "2026-06-30T09:58:21.460+09:00",
+ "lastPushAgoSec": 113,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -53,14 +53,6 @@
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-30T07:50:00.000Z"
-  },
-  {
-   "fcId": 945,
-   "event": "🇨🇳 中国 製造業PMI（6月）",
-   "dir": "buy",
-   "lots": 1,
-   "filled": false,
-   "trigger": "2026-06-30T00:20:00.000Z"
   }
  ],
  "waxForecast": {
@@ -71,15 +63,7 @@
   "opposingSR": 161.977,
   "jst": "2026-06-30 08:05:14"
  },
- "entryJudges": [
-  {
-   "armId": 945,
-   "state": "done",
-   "bias": "buy",
-   "reason": "初動上昇+中国PMI好結果で円安圧力優勢",
-   "at": 1782780723918
-  }
- ],
+ "entryJudges": [],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -118,13 +102,6 @@
     "dir": "sell",
     "banded": false,
     "bandAgeSec": null
-   },
-   {
-    "armId": 945,
-    "gen": 958,
-    "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
    }
   ]
  },
@@ -155,8 +132,8 @@
   "pips": 0
  },
  "todayVirtual": {
-  "n": 3,
-  "pips": 10.7
+  "n": 4,
+  "pips": 11.3
  },
  "master": true
 }
