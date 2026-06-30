@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-30T09:50:14.349+09:00",
+ "generatedAt": "2026-06-30T09:52:14.377+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,8 +9,8 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-30T09:45:21.088+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": "2026-06-30T09:50:21.179+09:00",
+ "lastPushAgoSec": 113,
  "pushStale": false,
  "positions": [],
  "arms": [
@@ -71,7 +71,15 @@
   "opposingSR": 161.977,
   "jst": "2026-06-30 08:05:14"
  },
- "entryJudges": [],
+ "entryJudges": [
+  {
+   "armId": 945,
+   "state": "done",
+   "bias": "buy",
+   "reason": "初動上昇+中国PMI好結果で円安圧力優勢",
+   "at": 1782780723918
+  }
+ ],
  "exitLive": [],
  "guardian": {
   "enabled": true,
@@ -115,8 +123,8 @@
     "armId": 945,
     "gen": 958,
     "dir": "buy",
-    "banded": false,
-    "bandAgeSec": null
+    "banded": true,
+    "bandAgeSec": 10
    }
   ]
  },
@@ -147,8 +155,8 @@
   "pips": 0
  },
  "todayVirtual": {
-  "n": 0,
-  "pips": 0
+  "n": 1,
+  "pips": 16
  },
  "master": true
 }
