@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-30T14:45:17.221+09:00",
+ "generatedAt": "2026-06-30T14:47:17.254+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,15 +9,15 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-06-30T14:40:24.689+09:00",
- "lastPushAgoSec": 293,
+ "lastPushOk": "2026-06-30T14:45:24.936+09:00",
+ "lastPushAgoSec": 112,
  "pushStale": false,
  "positions": [],
  "arms": [
   {
    "fcId": 951,
    "event": "🇺🇸 ミシガン大 5年先インフレ期待・確報（6月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-30T13:50:00.000Z"
@@ -25,7 +25,7 @@
   {
    "fcId": 950,
    "event": "🇺🇸 ミシガン大 1年先インフレ期待・確報（6月）",
-   "dir": "sell",
+   "dir": "buy",
    "lots": 1,
    "filled": false,
    "trigger": "2026-06-30T13:50:00.000Z"
@@ -70,15 +70,15 @@
   "arms": [
    {
     "armId": 951,
-    "gen": 951,
-    "dir": "sell",
+    "gen": 960,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
    {
     "armId": 950,
-    "gen": 950,
-    "dir": "sell",
+    "gen": 961,
+    "dir": "buy",
     "banded": false,
     "bandAgeSec": null
    },
