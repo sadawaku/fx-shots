@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-15T06:34:58.605+09:00",
+ "generatedAt": "2026-07-15T06:39:58.639+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -9,7 +9,7 @@
   "waxTrader": "ef7a3bab321b8a775d3ac8dd10aa3243f00ca1c72638818bf3a618070e086309",
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
- "lastPushOk": "2026-07-15T06:30:07.545+09:00",
+ "lastPushOk": "2026-07-15T06:35:07.636+09:00",
  "lastPushAgoSec": 291,
  "pushStale": false,
  "positions": [],
