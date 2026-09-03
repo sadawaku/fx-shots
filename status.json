@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T20:01:32.814+09:00",
+ "generatedAt": "2026-09-03T20:06:32.901+09:00",
  "version": "v6.2.4",
  "schema": 1,
  "frozen": {
@@ -10,8 +10,8 @@
   "waxForecast": "50df0a66f0d234438c32aa617ceda89653f4d9ead56ad5511bf9a934e26d0be1"
  },
  "lastPushOk": "2026-09-03T19:51:42.266+09:00",
- "lastPushAgoSec": 591,
- "pushStale": false,
+ "lastPushAgoSec": 891,
+ "pushStale": true,
  "positions": [],
  "arms": [],
  "waxForecast": {
